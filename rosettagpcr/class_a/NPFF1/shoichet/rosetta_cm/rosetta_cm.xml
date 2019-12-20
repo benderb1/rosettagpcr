@@ -1,0 +1,38 @@
+<ROSETTASCRIPTS>
+    <TASKOPERATIONS>
+    </TASKOPERATIONS>
+    <SCOREFXNS>
+        <stage1 weights="/dors/meilerlab/home/benderb/gpcrs/all_gpcrs/model_all/stage1_membrane.wts" symmetric=0>
+            <Reweight scoretype=atom_pair_constraint weight=1/>
+        </stage1>
+        <stage2 weights="/dors/meilerlab/home/benderb/gpcrs/all_gpcrs/model_all/stage2_membrane.wts" symmetric=0>
+            <Reweight scoretype=atom_pair_constraint weight=0.5/>
+        </stage2>
+        <fullatom weights="/dors/meilerlab/home/benderb/gpcrs/all_gpcrs/model_all/stage3_rlx_membrane.wts" symmetric=0>
+            <Reweight scoretype=atom_pair_constraint weight=0.5/>
+        </fullatom>
+        <membrane weights=membrane_highres_Menv_smooth symmetric=0>
+            <Reweight scoretype=cart_bonded weight=0.5/>
+            <Reweight scoretype=pro_close weight=0/>
+        </membrane>
+    </SCOREFXNS>
+    <FILTERS>
+    </FILTERS>
+    <MOVERS>
+        <Hybridize name=hybridize stage1_scorefxn=stage1 stage2_scorefxn=stage2 fa_scorefxn=fullatom batch=1 stage1_increase_cycles=1.0 stage2_increase_cycles=1.0 linmin_only=1 realign_domains=0 disulf_file="/home/benderb/gpcrs/all_gpcrs/model_all/class_a/NPFF1/rosetta_cm/disulf.txt" add_hetatm=1>
+            Template pdb="/home/benderb/gpcrs/all_gpcrs/model_all/class_a/NPFF1/rosetta_cm/4zjc__thread.pdb" cst_file="AUTO" weight=   1.000 />
+            Template pdb="/home/benderb/gpcrs/all_gpcrs/model_all/class_a/NPFF1/rosetta_cm/4s0v__thread.pdb" cst_file="AUTO" weight=   1.000 />
+            <Template pdb="/home/benderb/gpcrs/all_gpcrs/model_all/class_a/NPFF1/rosetta_cm/5zbq__thread.pdb" cst_file="AUTO" weight=   1.000 />
+            Template pdb="/home/benderb/gpcrs/all_gpcrs/model_all/class_a/NPFF1/rosetta_cm/5dhg__thread.pdb" cst_file="AUTO" weight=   1.000 />
+            Template pdb="/home/benderb/gpcrs/all_gpcrs/model_all/class_a/NPFF1/rosetta_cm/3pbl__thread.pdb" cst_file="AUTO" weight=   1.000 />
+        </Hybridize>
+        <ClearConstraintsMover name=clearconstraints/>
+    </MOVERS>
+    <APPLY_TO_POSE>
+    </APPLY_TO_POSE>
+    <PROTOCOLS>
+        <Add mover=hybridize/>
+        <Add mover=clearconstraints/>
+    </PROTOCOLS>
+    <OUTPUT scorefxn=membrane/>
+</ROSETTASCRIPTS>

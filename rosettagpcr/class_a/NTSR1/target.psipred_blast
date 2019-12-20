@@ -1,0 +1,1615 @@
+BLASTP 2.2.18 [Mar-02-2008]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Schaffer, Alejandro A., L. Aravind, Thomas L. Madden,
+Sergei Shavirin, John L. Spouge, Yuri I. Wolf,  
+Eugene V. Koonin, and Stephen F. Altschul (2001), 
+"Improving the accuracy of PSI-BLAST protein database searches with 
+composition-based statistics and other refinements",  Nucleic Acids Res. 29:2994-3005.
+
+Query= NTSR1
+         (340 letters)
+
+Database: filtnr 
+           15,322,545 sequences; 5,254,608,391 total letters
+
+Searching..................................................done
+
+
+Results from round 1
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|110611243|ref|NP_002522.2| neurotensin receptor type 1 [Homo ...   631   e-179
+gi|35021|emb|CAA49675.1| neurotensin receptor [Homo sapiens] >gn...   631   e-179
+gi|54696338|gb|AAV38541.1| neurotensin receptor 1 (high affinity...   631   e-179
+gi|119595751|gb|EAW75345.1| neurotensin receptor 1 (high affinit...   629   e-178
+gi|73992701|ref|XP_543088.2| PREDICTED: neurotensin receptor typ...   619   e-175
+gi|296200874|ref|XP_002747793.1| PREDICTED: neurotensin receptor...   607   e-172
+gi|149734162|ref|XP_001493279.1| PREDICTED: neurotensin receptor...   591   e-167
+gi|301780738|ref|XP_002925779.1| PREDICTED: neurotensin receptor...   582   e-164
+gi|344254953|gb|EGW11057.1| Neurotensin receptor type 1 [Cricetu...   575   e-162
+gi|297481802|ref|XP_002692455.1| PREDICTED: neurotensin receptor...   575   e-162
+gi|300798587|ref|NP_001179588.1| neurotensin receptor type 1 [Bo...   573   e-161
+gi|9055296|ref|NP_061236.1| neurotensin receptor type 1 [Mus mus...   573   e-161
+gi|344306334|ref|XP_003421843.1| PREDICTED: neurotensin receptor...   572   e-161
+gi|157822691|ref|NP_001102437.1| neurotensin receptor type 1 [Ra...   567   e-160
+gi|149414049|ref|XP_001506365.1| PREDICTED: neurotensin receptor...   549   e-154
+gi|321116847|dbj|BAJ72343.1| neurotensin receptor 1 [Gallus gallus]   506   e-141
+gi|109091369|ref|XP_001087416.1| PREDICTED: neurotensin receptor...   506   e-141
+gi|326931931|ref|XP_003212077.1| PREDICTED: neurotensin receptor...   506   e-141
+gi|224078434|ref|XP_002194686.1| PREDICTED: similar to neurotens...   504   e-141
+gi|292626927|ref|XP_697816.4| PREDICTED: neurotensin receptor ty...   471   e-131
+gi|126303064|ref|XP_001376634.1| PREDICTED: neurotensin receptor...   440   e-121
+gi|52078095|gb|AAU25823.1| neurotensin receptor 1 [Rana catesbei...   427   e-118
+gi|327271949|ref|XP_003220749.1| PREDICTED: neurotensin receptor...   413   e-113
+gi|52078097|gb|AAU25824.1| neurotensin receptor 2 [Rana catesbei...   332   7e-89
+gi|47207191|emb|CAF89857.1| unnamed protein product [Tetraodon n...   323   4e-86
+gi|148666060|gb|EDK98476.1| neurotensin receptor 2, isoform CRA_...   275   8e-72
+gi|76630247|ref|XP_586493.2| PREDICTED: neurotensin receptor typ...   269   6e-70
+gi|301774735|ref|XP_002922788.1| PREDICTED: neurotensin receptor...   268   7e-70
+gi|281351315|gb|EFB26899.1| hypothetical protein PANDA_011799 [A...   268   7e-70
+gi|12083651|ref|NP_073186.1| neurotensin receptor type 2 [Rattus...   266   3e-69
+gi|15823689|dbj|BAB69060.1| low affinity neurotensin receptor [M...   265   6e-69
+gi|121583912|ref|NP_032773.2| neurotensin receptor type 2 [Mus m...   265   6e-69
+gi|73980436|ref|XP_540085.2| PREDICTED: neurotensin receptor typ...   259   4e-67
+gi|118100686|ref|XP_425707.2| PREDICTED: similar to neurotensin ...   257   2e-66
+gi|344252388|gb|EGW08492.1| Neurotensin receptor type 2 [Cricetu...   255   6e-66
+gi|2494988|sp|P70310.1|NTR2_MOUSE RecName: Full=Neurotensin rece...   254   2e-65
+gi|291387095|ref|XP_002710122.1| PREDICTED: neurotensin receptor...   248   8e-64
+gi|297265444|ref|XP_002799189.1| PREDICTED: neurotensin receptor...   223   3e-56
+gi|18490912|gb|AAH22501.1| Neurotensin receptor 2 [Homo sapiens]...   223   4e-56
+gi|311033404|sp|O95665.2|NTR2_HUMAN RecName: Full=Neurotensin re...   223   4e-56
+gi|6912538|ref|NP_036476.1| neurotensin receptor type 2 [Homo sa...   223   4e-56
+gi|296224472|ref|XP_002807605.1| PREDICTED: LOW QUALITY PROTEIN:...   220   3e-55
+gi|332247347|ref|XP_003272817.1| PREDICTED: LOW QUALITY PROTEIN:...   220   3e-55
+gi|84579295|dbj|BAE73081.1| hypothetical protein [Macaca fascicu...   219   4e-55
+gi|23138725|gb|AAH37776.1| NTSR2 protein [Homo sapiens]               174   2e-41
+gi|317418658|emb|CBN80696.1| Neuromedin-U receptor 1 [Dicentrarc...   165   8e-39
+gi|149711606|ref|XP_001495230.1| PREDICTED: neuromedin-U recepto...   161   1e-37
+gi|301615883|ref|XP_002937396.1| PREDICTED: neuromedin-U recepto...   161   2e-37
+gi|306756046|gb|ADN05127.1| growth hormone secretagogue receptor...   160   2e-37
+gi|260807876|ref|XP_002598734.1| hypothetical protein BRAFLDRAFT...   160   3e-37
+gi|238005547|dbj|BAH60674.1| growth hormone secretagogue recepto...   160   3e-37
+gi|306756044|gb|ADN05126.1| growth hormone secretagogue receptor...   159   5e-37
+gi|238005549|dbj|BAH60675.1| growth hormone secretagogue recepto...   159   6e-37
+gi|224060643|ref|XP_002190989.1| PREDICTED: similar to Neuromedi...   159   9e-37
+gi|47217151|emb|CAG03508.1| unnamed protein product [Tetraodon n...   157   2e-36
+gi|149731104|ref|XP_001494050.1| PREDICTED: growth hormone secre...   157   2e-36
+gi|68369196|ref|XP_695127.1| PREDICTED: neuromedin-U receptor 2-...   157   3e-36
+gi|308233379|dbj|BAJ22792.1| growth hormone secretagogue recepto...   157   3e-36
+gi|292627700|ref|XP_002666717.1| PREDICTED: growth hormone secre...   157   3e-36
+gi|327279424|ref|XP_003224456.1| PREDICTED: neuromedin-U recepto...   156   5e-36
+gi|342671947|dbj|BAK57312.1| growth hormone secretagogue recepto...   156   6e-36
+gi|160386036|sp|A5A4L1.1|GHSR_MUSPF RecName: Full=Growth hormone...   155   6e-36
+gi|296227557|ref|XP_002759428.1| PREDICTED: growth hormone secre...   155   8e-36
+gi|344243903|gb|EGW00007.1| Growth hormone secretagogue receptor...   154   2e-35
+gi|153792311|ref|NP_001093415.1| growth hormone secretagogue rec...   154   2e-35
+gi|301772430|ref|XP_002921634.1| PREDICTED: growth hormone secre...   154   2e-35
+gi|14140234|ref|NP_114464.1| growth hormone secretagogue recepto...   154   3e-35
+gi|47523448|ref|NP_999345.1| growth hormone secretagogue recepto...   154   3e-35
+gi|28893445|ref|NP_796304.1| growth hormone secretagogue recepto...   154   3e-35
+gi|346644609|dbj|BAK79080.1| growth hormone secretagogue recepto...   154   3e-35
+gi|228008045|dbj|BAH57571.1| growth hormone secretagogue recepto...   154   3e-35
+gi|228008052|dbj|BAH57573.1| growth hormone secretagogue recepto...   153   3e-35
+gi|221139823|ref|NP_001137208.1| growth hormone secretagogue rec...   153   4e-35
+gi|228008118|dbj|BAH57565.1| growth hormone secretagogue recepto...   152   8e-35
+gi|224067651|ref|XP_002195061.1| PREDICTED: similar to neuromedi...   152   8e-35
+gi|315467910|dbj|BAJ49819.1| neuromedin U receptor 2 [Carassius ...   151   1e-34
+gi|194664347|ref|XP_588365.4| PREDICTED: G protein-coupled recep...   149   5e-34
+gi|345307953|ref|XP_001508714.2| PREDICTED: neuromedin-U recepto...   149   5e-34
+gi|281349807|gb|EFB25391.1| hypothetical protein PANDA_005717 [A...   149   5e-34
+gi|326926012|ref|XP_003209200.1| PREDICTED: neuromedin-U recepto...   149   6e-34
+gi|301764122|ref|XP_002917495.1| PREDICTED: neuromedin-U recepto...   149   8e-34
+gi|327281619|ref|XP_003225544.1| PREDICTED: neuromedin-U recepto...   147   2e-33
+gi|185132105|ref|NP_001118066.1| growth hormone secretagogue rec...   147   2e-33
+gi|301612573|ref|XP_002935793.1| PREDICTED: motilin receptor-lik...   147   3e-33
+gi|61613031|gb|AAX47307.1| variant neurotensin receptor 2 [Rattu...   147   3e-33
+gi|297676461|ref|XP_002816154.1| PREDICTED: LOW QUALITY PROTEIN:...   146   6e-33
+gi|327266808|ref|XP_003218196.1| PREDICTED: growth hormone secre...   144   1e-32
+gi|157888794|dbj|BAF80872.1| growth hormone secretagogue recepto...   144   2e-32
+gi|291387676|ref|XP_002710220.1| PREDICTED: neuromedin U recepto...   143   3e-32
+gi|335303498|ref|XP_003133772.2| PREDICTED: neuromedin-U recepto...   143   4e-32
+gi|195036852|ref|XP_001989882.1| GH19039 [Drosophila grimshawi] ...   143   5e-32
+gi|326673994|ref|XP_003200046.1| PREDICTED: growth hormone secre...   143   5e-32
+gi|307207300|gb|EFN85050.1| Neuropeptides capa receptor [Harpegn...   142   9e-32
+gi|118097442|ref|XP_425209.2| PREDICTED: similar to neuromedin U...   142   1e-31
+gi|226371758|ref|NP_001139744.1| growth hormone secretagogue rec...   141   1e-31
+gi|91081453|ref|XP_973937.1| PREDICTED: similar to capa receptor...   141   2e-31
+gi|326928544|ref|XP_003210437.1| PREDICTED: neuromedin-U recepto...   141   2e-31
+gi|301603913|ref|XP_002931618.1| PREDICTED: growth hormone secre...   140   3e-31
+gi|238005545|dbj|BAH60673.1| growth hormone secretagogue recepto...   139   7e-31
+gi|306021658|gb|ADM80189.1| growth hormone secretagogue receptor...   139   8e-31
+gi|164451925|gb|ABY56825.1| growth hormone secretagogue receptor...   138   1e-30
+gi|327277320|ref|XP_003223413.1| PREDICTED: growth hormone secre...   137   2e-30
+gi|162295917|gb|ABX83905.1| growth hormone secretagogue receptor...   137   2e-30
+gi|229893723|gb|ACQ90221.1| pheromone biosynthesis-activating ne...   137   2e-30
+gi|229893721|gb|ACQ90220.1| pheromone biosynthesis-activating ne...   137   2e-30
+gi|35181688|gb|AAN77875.1| growth hormone secretagogue receptor ...   137   3e-30
+gi|153792345|ref|NP_001093438.1| growth hormone secretagogue rec...   137   3e-30
+gi|157201141|dbj|BAF80118.1| growth hormone secretagogue recepto...   137   3e-30
+gi|318037392|ref|NP_001187251.1| growth hormone secretagog recep...   137   3e-30
+gi|153791979|ref|NP_001093437.1| motilin receptor [Oryctolagus c...   137   4e-30
+gi|326914178|ref|XP_003203404.1| PREDICTED: motilin receptor-lik...   135   8e-30
+gi|335285874|ref|XP_003354968.1| PREDICTED: neurotensin receptor...   135   9e-30
+gi|301623309|ref|XP_002940961.1| PREDICTED: neuromedin-U recepto...   135   1e-29
+gi|340713232|ref|XP_003395149.1| PREDICTED: neuromedin-U recepto...   135   1e-29
+gi|7110607|ref|NP_034471.1| neuromedin-U receptor 1 [Mus musculu...   134   2e-29
+gi|83288329|sp|Q9ESQ4.2|NMUR2_RAT RecName: Full=Neuromedin-U rec...   134   2e-29
+gi|149052674|gb|EDM04491.1| neuromedin U receptor 2 [Rattus norv...   134   2e-29
+gi|62420301|gb|AAX82018.1| unknown [Homo sapiens] >gnl|BL_ORD_ID...   134   2e-29
+gi|148708270|gb|EDL40217.1| neuromedin U receptor 1 [Mus musculus]    134   2e-29
+gi|345481477|ref|XP_001606201.2| PREDICTED: neuropeptide Y recep...   133   4e-29
+gi|229893719|gb|ACQ90219.1| pheromone biosynthesis-activating ne...   132   6e-29
+gi|31543324|ref|NP_071611.2| neuromedin-U receptor 2 [Rattus nor...   132   6e-29
+gi|118095167|ref|XP_426705.2| PREDICTED: similar to Neuromedin U...   132   6e-29
+gi|327260922|ref|XP_003215281.1| PREDICTED: motilin receptor-lik...   132   6e-29
+gi|242007126|ref|XP_002424393.1| class B secretin-like G-protein...   132   7e-29
+gi|270001281|gb|EEZ97728.1| hypothetical protein TcasGA2_TC01131...   132   8e-29
+gi|189241567|ref|XP_968501.2| PREDICTED: similar to pyrokinin-re...   132   9e-29
+gi|229893725|gb|ACQ90222.1| pheromone biosynthesis-activating ne...   132   9e-29
+gi|187937191|ref|NP_001120785.1| motilin receptor [Gallus gallus...   132   9e-29
+gi|47220933|emb|CAG03466.1| unnamed protein product [Tetraodon n...   132   9e-29
+gi|16754689|gb|AAL26695.1| neuromedin U receptor type 2 [Mus mus...   132   9e-29
+gi|31543326|ref|NP_694719.2| neuromedin-U receptor 2 [Mus muscul...   132   9e-29
+gi|307209904|gb|EFN86683.1| Neuropeptides capa receptor [Harpegn...   131   2e-28
+gi|62528999|gb|AAX84797.1| pyrokinin-like receptor 1 [Anopheles ...   130   2e-28
+gi|71841593|gb|AAZ43087.1| pk-1 receptor [Anopheles gambiae]          130   3e-28
+gi|118780947|ref|XP_311184.3| putative growth hormone releasing ...   130   3e-28
+gi|301630424|ref|XP_002944321.1| PREDICTED: G-protein coupled re...   129   5e-28
+gi|260829589|ref|XP_002609744.1| hypothetical protein BRAFLDRAFT...   129   7e-28
+gi|47215045|emb|CAF95899.1| unnamed protein product [Tetraodon n...   129   7e-28
+gi|327282924|ref|XP_003226192.1| PREDICTED: G-protein coupled re...   129   1e-27
+gi|322796108|gb|EFZ18684.1| hypothetical protein SINV_01561 [Sol...   128   1e-27
+gi|306021654|gb|ADM80187.1| growth hormone secretagogue receptor...   128   1e-27
+gi|315467908|dbj|BAJ49818.1| neuromedin U receptor 1 [Carassius ...   128   1e-27
+gi|306021662|gb|ADM80191.1| growth hormone secretagogue receptor...   128   2e-27
+gi|148666061|gb|EDK98477.1| neurotensin receptor 2, isoform CRA_...   127   2e-27
+gi|189535554|ref|XP_685405.3| PREDICTED: neuromedin-U receptor 1...   127   3e-27
+gi|344265671|ref|XP_003404906.1| PREDICTED: neuromedin-U recepto...   127   3e-27
+gi|3493643|gb|AAC33473.1| orphan G protein-coupled receptor [Sph...   127   3e-27
+gi|194222178|ref|XP_001489024.2| PREDICTED: G-protein coupled re...   126   5e-27
+gi|301615284|ref|XP_002937107.1| PREDICTED: growth hormone secre...   126   5e-27
+gi|333468419|gb|EGK96940.1| AGAP003076-PB [Anopheles gambiae str...   126   5e-27
+gi|194219683|ref|XP_001917596.1| PREDICTED: LOW QUALITY PROTEIN:...   126   5e-27
+gi|262474697|gb|ACY66927.1| growth hormone secretagogue receptor...   126   6e-27
+gi|62529001|gb|AAX84798.1| pyrokinin-like receptor 2 [Anopheles ...   126   6e-27
+gi|47221096|emb|CAG12790.1| unnamed protein product [Tetraodon n...   126   6e-27
+gi|345790480|ref|XP_003433375.1| PREDICTED: neuromedin-U recepto...   125   9e-27
+gi|297668184|ref|XP_002812331.1| PREDICTED: LOW QUALITY PROTEIN:...   125   9e-27
+gi|291391464|ref|XP_002712463.1| PREDICTED: G protein-coupled re...   125   9e-27
+gi|260796077|ref|XP_002593031.1| hypothetical protein BRAFLDRAFT...   125   1e-26
+gi|255683495|ref|NP_001157480.1| pyrokinin-like receptor 1 [Apis...   125   1e-26
+gi|57085713|ref|XP_546288.1| PREDICTED: neuromedin-U receptor 2 ...   125   1e-26
+gi|344268133|ref|XP_003405917.1| PREDICTED: LOW QUALITY PROTEIN:...   124   2e-26
+gi|345315260|ref|XP_001518585.2| PREDICTED: neuromedin-U recepto...   124   2e-26
+gi|321463306|gb|EFX74323.1| putative capa receptor [Daphnia pulex]    124   2e-26
+gi|55625238|ref|XP_527091.1| PREDICTED: neuromedin-U receptor 2 ...   124   2e-26
+gi|78045495|ref|NP_001030220.1| neuromedin-U receptor 2 [Bos tau...   124   2e-26
+gi|332254951|ref|XP_003276599.1| PREDICTED: LOW QUALITY PROTEIN:...   124   3e-26
+gi|118783087|ref|XP_312761.3| putative growth hormone releasing ...   124   3e-26
+gi|63169636|gb|AAY34744.1| pheromone biosynthesis activating neu...   124   3e-26
+gi|112982667|ref|NP_001036913.1| diapause hormone receptor-1 [Bo...   124   3e-26
+gi|301785520|ref|XP_002928173.1| PREDICTED: G-protein coupled re...   123   4e-26
+gi|332029309|gb|EGI69292.1| Neuropeptide capa receptor [Acromyrm...   123   4e-26
+gi|194741220|ref|XP_001953087.1| GF17594 [Drosophila ananassae] ...   123   5e-26
+gi|190360583|ref|NP_001121959.1| G-protein coupled receptor 39 [...   122   6e-26
+gi|238005543|dbj|BAH60672.1| growth hormone secretagogue recepto...   122   8e-26
+gi|9944990|gb|AAG03064.1|AF292402_1 neuromedin U receptor-type 2...   122   9e-26
+gi|170932505|ref|NP_064552.3| neuromedin-U receptor 2 [Homo sapi...   122   9e-26
+gi|188536273|gb|ABY62317.2| pheromone biosynthesis-activating ne...   122   9e-26
+gi|9082156|gb|AAF82755.1|AF242874_1 neuromedin U receptor 2 [Hom...   122   1e-25
+gi|195451762|ref|XP_002073065.1| GK13356 [Drosophila willistoni]...   122   1e-25
+gi|22328109|gb|AAH36543.1| Neuromedin U receptor 1 [Homo sapiens]     122   1e-25
+gi|332815670|ref|XP_001140471.2| PREDICTED: neuromedin-U recepto...   122   1e-25
+gi|9082154|gb|AAF82754.1|AF242873_1 neuromedin U receptor 1 [Rat...   121   1e-25
+gi|281339745|gb|EFB15329.1| hypothetical protein PANDA_009578 [A...   121   2e-25
+gi|2865470|gb|AAC02680.1| orphan G protein-coupled receptor [Hom...   121   2e-25
+gi|188497623|ref|NP_006047.3| neuromedin-U receptor 1 [Homo sapi...   121   2e-25
+gi|88771691|gb|ABD52277.1| pheromone biosynthesis activating neu...   121   2e-25
+gi|239949617|gb|ACS36605.1| growth hormone secretagog receptor 1...   121   2e-25
+gi|226442795|ref|NP_081953.2| G-protein coupled receptor 39 [Mus...   121   2e-25
+gi|301770747|ref|XP_002920792.1| PREDICTED: LOW QUALITY PROTEIN:...   121   2e-25
+gi|81910273|sp|Q5U431.1|GPR39_MOUSE RecName: Full=G-protein coup...   120   2e-25
+gi|167555093|ref|NP_001107864.1| G protein-coupled receptor 39 i...   120   3e-25
+gi|195329294|ref|XP_002031346.1| GM24101 [Drosophila sechellia] ...   120   3e-25
+gi|308464483|ref|XP_003094508.1| CRE-NMUR-1 protein [Caenorhabdi...   120   3e-25
+gi|16877377|gb|AAH16938.1| Neuromedin U receptor 2 [Homo sapiens...   120   3e-25
+gi|24646524|ref|NP_731790.1| CG8784 [Drosophila melanogaster] >g...   120   3e-25
+gi|3493641|gb|AAC33472.1| orphan G protein-coupled receptor [Sph...   120   3e-25
+gi|296205852|ref|XP_002749981.1| PREDICTED: neuromedin-U recepto...   120   3e-25
+gi|60729668|pir||JC8011 G protein-coupled neuropeptide pyrokinin...   120   4e-25
+gi|344244481|gb|EGW00585.1| Neuromedin-U receptor 1 [Cricetulus ...   120   4e-25
+gi|345484257|ref|XP_003424987.1| PREDICTED: LOW QUALITY PROTEIN:...   120   4e-25
+gi|149050962|gb|EDM03135.1| neurotensin receptor 2, isoform CRA_...   119   5e-25
+gi|335304213|ref|XP_003134179.2| PREDICTED: neuromedin-U recepto...   119   5e-25
+gi|22901726|gb|AAN10042.1| putative PRXamide receptor [Drosophil...   119   5e-25
+gi|195571185|ref|XP_002103584.1| GD18898 [Drosophila simulans] >...   119   6e-25
+gi|12831219|ref|NP_075588.1| neuromedin-U receptor 1 [Rattus nor...   119   6e-25
+gi|195500763|ref|XP_002097513.1| GE26264 [Drosophila yakuba] >gn...   119   6e-25
+gi|296204947|ref|XP_002749554.1| PREDICTED: G-protein coupled re...   119   9e-25
+gi|219522064|ref|NP_001137216.1| G-protein coupled receptor 39 [...   119   1e-24
+gi|194901496|ref|XP_001980288.1| GG19589 [Drosophila erecta] >gn...   119   1e-24
+gi|345784070|ref|XP_853332.2| PREDICTED: G-protein coupled recep...   118   1e-24
+gi|114580976|ref|XP_515800.2| PREDICTED: G-protein coupled recep...   118   2e-24
+gi|193784092|dbj|BAG53636.1| unnamed protein product [Homo sapiens]   118   2e-24
+gi|4504097|ref|NP_001499.1| G-protein coupled receptor 39 [Homo ...   118   2e-24
+gi|189054609|dbj|BAG37409.1| unnamed protein product [Homo sapiens]   118   2e-24
+gi|133778004|gb|AAI25048.1| GPR39 protein [Homo sapiens]              117   2e-24
+gi|119621328|gb|EAX00923.1| neurotensin receptor 2, isoform CRA_...   117   4e-24
+gi|62528997|gb|AAX84796.1| CAPA-like receptor [Anopheles gambiae]     117   4e-24
+gi|315434363|gb|AAB37017.2| Nmur (neuromedin u receptor) homolog...   117   4e-24
+gi|320526716|gb|ADW41778.1| neuromedin U receptor [Caenorhabditi...   116   4e-24
+gi|17551076|ref|NP_509515.1| hypothetical protein C48C5.1 [Caeno...   116   4e-24
+gi|332236891|ref|XP_003267632.1| PREDICTED: G-protein coupled re...   116   4e-24
+gi|195394922|ref|XP_002056088.1| GJ10748 [Drosophila virilis] >g...   116   6e-24
+gi|195037264|ref|XP_001990084.1| GH19145 [Drosophila grimshawi] ...   115   8e-24
+gi|195109064|ref|XP_001999110.1| GI23252 [Drosophila mojavensis]...   115   1e-23
+gi|195109066|ref|XP_001999111.1| GI24332 [Drosophila mojavensis]...   115   1e-23
+gi|309366411|emb|CAP21691.2| CBR-NMUR-1 protein [Caenorhabditis ...   115   1e-23
+gi|118783385|ref|XP_312953.3| putative growth hormone releasing ...   115   2e-23
+gi|157133569|ref|XP_001662936.1| g-protein receptor [Aedes aegyp...   114   2e-23
+gi|268580659|ref|XP_002645312.1| Hypothetical protein CBG00234 [...   114   2e-23
+gi|194741218|ref|XP_001953086.1| GF17391 [Drosophila ananassae] ...   114   2e-23
+gi|60729669|pir||JC8012 G protein-coupled neuropeptide pyrokinin...   114   2e-23
+gi|22901728|gb|AAN10043.1| putative PRXamide receptor [Drosophil...   114   3e-23
+gi|194901498|ref|XP_001980289.1| GG17063 [Drosophila erecta] >gn...   114   3e-23
+gi|195500760|ref|XP_002097512.1| GE24451 [Drosophila yakuba] >gn...   114   3e-23
+gi|24646520|ref|NP_731788.1| CG8795, isoform A [Drosophila melan...   114   3e-23
+gi|195329296|ref|XP_002031347.1| GM25948 [Drosophila sechellia] ...   114   3e-23
+gi|195571187|ref|XP_002103585.1| GD20508 [Drosophila simulans] >...   114   3e-23
+gi|195394920|ref|XP_002056087.1| GJ10418 [Drosophila virilis] >g...   113   4e-23
+gi|226510923|gb|ACO59988.1| growth hormone secretagogue receptor...   113   4e-23
+gi|195377694|ref|XP_002047623.1| GJ13543 [Drosophila virilis] >g...   113   5e-23
+gi|112983446|ref|NP_001036977.1| pheromone biosynthesis activati...   112   6e-23
+gi|229576836|ref|NP_001153387.1| pyrokinin/capa receptor 2 [Naso...   112   7e-23
+gi|72146030|ref|XP_797514.1| PREDICTED: similar to g-protein rec...   112   8e-23
+gi|242018360|ref|XP_002429645.1| class B secretin-like G-protein...   112   1e-22
+gi|297668182|ref|XP_002812330.1| PREDICTED: neurotensin receptor...   110   4e-22
+gi|195146124|ref|XP_002014040.1| GL23071 [Drosophila persimilis]...   110   4e-22
+gi|326677439|ref|XP_003200834.1| PREDICTED: growth hormone secre...   110   4e-22
+gi|125774273|ref|XP_001358395.1| GA21328 [Drosophila pseudoobscu...   110   5e-22
+gi|195435746|ref|XP_002065840.1| GK20338 [Drosophila willistoni]...   110   5e-22
+gi|156147322|gb|ABU53895.1| G-protein coupled receptor 39-1a [Ac...   109   5e-22
+gi|226510994|gb|ACO60014.1| GHSRa [Anas platyrhynchos] >gnl|BL_O...   109   6e-22
+gi|195451766|ref|XP_002073066.1| GK13937 [Drosophila willistoni]...   109   7e-22
+gi|338715977|ref|XP_003363375.1| PREDICTED: growth hormone secre...   109   8e-22
+gi|156147324|gb|ABU53896.1| G-protein coupled receptor 39-1b [Ac...   109   8e-22
+gi|260817740|ref|XP_002603743.1| hypothetical protein BRAFLDRAFT...   108   1e-21
+gi|291231166|ref|XP_002735541.1| PREDICTED: thyrotropin-releasin...   108   2e-21
+gi|291229994|ref|XP_002734955.1| PREDICTED: ecdysis triggering h...   108   2e-21
+gi|2326257|dbj|BAA21777.1| growth hormone secretagogue receptor ...   107   2e-21
+gi|307207299|gb|EFN85049.1| Neuropeptides capa receptor [Harpegn...   107   2e-21
+gi|332214783|ref|XP_003256515.1| PREDICTED: growth hormone secre...   107   2e-21
+gi|38455410|ref|NP_940799.1| growth hormone secretagogue recepto...   107   3e-21
+gi|297672503|ref|XP_002814334.1| PREDICTED: growth hormone secre...   107   3e-21
+gi|149016340|gb|EDL75586.1| neuromedin U receptor 1 [Rattus norv...   107   3e-21
+gi|149048575|gb|EDM01116.1| rCG41333 [Rattus norvegicus]              107   3e-21
+gi|41055468|ref|NP_956711.1| G-protein coupled receptor 39 [Dani...   107   3e-21
+gi|109044268|ref|XP_001084886.1| PREDICTED: growth hormone secre...   107   3e-21
+gi|344289100|ref|XP_003416283.1| PREDICTED: growth hormone secre...   107   3e-21
+gi|50511737|gb|AAT77421.1| growth hormone secretagogue receptor ...   107   3e-21
+gi|228008046|dbj|BAH57572.1| growth hormone secretagogue recepto...   107   4e-21
+gi|224056063|ref|XP_002197805.1| PREDICTED: G protein-coupled re...   107   4e-21
+gi|121583867|ref|NP_001073574.1| G-protein coupled receptor 39 [...   107   4e-21
+gi|306021656|gb|ADM80188.1| growth hormone secretagogue receptor...   106   4e-21
+gi|4758434|ref|NP_004113.1| growth hormone secretagogue receptor...   106   4e-21
+gi|228008053|dbj|BAH57574.1| growth hormone secretagogue recepto...   106   5e-21
+gi|35181696|gb|AAN77876.1| growth hormone secretagogue receptor ...   106   5e-21
+gi|334347277|ref|XP_001363182.2| PREDICTED: growth hormone secre...   106   5e-21
+gi|332214785|ref|XP_003256516.1| PREDICTED: growth hormone secre...   106   5e-21
+gi|345808767|gb|AEO17028.1| pheromone biosynthesis-activating ne...   106   5e-21
+gi|156147326|gb|ABU53897.1| G-protein coupled receptor 39-1a [Da...   106   6e-21
+gi|25151251|ref|NP_497057.2| hypothetical protein Y54E2A.1 [Caen...   106   7e-21
+gi|228008071|dbj|BAH57534.1| growth hormone secretagogue recepto...   105   8e-21
+gi|156147328|gb|ABU53898.1| G-protein coupled receptor 39-1b [Da...   105   8e-21
+gi|125774271|ref|XP_001358394.1| GA21320 [Drosophila pseudoobscu...   105   9e-21
+gi|150378656|tpg|DAA06057.1| TPA_exp: G protein-coupled receptor...   105   9e-21
+gi|145228041|gb|ABP48743.1| G-protein coupled receptor 39 [Cotur...   105   9e-21
+gi|228008074|dbj|BAH57536.1| growth hormone secretagogue recepto...   105   9e-21
+gi|221272554|emb|CAP64358.1| growth hormone secretagogue recepto...   105   9e-21
+gi|1504147|gb|AAC48631.1| growth hormone secretagogue receptor t...   105   1e-20
+gi|332241925|ref|XP_003270135.1| PREDICTED: motilin receptor [No...   105   1e-20
+gi|16186288|gb|AAL13336.1| ghrelin/growth hormone secretagogue r...   105   1e-20
+gi|195146126|ref|XP_002014041.1| GL24468 [Drosophila persimilis]...   105   1e-20
+gi|156752122|gb|ABU93813.1| pheromone biosynthesis-activating ne...   105   1e-20
+gi|306021660|gb|ADM80190.1| growth hormone secretagogue receptor...   105   1e-20
+gi|228008119|dbj|BAH57566.1| growth hormone secretagogue recepto...   104   2e-20
+gi|334325037|ref|XP_001373154.2| PREDICTED: neuromedin-U recepto...   104   2e-20
+gi|345484255|ref|XP_003424986.1| PREDICTED: LOW QUALITY PROTEIN:...   104   2e-20
+gi|344252735|gb|EGW08839.1| Neuromedin-U receptor 2 [Cricetulus ...   104   2e-20
+gi|162295919|gb|ABX83906.1| growth hormone secretagogue receptor...   104   3e-20
+gi|297694063|ref|XP_002824317.1| PREDICTED: motilin receptor-lik...   104   3e-20
+gi|57619311|ref|NP_001009760.1| growth hormone secretagogue rece...   103   3e-20
+gi|157493295|gb|ABV58013.1| pheromone biosynthesis-activating ne...   103   3e-20
+gi|4504095|ref|NP_001498.1| motilin receptor [Homo sapiens] >gnl...   103   4e-20
+gi|326923065|ref|XP_003207762.1| PREDICTED: G-protein coupled re...   103   4e-20
+gi|157201143|dbj|BAF80119.1| growth hormone secretagogue recepto...   103   4e-20
+gi|194718240|gb|ACF93447.1| growth hormone secretagogue receptor...   102   9e-20
+gi|157412296|ref|NP_001098705.1| G-protein coupled receptor 39-1...   102   9e-20
+gi|109120725|ref|XP_001101857.1| PREDICTED: motilin receptor [Ma...   102   1e-19
+gi|118142404|dbj|BAF36977.1| diapause hormone receptor [Orgyia t...   102   1e-19
+gi|47219220|emb|CAG11238.1| unnamed protein product [Tetraodon n...   102   1e-19
+gi|156147332|gb|ABU53900.1| G-protein coupled receptor 39-1b [Ta...   101   1e-19
+gi|33090251|gb|AAP93921.1| pheromone biosynthesis-activating neu...   101   1e-19
+gi|57231401|gb|AAW47417.1| pheromone biosynthesis-activating neu...   101   2e-19
+gi|156752120|gb|ABU93812.1| pheromone biosynthesis-activating ne...   100   3e-19
+gi|332030935|gb|EGI70561.1| Neuropeptide capa receptor [Acromyrm...   100   3e-19
+gi|157888796|dbj|BAF80873.1| growth hormone secretagogue recepto...   100   5e-19
+gi|307196750|gb|EFN78209.1| Galanin receptor type 2 [Harpegnatho...    99   8e-19
+gi|335296883|ref|XP_003357887.1| PREDICTED: motilin receptor-lik...    99   9e-19
+gi|341883263|gb|EGT39198.1| hypothetical protein CAEBREN_31688 [...    99   1e-18
+gi|126327691|ref|XP_001378741.1| PREDICTED: motilin receptor-lik...    98   2e-18
+gi|17505777|ref|NP_491990.1| hypothetical protein C30F12.6 [Caen...    98   2e-18
+gi|224060847|ref|XP_002193738.1| PREDICTED: growth hormone secre...    98   2e-18
+gi|45383368|ref|NP_989725.1| growth hormone secretagogue recepto...    98   2e-18
+gi|29611542|gb|AAO85082.1| growth hormone secretagogue receptor ...    98   2e-18
+gi|30578147|dbj|BAC76445.1| growth hormone secretagogue receptor...    97   3e-18
+gi|307196528|gb|EFN78058.1| Neuromedin-U receptor 2 [Harpegnatho...    97   3e-18
+gi|30578149|dbj|BAC76446.1| growth hormone secretagogue receptor...    97   4e-18
+gi|341879540|gb|EGT35475.1| CBN-NMUR-4 protein [Caenorhabditis b...    97   4e-18
+gi|308473693|ref|XP_003099070.1| CRE-NMUR-4 protein [Caenorhabdi...    97   4e-18
+gi|322801293|gb|EFZ21980.1| hypothetical protein SINV_09915 [Sol...    97   5e-18
+gi|197209922|ref|NP_001127725.1| neuropeptide receptor A27 [Bomb...    97   5e-18
+gi|256997221|dbj|BAI22692.1| growth hormone secretagogue-recepto...    97   5e-18
+gi|344281694|ref|XP_003412613.1| PREDICTED: motilin receptor-lik...    97   6e-18
+gi|256997224|dbj|BAI22694.1| growth hormone secretagogue-recepto...    96   6e-18
+gi|256997220|dbj|BAI22691.1| growth hormone secretagogue-recepto...    96   6e-18
+gi|256997223|dbj|BAI22693.1| growth hormone secretagogue-recepto...    96   7e-18
+gi|256997227|dbj|BAI22696.1| growth hormone secretagogue-recepto...    96   7e-18
+gi|256997226|dbj|BAI22695.1| growth hormone secretagogue-recepto...    96   7e-18
+gi|149635906|ref|XP_001513979.1| PREDICTED: motilin receptor-lik...    96   8e-18
+gi|291231765|ref|XP_002735834.1| PREDICTED: ETHR-like [Saccoglos...    96   9e-18
+gi|157888799|dbj|BAF80875.1| growth hormone secretagogue recepto...    96   1e-17
+gi|326926139|ref|XP_003209262.1| PREDICTED: growth hormone secre...    96   1e-17
+gi|119904540|ref|XP_615073.2| PREDICTED: motilin receptor-like [...    96   1e-17
+gi|256997230|dbj|BAI22698.1| growth hormone secretagogue-recepto...    95   1e-17
+gi|340728353|ref|XP_003402490.1| PREDICTED: orexin receptor type...    95   1e-17
+gi|256997229|dbj|BAI22697.1| growth hormone secretagogue-recepto...    95   1e-17
+gi|47227914|emb|CAF97543.1| unnamed protein product [Tetraodon n...    95   2e-17
+gi|326930722|ref|XP_003211491.1| PREDICTED: galanin receptor typ...    95   2e-17
+gi|197209900|ref|NP_001127714.1| neuropeptide receptor A16 [Bomb...    93   6e-17
+gi|118783387|ref|XP_312952.3| putative growth hormone releasing ...    92   8e-17
+gi|62822142|gb|AAY14691.1| unknown [Homo sapiens]                      92   1e-16
+gi|6681269|ref|NP_031930.1| endothelin B receptor isoform 1 [Mus...    92   1e-16
+gi|22128033|gb|AAM92568.1|AE014177_1 endothelin receptor type B ...    92   1e-16
+gi|148668175|gb|EDL00505.1| endothelin receptor type B, isoform ...    92   2e-16
+gi|344925883|ref|NP_001010943.2| endothelin B receptor precursor...    92   2e-16
+gi|3004964|gb|AAC23486.1| endothelin receptor type B [Equus caba...    92   2e-16
+gi|8926588|gb|AAF81902.1|AF276427_1 endothelin B receptor [Canis...    92   2e-16
+gi|3334903|gb|AAC26970.1| endothelin receptor B [Canis lupus fam...    92   2e-16
+gi|62512169|sp|P56497.3|EDNRB_CANFA RecName: Full=Endothelin B r...    92   2e-16
+gi|323508388|dbj|BAJ77121.1| endothelin receptor type B [Capra h...    91   2e-16
+gi|12620923|gb|AAG61141.1|AF332997_1 growth hormone secretagogue...    91   2e-16
+gi|152126065|gb|ABS29338.1| growth hormone secretagogue receptor...    91   2e-16
+gi|157138044|ref|XP_001657210.1| pyrokinin receptor [Aedes aegyp...    91   2e-16
+gi|126352462|ref|NP_001075306.1| endothelin B receptor precursor...    91   2e-16
+gi|195022120|ref|XP_001985521.1| GH14454 [Drosophila grimshawi] ...    91   3e-16
+gi|27805819|ref|NP_776734.1| endothelin B receptor precursor [Bo...    91   3e-16
+gi|126337620|ref|XP_001367638.1| PREDICTED: endothelin B recepto...    91   3e-16
+gi|83921631|ref|NP_001033091.1| endothelin B receptor precursor ...    91   3e-16
+gi|195440212|ref|XP_002067936.1| GK11187 [Drosophila willistoni]...    91   3e-16
+gi|195764988|gb|ACG50801.1| growth hormone secretagogue receptor...    91   3e-16
+gi|195128337|ref|XP_002008620.1| GI13590 [Drosophila mojavensis]...    91   3e-16
+gi|260804241|ref|XP_002596997.1| hypothetical protein BRAFLDRAFT...    91   4e-16
+gi|344275219|ref|XP_003409411.1| PREDICTED: LOW QUALITY PROTEIN:...    90   4e-16
+gi|260793920|ref|XP_002591958.1| hypothetical protein BRAFLDRAFT...    90   5e-16
+gi|8393333|ref|NP_059029.1| endothelin B receptor precursor [Rat...    90   5e-16
+gi|56123|emb|CAA40916.1| ET-B endothelin receptor [Rattus norveg...    90   5e-16
+gi|197209966|ref|NP_001127747.1| neuropeptide receptor A31 [Bomb...    90   5e-16
+gi|91083969|ref|XP_975121.1| PREDICTED: similar to CG34381 CG343...    90   5e-16
+gi|260793912|ref|XP_002591954.1| hypothetical protein BRAFLDRAFT...    90   5e-16
+gi|189233529|ref|NP_001121535.1| galanin receptor type 2 [Gallus...    90   6e-16
+gi|301780316|ref|XP_002925574.1| PREDICTED: endothelin B recepto...    89   7e-16
+gi|301620699|ref|XP_002939707.1| PREDICTED: neurotensin receptor...    89   8e-16
+gi|281345853|gb|EFB21437.1| hypothetical protein PANDA_015096 [A...    89   9e-16
+gi|158254834|dbj|BAF83388.1| unnamed protein product [Homo sapiens]    89   1e-15
+gi|296198450|ref|XP_002746736.1| PREDICTED: orexin receptor type...    89   1e-15
+gi|323433877|gb|ADX66344.1| allatotropin receptor [Manduca sexta]      89   1e-15
+gi|296189272|ref|XP_002806525.1| PREDICTED: LOW QUALITY PROTEIN:...    89   1e-15
+gi|321461639|gb|EFX72669.1| putative neuropeptide G protein-coup...    89   2e-15
+gi|90078232|dbj|BAE88796.1| unnamed protein product [Macaca fasc...    88   2e-15
+gi|4557547|ref|NP_000106.1| endothelin B receptor isoform 1 prec...    88   2e-15
+gi|195379210|ref|XP_002048373.1| GJ13930 [Drosophila virilis] >g...    88   2e-15
+gi|233234|gb|AAB19411.1| ETB endothelin receptor [Homo sapiens]        88   2e-15
+gi|260792561|ref|XP_002591283.1| hypothetical protein BRAFLDRAFT...    88   2e-15
+gi|208967785|dbj|BAG72538.1| endothelin receptor type B [synthet...    88   2e-15
+gi|71985261|ref|NP_001023088.1| hypothetical protein C50F7.1 [Ca...    88   3e-15
+gi|998644|gb|AAB34052.1| endothelin receptor subtype B, ETB [hum...    87   3e-15
+gi|62087976|dbj|BAD92435.1| endothelin receptor type B isoform 1...    87   3e-15
+gi|297274617|ref|XP_001089047.2| PREDICTED: endothelin B recepto...    87   3e-15
+gi|4580924|gb|AAD24541.1|AF114165_1 endothelin receptor B delta ...    87   4e-15
+gi|327277358|ref|XP_003223432.1| PREDICTED: endothelin B recepto...    87   4e-15
+gi|55639883|ref|XP_509693.1| PREDICTED: endothelin B receptor is...    87   4e-15
+gi|319655697|ref|NP_001188326.1| endothelin B receptor isoform 3...    87   5e-15
+gi|332216541|ref|XP_003257409.1| PREDICTED: endothelin B recepto...    87   5e-15
+gi|321466118|gb|EFX77115.1| hypothetical protein DAPPUDRAFT_5451...    87   5e-15
+gi|297694246|ref|XP_002824394.1| PREDICTED: LOW QUALITY PROTEIN:...    86   8e-15
+gi|308233373|dbj|BAJ22789.1| growth hormone secretagogue recepto...    86   9e-15
+gi|29611461|gb|AAO85061.1| G protein-coupled receptor GPR39 [Mus...    86   9e-15
+gi|318104963|ref|NP_001187250.1| growth hormone secretagog recep...    86   1e-14
+gi|260826307|ref|XP_002608107.1| hypothetical protein BRAFLDRAFT...    86   1e-14
+gi|270002919|gb|EEZ99366.1| hypothetical protein TcasGA2_TC00497...    85   2e-14
+gi|194871386|ref|XP_001972838.1| GG13659 [Drosophila erecta] >gn...    84   3e-14
+gi|307172982|gb|EFN64124.1| Neuropeptides capa receptor [Campono...    84   3e-14
+gi|260804243|ref|XP_002596998.1| hypothetical protein BRAFLDRAFT...    84   5e-14
+gi|148277568|ref|NP_001091702.1| capa receptor-like GPCR [Apis m...    83   6e-14
+gi|157107208|ref|XP_001649674.1| hypothetical protein AaeL_AAEL0...    83   7e-14
+gi|209489283|gb|ACI49060.1| hypothetical protein Cbre_JD09.004 [...    82   9e-14
+gi|189233531|ref|NP_001121536.1| motilin receptor [Canis lupus f...    82   1e-13
+gi|268552667|ref|XP_002634316.1| Hypothetical protein CBG17657 [...    82   1e-13
+gi|119151364|tpg|DAA05842.1| TPA_inf: pyrokinin-receptor-like G ...    82   1e-13
+gi|148277572|ref|NP_001091688.1| pyrokinin-like receptor 2 [Apis...    82   1e-13
+gi|309357626|emb|CAP35286.2| hypothetical protein CBG_17657 [Cae...    82   1e-13
+gi|224471785|dbj|BAH23869.1| prolactin-releasing peptide recepto...    82   2e-13
+gi|87042483|gb|ABD16240.1| growth hormone secretagogue receptor ...    82   2e-13
+gi|156405691|ref|XP_001640865.1| predicted protein [Nematostella...    82   2e-13
+gi|4503467|ref|NP_003982.1| endothelin B receptor isoform 2 prec...    82   2e-13
+gi|260793924|ref|XP_002591960.1| hypothetical protein BRAFLDRAFT...    81   2e-13
+gi|297591858|gb|ADI46806.1| RT08293p [Drosophila melanogaster]         81   2e-13
+gi|335309057|ref|XP_003361476.1| PREDICTED: neuromedin-U recepto...    81   3e-13
+gi|260815931|ref|XP_002602726.1| hypothetical protein BRAFLDRAFT...    81   3e-13
+gi|256077462|ref|XP_002575023.1| neuropeptide receptor [Schistos...    81   3e-13
+gi|307169243|gb|EFN62034.1| Neuropeptides capa receptor [Campono...    81   3e-13
+gi|260826572|ref|XP_002608239.1| hypothetical protein BRAFLDRAFT...    80   4e-13
+gi|328710440|ref|XP_001950333.2| PREDICTED: neuropeptides capa r...    80   4e-13
+gi|156370963|ref|XP_001628536.1| predicted protein [Nematostella...    80   4e-13
+gi|126326225|ref|XP_001369493.1| PREDICTED: G-protein coupled re...    80   5e-13
+gi|115676822|ref|XP_789888.2| PREDICTED: hypothetical protein [S...    80   5e-13
+gi|189234301|ref|XP_971383.2| PREDICTED: similar to Tachykinin-l...    80   5e-13
+gi|341886981|gb|EGT42916.1| hypothetical protein CAEBREN_31261 [...    80   5e-13
+gi|321469810|gb|EFX80789.1| hypothetical protein DAPPUDRAFT_3182...    80   5e-13
+gi|91080305|ref|XP_974272.1| PREDICTED: similar to moody CG4322-...    80   6e-13
+gi|291231164|ref|XP_002735540.1| PREDICTED: class A rhodopsin-li...    80   6e-13
+gi|308492696|ref|XP_003108538.1| hypothetical protein CRE_11033 ...    80   6e-13
+gi|189241569|ref|XP_968729.2| PREDICTED: similar to pyrokinin-re...    80   6e-13
+gi|308454491|ref|XP_003089868.1| hypothetical protein CRE_15113 ...    80   7e-13
+gi|341903935|gb|EGT59870.1| hypothetical protein CAEBREN_32164 [...    80   7e-13
+gi|68366932|ref|XP_688565.1| PREDICTED: endothelin B receptor [D...    79   8e-13
+gi|296490518|gb|DAA32631.1| G-protein coupled receptor 39 [Bos t...    79   8e-13
+gi|119151362|tpg|DAA05841.1| TPA_inf: CG14575-like G protein-cou...    79   9e-13
+gi|340710406|ref|XP_003393782.1| PREDICTED: neuropeptides capa r...    79   9e-13
+gi|322793245|gb|EFZ16902.1| hypothetical protein SINV_12710 [Sol...    79   1e-12
+gi|332016450|gb|EGI57363.1| Neuromedin-U receptor 2 [Acromyrmex ...    79   1e-12
+gi|109097344|ref|XP_001115515.1| PREDICTED: G-protein coupled re...    79   1e-12
+gi|195392234|ref|XP_002054764.1| GJ22623 [Drosophila virilis] >g...    79   1e-12
+gi|122427833|ref|NP_001073563.2| neuropeptides capa receptor-lik...    79   1e-12
+gi|291231162|ref|XP_002735539.1| PREDICTED: ecdysis triggering h...    79   1e-12
+gi|294774344|dbj|BAJ05629.1| endothelin receptor alpha [Lethente...    79   1e-12
+gi|150378652|tpg|DAA06055.1| TPA_exp: G protein-coupled receptor...    79   1e-12
+gi|195053980|ref|XP_001993904.1| GH22190 [Drosophila grimshawi] ...    79   1e-12
+gi|197209946|ref|NP_001127737.1| neuropeptide receptor A2 [Bomby...    79   1e-12
+gi|260804261|ref|XP_002597007.1| hypothetical protein BRAFLDRAFT...    79   2e-12
+gi|62988767|gb|AAY24154.1| unknown [Homo sapiens]                      79   2e-12
+gi|270001282|gb|EEZ97729.1| hypothetical protein TcasGA2_TC01132...    78   2e-12
+gi|297668499|ref|XP_002812474.1| PREDICTED: G-protein coupled re...    78   2e-12
+gi|194390456|dbj|BAG61990.1| unnamed protein product [Homo sapiens]    78   2e-12
+gi|169153826|emb|CAQ14214.1| novel protein similar to vertebrate...    78   2e-12
+gi|197209918|ref|NP_001127723.1| neuropeptide receptor A25 [Bomb...    78   2e-12
+gi|290650152|ref|NP_001166887.1| C-X-C chemokine receptor type 1...    78   3e-12
+gi|125846036|ref|XP_001344116.1| PREDICTED: b2 bradykinin recept...    78   3e-12
+gi|126540817|emb|CAM47015.1| novel protein similar to bradykinin...    77   3e-12
+gi|292617086|ref|XP_002663233.1| PREDICTED: apelin receptor A [D...    77   3e-12
+gi|82524842|ref|NP_783181.2| trace amine-associated receptor 7d ...    77   3e-12
+gi|162416253|sp|Q7SZP9.2|APJA_DANRE RecName: Full=Apelin recepto...    77   3e-12
+gi|156398865|ref|XP_001638408.1| predicted protein [Nematostella...    77   3e-12
+gi|109104794|ref|XP_001116212.1| PREDICTED: G-protein coupled re...    77   3e-12
+gi|125827601|ref|XP_001332886.1| PREDICTED: p2Y purinoceptor 2-l...    77   3e-12
+gi|195109875|ref|XP_001999507.1| GI24557 [Drosophila mojavensis]...    77   3e-12
+gi|281340464|gb|EFB16048.1| hypothetical protein PANDA_018089 [A...    77   4e-12
+gi|340710408|ref|XP_003393783.1| PREDICTED: neuropeptides capa r...    77   4e-12
+gi|198452254|ref|XP_002137445.1| GA27218 [Drosophila pseudoobscu...    77   4e-12
+gi|335285881|ref|XP_003125431.2| PREDICTED: protein GREB1 [Sus s...    77   4e-12
+gi|195145258|ref|XP_002013613.1| GL23312 [Drosophila persimilis]...    77   4e-12
+gi|195064691|ref|XP_001996613.1| GH19701 [Drosophila grimshawi] ...    77   4e-12
+gi|195054750|ref|XP_001994286.1| GH23764 [Drosophila grimshawi] ...    77   6e-12
+gi|301621018|ref|XP_002939852.1| PREDICTED: 5-hydroxytryptamine ...    76   7e-12
+gi|148707829|gb|EDL39776.1| mCG52273 [Mus musculus]                    76   7e-12
+gi|156399547|ref|XP_001638563.1| predicted protein [Nematostella...    76   7e-12
+gi|194748028|ref|XP_001956451.1| GF25215 [Drosophila ananassae] ...    76   7e-12
+gi|38258277|sp|Q923X5.1|TAA7D_RAT RecName: Full=Trace amine-asso...    76   7e-12
+gi|293341342|ref|XP_001064036.2| PREDICTED: G protein-coupled re...    76   8e-12
+gi|301789527|ref|XP_002930180.1| PREDICTED: b1 bradykinin recept...    76   8e-12
+gi|326664751|ref|XP_698473.4| PREDICTED: neuromedin-U receptor 2...    76   8e-12
+gi|307180188|gb|EFN68221.1| Neuromedin-U receptor 2 [Camponotus ...    76   8e-12
+gi|150378650|tpg|DAA06054.1| TPA_exp: G protein-coupled receptor...    76   8e-12
+gi|269979931|gb|ACZ56374.1| growth hormone secretagogue receptor...    76   9e-12
+gi|115699953|ref|XP_001199619.1| PREDICTED: similar to orphan G ...    76   9e-12
+gi|281344558|gb|EFB20142.1| hypothetical protein PANDA_020542 [A...    76   9e-12
+gi|241082205|ref|XP_002409017.1| neuropeptide FF receptor, putat...    76   9e-12
+gi|292619681|ref|XP_002664053.1| PREDICTED: galanin receptor typ...    76   9e-12
+gi|344246278|gb|EGW02382.1| G-protein coupled receptor 39 [Crice...    76   9e-12
+gi|321472086|gb|EFX83057.1| hypothetical protein DAPPUDRAFT_2238...    76   1e-11
+
+Searching..................................................done
+
+
+Results from round 2
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+gi|73992701|ref|XP_543088.2| PREDICTED: neurotensin receptor typ...   359   4e-97
+gi|344306334|ref|XP_003421843.1| PREDICTED: neurotensin receptor...   350   2e-94
+gi|110611243|ref|NP_002522.2| neurotensin receptor type 1 [Homo ...   347   1e-93
+gi|35021|emb|CAA49675.1| neurotensin receptor [Homo sapiens] >gn...   347   1e-93
+gi|54696338|gb|AAV38541.1| neurotensin receptor 1 (high affinity...   347   2e-93
+gi|119595751|gb|EAW75345.1| neurotensin receptor 1 (high affinit...   346   2e-93
+gi|296200874|ref|XP_002747793.1| PREDICTED: neurotensin receptor...   339   5e-91
+gi|149414049|ref|XP_001506365.1| PREDICTED: neurotensin receptor...   336   4e-90
+gi|301780738|ref|XP_002925779.1| PREDICTED: neurotensin receptor...   335   6e-90
+gi|149734162|ref|XP_001493279.1| PREDICTED: neurotensin receptor...   329   3e-88
+gi|326931931|ref|XP_003212077.1| PREDICTED: neurotensin receptor...   329   5e-88
+gi|297481802|ref|XP_002692455.1| PREDICTED: neurotensin receptor...   324   2e-86
+gi|300798587|ref|NP_001179588.1| neurotensin receptor type 1 [Bo...   323   2e-86
+gi|157822691|ref|NP_001102437.1| neurotensin receptor type 1 [Ra...   321   1e-85
+gi|344254953|gb|EGW11057.1| Neurotensin receptor type 1 [Cricetu...   316   3e-84
+gi|321116847|dbj|BAJ72343.1| neurotensin receptor 1 [Gallus gallus]   316   4e-84
+gi|9055296|ref|NP_061236.1| neurotensin receptor type 1 [Mus mus...   316   4e-84
+gi|224078434|ref|XP_002194686.1| PREDICTED: similar to neurotens...   310   2e-82
+gi|292626927|ref|XP_697816.4| PREDICTED: neurotensin receptor ty...   294   2e-77
+gi|109091369|ref|XP_001087416.1| PREDICTED: neurotensin receptor...   270   2e-70
+gi|52078095|gb|AAU25823.1| neurotensin receptor 1 [Rana catesbei...   266   4e-69
+gi|126303064|ref|XP_001376634.1| PREDICTED: neurotensin receptor...   261   1e-67
+gi|194664347|ref|XP_588365.4| PREDICTED: G protein-coupled recep...   257   1e-66
+gi|149711606|ref|XP_001495230.1| PREDICTED: neuromedin-U recepto...   242   9e-62
+gi|327281619|ref|XP_003225544.1| PREDICTED: neuromedin-U recepto...   239   5e-61
+gi|224060643|ref|XP_002190989.1| PREDICTED: similar to Neuromedi...   234   2e-59
+gi|326926012|ref|XP_003209200.1| PREDICTED: neuromedin-U recepto...   230   4e-58
+gi|68369196|ref|XP_695127.1| PREDICTED: neuromedin-U receptor 2-...   229   6e-58
+gi|301764122|ref|XP_002917495.1| PREDICTED: neuromedin-U recepto...   228   8e-58
+gi|315467910|dbj|BAJ49819.1| neuromedin U receptor 2 [Carassius ...   228   9e-58
+gi|317418658|emb|CBN80696.1| Neuromedin-U receptor 1 [Dicentrarc...   227   2e-57
+gi|229893721|gb|ACQ90220.1| pheromone biosynthesis-activating ne...   226   4e-57
+gi|76630247|ref|XP_586493.2| PREDICTED: neurotensin receptor typ...   225   7e-57
+gi|52078097|gb|AAU25824.1| neurotensin receptor 2 [Rana catesbei...   225   8e-57
+gi|301615883|ref|XP_002937396.1| PREDICTED: neuromedin-U recepto...   224   2e-56
+gi|148708270|gb|EDL40217.1| neuromedin U receptor 1 [Mus musculus]    223   3e-56
+gi|7110607|ref|NP_034471.1| neuromedin-U receptor 1 [Mus musculu...   223   3e-56
+gi|327279424|ref|XP_003224456.1| PREDICTED: neuromedin-U recepto...   223   4e-56
+gi|345481477|ref|XP_001606201.2| PREDICTED: neuropeptide Y recep...   222   5e-56
+gi|340713232|ref|XP_003395149.1| PREDICTED: neuromedin-U recepto...   220   2e-55
+gi|24646524|ref|NP_731790.1| CG8784 [Drosophila melanogaster] >g...   220   2e-55
+gi|281349807|gb|EFB25391.1| hypothetical protein PANDA_005717 [A...   220   3e-55
+gi|60729668|pir||JC8011 G protein-coupled neuropeptide pyrokinin...   219   5e-55
+gi|195329294|ref|XP_002031346.1| GM24101 [Drosophila sechellia] ...   219   5e-55
+gi|291387676|ref|XP_002710220.1| PREDICTED: neuromedin U recepto...   219   6e-55
+gi|22901726|gb|AAN10042.1| putative PRXamide receptor [Drosophil...   219   7e-55
+gi|118095167|ref|XP_426705.2| PREDICTED: similar to Neuromedin U...   218   8e-55
+gi|195571185|ref|XP_002103584.1| GD18898 [Drosophila simulans] >...   218   1e-54
+gi|229893723|gb|ACQ90221.1| pheromone biosynthesis-activating ne...   218   1e-54
+gi|194741220|ref|XP_001953087.1| GF17594 [Drosophila ananassae] ...   218   1e-54
+gi|335303498|ref|XP_003133772.2| PREDICTED: neuromedin-U recepto...   217   2e-54
+gi|91081453|ref|XP_973937.1| PREDICTED: similar to capa receptor...   217   2e-54
+gi|194901496|ref|XP_001980288.1| GG19589 [Drosophila erecta] >gn...   217   3e-54
+gi|195500763|ref|XP_002097513.1| GE26264 [Drosophila yakuba] >gn...   217   3e-54
+gi|148666060|gb|EDK98476.1| neurotensin receptor 2, isoform CRA_...   217   3e-54
+gi|224067651|ref|XP_002195061.1| PREDICTED: similar to neuromedi...   216   4e-54
+gi|229893725|gb|ACQ90222.1| pheromone biosynthesis-activating ne...   215   8e-54
+gi|332030935|gb|EGI70561.1| Neuropeptide capa receptor [Acromyrm...   215   1e-53
+gi|195036852|ref|XP_001989882.1| GH19039 [Drosophila grimshawi] ...   214   2e-53
+gi|344310426|gb|AEN03789.1| allatotropin receptor [Aedes aegypti]     213   2e-53
+gi|296205852|ref|XP_002749981.1| PREDICTED: neuromedin-U recepto...   212   5e-53
+gi|297676461|ref|XP_002816154.1| PREDICTED: LOW QUALITY PROTEIN:...   212   1e-52
+gi|270001281|gb|EEZ97728.1| hypothetical protein TcasGA2_TC01131...   210   2e-52
+gi|189241567|ref|XP_968501.2| PREDICTED: similar to pyrokinin-re...   210   3e-52
+gi|301774735|ref|XP_002922788.1| PREDICTED: neurotensin receptor...   210   3e-52
+gi|281351315|gb|EFB26899.1| hypothetical protein PANDA_011799 [A...   210   4e-52
+gi|62529001|gb|AAX84798.1| pyrokinin-like receptor 2 [Anopheles ...   209   5e-52
+gi|333468419|gb|EGK96940.1| AGAP003076-PB [Anopheles gambiae str...   209   5e-52
+gi|47217151|emb|CAG03508.1| unnamed protein product [Tetraodon n...   208   1e-51
+gi|149731104|ref|XP_001494050.1| PREDICTED: growth hormone secre...   208   1e-51
+gi|22328109|gb|AAH36543.1| Neuromedin U receptor 1 [Homo sapiens]     207   3e-51
+gi|332815670|ref|XP_001140471.2| PREDICTED: neuromedin-U recepto...   206   4e-51
+gi|188497623|ref|NP_006047.3| neuromedin-U receptor 1 [Homo sapi...   206   4e-51
+gi|195037264|ref|XP_001990084.1| GH19145 [Drosophila grimshawi] ...   206   6e-51
+gi|15823689|dbj|BAB69060.1| low affinity neurotensin receptor [M...   205   6e-51
+gi|2865470|gb|AAC02680.1| orphan G protein-coupled receptor [Hom...   205   6e-51
+gi|121583912|ref|NP_032773.2| neurotensin receptor type 2 [Mus m...   205   9e-51
+gi|47523448|ref|NP_999345.1| growth hormone secretagogue recepto...   205   1e-50
+gi|12083651|ref|NP_073186.1| neurotensin receptor type 2 [Rattus...   205   1e-50
+gi|229893719|gb|ACQ90219.1| pheromone biosynthesis-activating ne...   205   1e-50
+gi|160386036|sp|A5A4L1.1|GHSR_MUSPF RecName: Full=Growth hormone...   204   2e-50
+gi|221139823|ref|NP_001137208.1| growth hormone secretagogue rec...   204   2e-50
+gi|228008045|dbj|BAH57571.1| growth hormone secretagogue recepto...   203   2e-50
+gi|344265671|ref|XP_003404906.1| PREDICTED: neuromedin-U recepto...   203   3e-50
+gi|296227557|ref|XP_002759428.1| PREDICTED: growth hormone secre...   203   3e-50
+gi|344244481|gb|EGW00585.1| Neuromedin-U receptor 1 [Cricetulus ...   203   3e-50
+gi|228008052|dbj|BAH57573.1| growth hormone secretagogue recepto...   203   3e-50
+gi|342671947|dbj|BAK57312.1| growth hormone secretagogue recepto...   203   3e-50
+gi|118097442|ref|XP_425209.2| PREDICTED: similar to neuromedin U...   203   3e-50
+gi|2494988|sp|P70310.1|NTR2_MOUSE RecName: Full=Neurotensin rece...   203   4e-50
+gi|301623309|ref|XP_002940961.1| PREDICTED: neuromedin-U recepto...   203   4e-50
+gi|14140234|ref|NP_114464.1| growth hormone secretagogue recepto...   202   5e-50
+gi|195109064|ref|XP_001999110.1| GI23252 [Drosophila mojavensis]...   202   6e-50
+gi|228008118|dbj|BAH57565.1| growth hormone secretagogue recepto...   202   6e-50
+gi|28893445|ref|NP_796304.1| growth hormone secretagogue recepto...   202   6e-50
+gi|326930722|ref|XP_003211491.1| PREDICTED: galanin receptor typ...   202   8e-50
+gi|197209900|ref|NP_001127714.1| neuropeptide receptor A16 [Bomb...   202   8e-50
+gi|344252388|gb|EGW08492.1| Neurotensin receptor type 2 [Cricetu...   202   8e-50
+gi|344243903|gb|EGW00007.1| Growth hormone secretagogue receptor...   202   9e-50
+gi|346644609|dbj|BAK79080.1| growth hormone secretagogue recepto...   201   1e-49
+gi|153792311|ref|NP_001093415.1| growth hormone secretagogue rec...   201   2e-49
+gi|126337620|ref|XP_001367638.1| PREDICTED: endothelin B recepto...   200   2e-49
+gi|345307953|ref|XP_001508714.2| PREDICTED: neuromedin-U recepto...   200   2e-49
+gi|73980436|ref|XP_540085.2| PREDICTED: neurotensin receptor typ...   200   2e-49
+gi|149052674|gb|EDM04491.1| neuromedin U receptor 2 [Rattus norv...   200   4e-49
+gi|3004964|gb|AAC23486.1| endothelin receptor type B [Equus caba...   199   5e-49
+gi|62087976|dbj|BAD92435.1| endothelin receptor type B isoform 1...   199   5e-49
+gi|83288329|sp|Q9ESQ4.2|NMUR2_RAT RecName: Full=Neuromedin-U rec...   199   5e-49
+gi|344925883|ref|NP_001010943.2| endothelin B receptor precursor...   199   5e-49
+gi|326928544|ref|XP_003210437.1| PREDICTED: neuromedin-U recepto...   199   6e-49
+gi|238005547|dbj|BAH60674.1| growth hormone secretagogue recepto...   199   6e-49
+gi|8926588|gb|AAF81902.1|AF276427_1 endothelin B receptor [Canis...   199   6e-49
+gi|118780947|ref|XP_311184.3| putative growth hormone releasing ...   199   7e-49
+gi|4580924|gb|AAD24541.1|AF114165_1 endothelin receptor B delta ...   199   7e-49
+gi|31543324|ref|NP_071611.2| neuromedin-U receptor 2 [Rattus nor...   198   7e-49
+gi|319655697|ref|NP_001188326.1| endothelin B receptor isoform 3...   198   7e-49
+gi|306756046|gb|ADN05127.1| growth hormone secretagogue receptor...   198   8e-49
+gi|998644|gb|AAB34052.1| endothelin receptor subtype B, ETB [hum...   198   8e-49
+gi|297694246|ref|XP_002824394.1| PREDICTED: LOW QUALITY PROTEIN:...   198   8e-49
+gi|57085713|ref|XP_546288.1| PREDICTED: neuromedin-U receptor 2 ...   198   8e-49
+gi|62512169|sp|P56497.3|EDNRB_CANFA RecName: Full=Endothelin B r...   198   9e-49
+gi|158254834|dbj|BAF83388.1| unnamed protein product [Homo sapiens]   198   9e-49
+gi|297274617|ref|XP_001089047.2| PREDICTED: endothelin B recepto...   198   9e-49
+gi|292627700|ref|XP_002666717.1| PREDICTED: growth hormone secre...   198   1e-48
+gi|195109066|ref|XP_001999111.1| GI24332 [Drosophila mojavensis]...   198   1e-48
+gi|340728353|ref|XP_003402490.1| PREDICTED: orexin receptor type...   198   1e-48
+gi|83921631|ref|NP_001033091.1| endothelin B receptor precursor ...   198   1e-48
+gi|55639883|ref|XP_509693.1| PREDICTED: endothelin B receptor is...   198   1e-48
+gi|194219683|ref|XP_001917596.1| PREDICTED: LOW QUALITY PROTEIN:...   198   1e-48
+gi|301772430|ref|XP_002921634.1| PREDICTED: growth hormone secre...   198   1e-48
+gi|233234|gb|AAB19411.1| ETB endothelin receptor [Homo sapiens]       198   1e-48
+gi|27805819|ref|NP_776734.1| endothelin B receptor precursor [Bo...   198   1e-48
+gi|344275219|ref|XP_003409411.1| PREDICTED: LOW QUALITY PROTEIN:...   198   1e-48
+gi|62528999|gb|AAX84797.1| pyrokinin-like receptor 1 [Anopheles ...   198   1e-48
+gi|4557547|ref|NP_000106.1| endothelin B receptor isoform 1 prec...   198   2e-48
+gi|332216541|ref|XP_003257409.1| PREDICTED: endothelin B recepto...   197   2e-48
+gi|208967785|dbj|BAG72538.1| endothelin receptor type B [synthet...   197   2e-48
+gi|238005549|dbj|BAH60675.1| growth hormone secretagogue recepto...   197   2e-48
+gi|90078232|dbj|BAE88796.1| unnamed protein product [Macaca fasc...   197   2e-48
+gi|9082154|gb|AAF82754.1|AF242873_1 neuromedin U receptor 1 [Rat...   197   2e-48
+gi|185132105|ref|NP_001118066.1| growth hormone secretagogue rec...   197   3e-48
+gi|195394920|ref|XP_002056087.1| GJ10418 [Drosophila virilis] >g...   197   3e-48
+gi|195451766|ref|XP_002073066.1| GK13937 [Drosophila willistoni]...   197   3e-48
+gi|323508388|dbj|BAJ77121.1| endothelin receptor type B [Capra h...   197   3e-48
+gi|78045495|ref|NP_001030220.1| neuromedin-U receptor 2 [Bos tau...   197   3e-48
+gi|3334903|gb|AAC26970.1| endothelin receptor B [Canis lupus fam...   197   3e-48
+gi|281345853|gb|EFB21437.1| hypothetical protein PANDA_015096 [A...   197   3e-48
+gi|306756044|gb|ADN05126.1| growth hormone secretagogue receptor...   197   4e-48
+gi|8393333|ref|NP_059029.1| endothelin B receptor precursor [Rat...   196   5e-48
+gi|148668175|gb|EDL00505.1| endothelin receptor type B, isoform ...   196   5e-48
+gi|308233379|dbj|BAJ22792.1| growth hormone secretagogue recepto...   196   5e-48
+gi|189535554|ref|XP_685405.3| PREDICTED: neuromedin-U receptor 1...   195   7e-48
+gi|16754689|gb|AAL26695.1| neuromedin U receptor type 2 [Mus mus...   195   7e-48
+gi|12831219|ref|NP_075588.1| neuromedin-U receptor 1 [Rattus nor...   195   8e-48
+gi|126352462|ref|NP_001075306.1| endothelin B receptor precursor...   195   8e-48
+gi|56123|emb|CAA40916.1| ET-B endothelin receptor [Rattus norveg...   195   9e-48
+gi|22128033|gb|AAM92568.1|AE014177_1 endothelin receptor type B ...   195   1e-47
+gi|291387095|ref|XP_002710122.1| PREDICTED: neurotensin receptor...   195   1e-47
+gi|31543326|ref|NP_694719.2| neuromedin-U receptor 2 [Mus muscul...   195   1e-47
+gi|315467908|dbj|BAJ49818.1| neuromedin U receptor 1 [Carassius ...   195   1e-47
+gi|301780316|ref|XP_002925574.1| PREDICTED: endothelin B recepto...   195   1e-47
+gi|6681269|ref|NP_031930.1| endothelin B receptor isoform 1 [Mus...   194   1e-47
+gi|332254951|ref|XP_003276599.1| PREDICTED: LOW QUALITY PROTEIN:...   194   2e-47
+gi|327266808|ref|XP_003218196.1| PREDICTED: growth hormone secre...   193   2e-47
+gi|170932505|ref|NP_064552.3| neuromedin-U receptor 2 [Homo sapi...   193   3e-47
+gi|9944990|gb|AAG03064.1|AF292402_1 neuromedin U receptor-type 2...   193   3e-47
+gi|16877377|gb|AAH16938.1| Neuromedin U receptor 2 [Homo sapiens...   193   4e-47
+gi|9082156|gb|AAF82755.1|AF242874_1 neuromedin U receptor 2 [Hom...   193   4e-47
+gi|323433877|gb|ADX66344.1| allatotropin receptor [Manduca sexta]     193   5e-47
+gi|164451925|gb|ABY56825.1| growth hormone secretagogue receptor...   192   5e-47
+gi|71841593|gb|AAZ43087.1| pk-1 receptor [Anopheles gambiae]          192   6e-47
+gi|55625238|ref|XP_527091.1| PREDICTED: neuromedin-U receptor 2 ...   192   7e-47
+gi|63169636|gb|AAY34744.1| pheromone biosynthesis activating neu...   192   7e-47
+gi|162295917|gb|ABX83905.1| growth hormone secretagogue receptor...   192   7e-47
+gi|326673994|ref|XP_003200046.1| PREDICTED: growth hormone secre...   192   8e-47
+gi|188536273|gb|ABY62317.2| pheromone biosynthesis-activating ne...   191   1e-46
+gi|88771691|gb|ABD52277.1| pheromone biosynthesis activating neu...   191   1e-46
+gi|307209904|gb|EFN86683.1| Neuropeptides capa receptor [Harpegn...   191   1e-46
+gi|91083969|ref|XP_975121.1| PREDICTED: similar to CG34381 CG343...   191   2e-46
+gi|157201141|dbj|BAF80118.1| growth hormone secretagogue recepto...   191   2e-46
+gi|345790480|ref|XP_003433375.1| PREDICTED: neuromedin-U recepto...   190   3e-46
+gi|322796108|gb|EFZ18684.1| hypothetical protein SINV_01561 [Sol...   190   3e-46
+gi|157888794|dbj|BAF80872.1| growth hormone secretagogue recepto...   189   6e-46
+gi|118783087|ref|XP_312761.3| putative growth hormone releasing ...   188   1e-45
+gi|195022120|ref|XP_001985521.1| GH14454 [Drosophila grimshawi] ...   187   2e-45
+gi|195146126|ref|XP_002014041.1| GL24468 [Drosophila persimilis]...   187   2e-45
+gi|125774271|ref|XP_001358394.1| GA21320 [Drosophila pseudoobscu...   187   3e-45
+gi|47220933|emb|CAG03466.1| unnamed protein product [Tetraodon n...   186   3e-45
+gi|189233529|ref|NP_001121535.1| galanin receptor type 2 [Gallus...   186   5e-45
+gi|41055468|ref|NP_956711.1| G-protein coupled receptor 39 [Dani...   185   7e-45
+gi|195128337|ref|XP_002008620.1| GI13590 [Drosophila mojavensis]...   185   8e-45
+gi|194871386|ref|XP_001972838.1| GG13659 [Drosophila erecta] >gn...   185   8e-45
+gi|242007126|ref|XP_002424393.1| class B secretin-like G-protein...   185   1e-44
+gi|156147326|gb|ABU53897.1| G-protein coupled receptor 39-1a [Da...   185   1e-44
+gi|157138044|ref|XP_001657210.1| pyrokinin receptor [Aedes aegyp...   184   1e-44
+gi|195440212|ref|XP_002067936.1| GK11187 [Drosophila willistoni]...   184   2e-44
+gi|195379210|ref|XP_002048373.1| GJ13930 [Drosophila virilis] >g...   183   3e-44
+gi|307196750|gb|EFN78209.1| Galanin receptor type 2 [Harpegnatho...   183   3e-44
+gi|4503467|ref|NP_003982.1| endothelin B receptor isoform 2 prec...   183   3e-44
+gi|327277358|ref|XP_003223432.1| PREDICTED: endothelin B recepto...   182   7e-44
+gi|255683495|ref|NP_001157480.1| pyrokinin-like receptor 1 [Apis...   182   8e-44
+gi|301603913|ref|XP_002931618.1| PREDICTED: growth hormone secre...   181   1e-43
+gi|260793912|ref|XP_002591954.1| hypothetical protein BRAFLDRAFT...   180   2e-43
+gi|195435746|ref|XP_002065840.1| GK20338 [Drosophila willistoni]...   179   6e-43
+gi|292619681|ref|XP_002664053.1| PREDICTED: galanin receptor typ...   178   2e-42
+gi|62528997|gb|AAX84796.1| CAPA-like receptor [Anopheles gambiae]     177   2e-42
+gi|112983446|ref|NP_001036977.1| pheromone biosynthesis activati...   177   2e-42
+gi|3493643|gb|AAC33473.1| orphan G protein-coupled receptor [Sph...   175   9e-42
+gi|307207299|gb|EFN85049.1| Neuropeptides capa receptor [Harpegn...   175   1e-41
+gi|308473693|ref|XP_003099070.1| CRE-NMUR-4 protein [Caenorhabdi...   174   2e-41
+gi|345315260|ref|XP_001518585.2| PREDICTED: neuromedin-U recepto...   174   2e-41
+gi|345484257|ref|XP_003424987.1| PREDICTED: LOW QUALITY PROTEIN:...   173   3e-41
+gi|341879540|gb|EGT35475.1| CBN-NMUR-4 protein [Caenorhabditis b...   172   6e-41
+gi|17505777|ref|NP_491990.1| hypothetical protein C30F12.6 [Caen...   172   9e-41
+gi|341883263|gb|EGT39198.1| hypothetical protein CAEBREN_31688 [...   172   9e-41
+gi|292627430|ref|XP_002666635.1| PREDICTED: type-1 angiotensin I...   171   1e-40
+gi|25151251|ref|NP_497057.2| hypothetical protein Y54E2A.1 [Caen...   171   2e-40
+gi|229576836|ref|NP_001153387.1| pyrokinin/capa receptor 2 [Naso...   170   2e-40
+gi|47215045|emb|CAF95899.1| unnamed protein product [Tetraodon n...   170   4e-40
+gi|322801293|gb|EFZ21980.1| hypothetical protein SINV_09915 [Sol...   169   5e-40
+gi|260792561|ref|XP_002591283.1| hypothetical protein BRAFLDRAFT...   168   8e-40
+gi|3493641|gb|AAC33472.1| orphan G protein-coupled receptor [Sph...   168   1e-39
+gi|260807876|ref|XP_002598734.1| hypothetical protein BRAFLDRAFT...   168   2e-39
+gi|311033404|sp|O95665.2|NTR2_HUMAN RecName: Full=Neurotensin re...   168   2e-39
+gi|301615284|ref|XP_002937107.1| PREDICTED: growth hormone secre...   167   2e-39
+gi|224471785|dbj|BAH23869.1| prolactin-releasing peptide recepto...   167   2e-39
+gi|6912538|ref|NP_036476.1| neurotensin receptor type 2 [Homo sa...   167   2e-39
+gi|157279929|ref|NP_001098480.1| galanin receptor type 2 [Bos ta...   167   2e-39
+gi|297265444|ref|XP_002799189.1| PREDICTED: neurotensin receptor...   167   2e-39
+gi|260804261|ref|XP_002597007.1| hypothetical protein BRAFLDRAFT...   167   3e-39
+gi|18490912|gb|AAH22501.1| Neurotensin receptor 2 [Homo sapiens]...   167   3e-39
+gi|301612573|ref|XP_002935793.1| PREDICTED: motilin receptor-lik...   167   3e-39
+gi|4585668|emb|CAB40835.1| angiotensin receptor [Anguilla anguilla]   166   5e-39
+gi|260793920|ref|XP_002591958.1| hypothetical protein BRAFLDRAFT...   165   7e-39
+gi|334325037|ref|XP_001373154.2| PREDICTED: neuromedin-U recepto...   165   8e-39
+gi|296224472|ref|XP_002807605.1| PREDICTED: LOW QUALITY PROTEIN:...   165   8e-39
+gi|260793924|ref|XP_002591960.1| hypothetical protein BRAFLDRAFT...   165   9e-39
+gi|68366932|ref|XP_688565.1| PREDICTED: endothelin B receptor [D...   165   1e-38
+gi|195053980|ref|XP_001993904.1| GH22190 [Drosophila grimshawi] ...   165   1e-38
+gi|260804241|ref|XP_002596997.1| hypothetical protein BRAFLDRAFT...   165   1e-38
+gi|327277320|ref|XP_003223413.1| PREDICTED: growth hormone secre...   165   1e-38
+gi|193870725|gb|ACF22973.1| neuropeptide Y receptor Y2 [Callorhi...   164   2e-38
+gi|149016340|gb|EDL75586.1| neuromedin U receptor 1 [Rattus norv...   164   2e-38
+gi|294774344|dbj|BAJ05629.1| endothelin receptor alpha [Lethente...   164   2e-38
+gi|71895973|ref|NP_001025633.1| pyrimidinergic receptor P2Y, G-p...   164   2e-38
+gi|84579295|dbj|BAE73081.1| hypothetical protein [Macaca fascicu...   163   4e-38
+gi|239949617|gb|ACS36605.1| growth hormone secretagog receptor 1...   163   5e-38
+gi|147902830|ref|NP_001080343.1| P2Y purinoceptor 4 [Xenopus lae...   163   5e-38
+gi|340727134|ref|XP_003401905.1| PREDICTED: galanin receptor typ...   163   5e-38
+gi|260805612|ref|XP_002597680.1| hypothetical protein BRAFLDRAFT...   163   5e-38
+gi|2829680|sp|P79928.1|P2RY4_XENLA RecName: Full=P2Y purinocepto...   163   6e-38
+gi|195438288|ref|XP_002067069.1| GK24218 [Drosophila willistoni]...   162   6e-38
+gi|163916592|gb|AAI57737.1| P2ry4 protein [Xenopus laevis]            162   7e-38
+gi|156370963|ref|XP_001628536.1| predicted protein [Nematostella...   161   1e-37
+gi|260833474|ref|XP_002611682.1| hypothetical protein BRAFLDRAFT...   161   1e-37
+gi|317419971|emb|CBN82007.1| Type-1 angiotensin II receptor [Dic...   161   2e-37
+gi|242019190|ref|XP_002430047.1| class A rhodopsin-like G-protei...   161   2e-37
+gi|87299594|ref|NP_001034615.1| prolactin-releasing peptide rece...   161   2e-37
+gi|185135451|ref|NP_001117065.1| prolactin-releasing peptide rec...   160   3e-37
+gi|126471025|dbj|BAF48111.1| angiotensin receptor [Bufo marinus]      160   4e-37
+gi|148224730|ref|NP_001083132.1| type-1 angiotensin II receptor ...   160   4e-37
+gi|1351896|sp|P32303.2|AGTRA_XENLA RecName: Full=Type-1 angioten...   160   5e-37
+gi|118100686|ref|XP_425707.2| PREDICTED: similar to neurotensin ...   159   5e-37
+gi|224085776|ref|XP_002189484.1| PREDICTED: arginine vasopressin...   159   5e-37
+gi|82524842|ref|NP_783181.2| trace amine-associated receptor 7d ...   159   5e-37
+gi|306518597|ref|NP_990530.2| lysophosphatidic acid receptor 6 [...   159   8e-37
+gi|126327930|ref|XP_001368709.1| PREDICTED: p2Y purinoceptor 6-l...   159   8e-37
+gi|224097782|ref|XP_002188000.1| PREDICTED: G protein-coupled re...   158   9e-37
+gi|326924216|ref|XP_003208327.1| PREDICTED: lysophosphatidic aci...   158   9e-37
+gi|50745545|ref|XP_420150.1| PREDICTED: hypothetical protein [Ga...   158   1e-36
+gi|332247347|ref|XP_003272817.1| PREDICTED: LOW QUALITY PROTEIN:...   158   1e-36
+gi|156405691|ref|XP_001640865.1| predicted protein [Nematostella...   158   1e-36
+gi|38258277|sp|Q923X5.1|TAA7D_RAT RecName: Full=Trace amine-asso...   158   1e-36
+gi|47221096|emb|CAG12790.1| unnamed protein product [Tetraodon n...   158   2e-36
+gi|296198450|ref|XP_002746736.1| PREDICTED: orexin receptor type...   157   2e-36
+gi|118783385|ref|XP_312953.3| putative growth hormone releasing ...   157   2e-36
+gi|194018626|ref|NP_001123399.1| angiotensin 2 receptor, type 1 ...   157   3e-36
+gi|270002919|gb|EEZ99366.1| hypothetical protein TcasGA2_TC00497...   156   3e-36
+gi|291397078|ref|XP_002714894.1| PREDICTED: neuromedin B recepto...   156   3e-36
+gi|326914178|ref|XP_003203404.1| PREDICTED: motilin receptor-lik...   156   4e-36
+gi|63100803|gb|AAH95538.1| Lysophosphatidic acid receptor 4 [Hom...   156   4e-36
+gi|148236657|ref|NP_001079250.1| type-1 angiotensin II receptor ...   156   5e-36
+gi|260804243|ref|XP_002596998.1| hypothetical protein BRAFLDRAFT...   156   5e-36
+gi|4885311|ref|NP_005287.1| lysophosphatidic acid receptor 4 [Ho...   156   5e-36
+gi|114689258|ref|XP_521150.2| PREDICTED: lysophosphatidic acid r...   156   6e-36
+gi|297710417|ref|XP_002831883.1| PREDICTED: lysophosphatidic aci...   156   6e-36
+gi|109131327|ref|XP_001101441.1| PREDICTED: lysophosphatidic aci...   155   9e-36
+gi|296235863|ref|XP_002763078.1| PREDICTED: lysophosphatidic aci...   155   9e-36
+gi|295389396|dbj|BAJ06368.1| lysophosphatidic acid receptor-4 [M...   155   9e-36
+gi|344256491|gb|EGW12595.1| Lysophosphatidic acid receptor 4 [Cr...   155   9e-36
+gi|2240035|gb|AAB66322.1| P2Y5-like receptor [Homo sapiens]           155   1e-35
+gi|241082205|ref|XP_002409017.1| neuropeptide FF receptor, putat...   155   1e-35
+gi|187937191|ref|NP_001120785.1| motilin receptor [Gallus gallus...   155   1e-35
+gi|417040|sp|P32250.1|LPAR6_CHICK RecName: Full=Lysophosphatidic...   155   1e-35
+gi|197209922|ref|NP_001127725.1| neuropeptide receptor A27 [Bomb...   155   1e-35
+gi|125827601|ref|XP_001332886.1| PREDICTED: p2Y purinoceptor 2-l...   155   1e-35
+gi|148236289|ref|NP_001091574.1| lysophosphatidic acid receptor ...   155   1e-35
+gi|47122836|gb|AAH69996.1| Lysophosphatidic acid receptor 4 [Hom...   155   1e-35
+gi|157818577|ref|NP_001100410.1| lysophosphatidic acid receptor ...   155   1e-35
+gi|338715463|ref|XP_003363272.1| PREDICTED: lysophosphatidic aci...   155   1e-35
+gi|149744791|ref|XP_001501471.1| PREDICTED: lysophosphatidic aci...   155   1e-35
+gi|335287614|ref|XP_003355396.1| PREDICTED: galanin receptor typ...   155   1e-35
+gi|326933792|ref|XP_003212983.1| PREDICTED: vasopressin V1b rece...   155   1e-35
+gi|301790870|ref|XP_002930440.1| PREDICTED: lysophosphatidic aci...   155   2e-35
+gi|321461639|gb|EFX72669.1| putative neuropeptide G protein-coup...   154   2e-35
+gi|291407910|ref|XP_002720181.1| PREDICTED: lysophosphatidic aci...   154   2e-35
+gi|344281806|ref|XP_003412668.1| PREDICTED: lysophosphatidic aci...   154   2e-35
+gi|113951677|ref|NP_001039308.1| lysophosphatidic acid receptor ...   154   2e-35
+gi|26342134|dbj|BAC34729.1| unnamed protein product [Mus musculus]    154   2e-35
+gi|198435358|ref|XP_002122839.1| PREDICTED: similar to Galanin r...   154   2e-35
+gi|30424718|ref|NP_780325.1| lysophosphatidic acid receptor 6 [M...   154   2e-35
+gi|296189291|ref|XP_002742718.1| PREDICTED: lysophosphatidic aci...   153   3e-35
+gi|326669372|ref|XP_001921651.2| PREDICTED: p2Y purinoceptor 4-l...   153   4e-35
+gi|31873392|emb|CAD97687.1| hypothetical protein [Homo sapiens]       153   4e-35
+gi|28212244|ref|NP_783177.1| trace amine-associated receptor 7h ...   153   4e-35
+gi|2232069|gb|AAB62190.1| purinergic receptor P2Y5 [Homo sapiens]     153   4e-35
+gi|147901001|ref|NP_001090494.1| lysophosphatidic acid receptor ...   153   4e-35
+gi|344253824|gb|EGW09928.1| Oleoyl-L-alpha-lysophosphatidic acid...   153   4e-35
+gi|33695113|ref|NP_005758.2| lysophosphatidic acid receptor 6 [H...   153   4e-35
+gi|327286248|ref|XP_003227843.1| PREDICTED: lysophosphatidic aci...   153   4e-35
+gi|118403856|ref|NP_001072847.1| lysophosphatidic acid receptor ...   153   5e-35
+gi|62898339|dbj|BAD97109.1| G-protein coupled purinergic recepto...   153   5e-35
+gi|332841287|ref|XP_001151721.2| PREDICTED: lysophosphatidic aci...   153   5e-35
+gi|74007893|ref|XP_549098.2| PREDICTED: lysophosphatidic acid re...   152   6e-35
+gi|344281986|ref|XP_003412756.1| PREDICTED: lysophosphatidic aci...   152   6e-35
+gi|193784714|dbj|BAG53867.1| unnamed protein product [Homo sapiens]   152   6e-35
+gi|334350337|ref|XP_001372840.2| PREDICTED: lysophosphatidic aci...   152   7e-35
+gi|321466118|gb|EFX77115.1| hypothetical protein DAPPUDRAFT_5451...   152   7e-35
+gi|301621440|ref|XP_002940056.1| PREDICTED: 5-hydroxytryptamine ...   152   9e-35
+gi|227016454|gb|ACP18687.1| trace amine-associated receptor 5 [L...   152   9e-35
+gi|268578001|ref|XP_002643983.1| C. briggsae CBR-NPR-9 protein [...   152   9e-35
+gi|31873378|emb|CAD97680.1| hypothetical protein [Homo sapiens]       151   1e-34
+gi|301765272|ref|XP_002918064.1| PREDICTED: p2Y purinoceptor 4-l...   151   1e-34
+gi|26337229|dbj|BAC32299.1| unnamed protein product [Mus musculus]    151   1e-34
+gi|332230469|ref|XP_003264417.1| PREDICTED: galanin receptor typ...   151   2e-34
+gi|125834502|ref|XP_001334713.1| PREDICTED: lysophosphatidic aci...   151   2e-34
+gi|254998322|dbj|BAH88922.1| P2Y5 [Mesocricetus auratus]              150   3e-34
+gi|169636451|ref|NP_001108618.1| si:ch211-271b8.4 [Danio rerio] ...   150   3e-34
+gi|260826307|ref|XP_002608107.1| hypothetical protein BRAFLDRAFT...   150   3e-34
+gi|338715977|ref|XP_003363375.1| PREDICTED: growth hormone secre...   150   3e-34
+gi|308458355|ref|XP_003091521.1| hypothetical protein CRE_26823 ...   150   3e-34
+gi|296222903|ref|XP_002757388.1| PREDICTED: galanin receptor typ...   150   3e-34
+gi|195434765|ref|XP_002065373.1| GK14702 [Drosophila willistoni]...   150   4e-34
+gi|301611243|ref|XP_002935149.1| PREDICTED: lysophosphatidic aci...   150   4e-34
+gi|69218028|gb|AAZ04131.1| prolactin-releasing peptide receptor ...   150   5e-34
+gi|37726744|gb|AAO34525.1| G protein-coupled receptor [Drosophil...   149   5e-34
+gi|301621018|ref|XP_002939852.1| PREDICTED: 5-hydroxytryptamine ...   149   6e-34
+gi|118088537|ref|XP_001231565.1| PREDICTED: similar to Trace ami...   149   6e-34
+gi|161076718|ref|NP_608962.2| CG34381, isoform A [Drosophila mel...   149   7e-34
+gi|71895639|ref|NP_001026669.1| vasopressin V1b receptor [Gallus...   149   8e-34
+gi|158259491|dbj|BAF85704.1| unnamed protein product [Homo sapiens]   149   8e-34
+gi|169153826|emb|CAQ14214.1| novel protein similar to vertebrate...   148   9e-34
+gi|166344073|gb|ABY86759.1| endothelin C receptor [Fundulus hete...   148   1e-33
+gi|291221873|ref|XP_002730943.1| PREDICTED: thyrotropin releasin...   148   1e-33
+gi|260832776|ref|XP_002611333.1| hypothetical protein BRAFLDRAFT...   148   1e-33
+gi|114673689|ref|XP_523975.2| PREDICTED: galanin receptor type 1...   148   2e-33
+gi|109107862|ref|XP_001115246.1| PREDICTED: p2Y purinoceptor 6 i...   148   2e-33
+gi|308199499|ref|NP_001184075.1| trace amine-associated receptor...   147   2e-33
+gi|261289283|ref|XP_002603085.1| hypothetical protein BRAFLDRAFT...   147   2e-33
+gi|344252735|gb|EGW08839.1| Neuromedin-U receptor 2 [Cricetulus ...   147   3e-33
+gi|162295919|gb|ABX83906.1| growth hormone secretagogue receptor...   147   3e-33
+
+Sequences not found previously or not previously below threshold:
+
+gi|345484951|ref|XP_001604582.2| PREDICTED: orexin receptor type...   186   5e-45
+gi|301621387|ref|XP_002940025.1| PREDICTED: galanin receptor typ...   179   7e-43
+gi|327264993|ref|XP_003217293.1| PREDICTED: galanin receptor typ...   178   1e-42
+gi|189239225|ref|XP_973738.2| PREDICTED: similar to orexin recep...   178   2e-42
+gi|296061831|emb|CBL55500.1| endothelin receptor B [Oryctolagus ...   175   1e-41
+gi|47220082|emb|CAG12230.1| unnamed protein product [Tetraodon n...   174   2e-41
+gi|218563766|ref|NP_001001127.1| endothelin receptor type B [Gal...   173   3e-41
+gi|326929439|ref|XP_003210871.1| PREDICTED: galanin receptor typ...   172   7e-41
+gi|191991849|ref|NP_001122137.1| G protein-coupled receptor 151 ...   171   1e-40
+gi|130504631|ref|NP_001076190.1| endothelin B receptor precursor...   170   2e-40
+gi|156717806|ref|NP_001096443.1| hypothetical protein LOC1001250...   170   4e-40
+gi|83416255|gb|ABC18170.1| type 1 orexin receptor [Sus scrofa]        170   5e-40
+gi|327267911|ref|XP_003218742.1| PREDICTED: endothelin B recepto...   168   1e-39
+gi|198466389|ref|XP_002135178.1| GA23907 [Drosophila pseudoobscu...   168   1e-39
+gi|110765902|ref|XP_001123033.1| PREDICTED: neuropeptide Y recep...   168   1e-39
+gi|195494582|ref|XP_002094899.1| GE19956 [Drosophila yakuba] >gn...   167   2e-39
+gi|18031651|gb|AAG54080.1| allatostatin C/drostatin C receptor 1...   167   2e-39
+gi|125813135|ref|XP_001339169.1| PREDICTED: galanin receptor typ...   167   3e-39
+gi|195352164|ref|XP_002042584.1| GM14973 [Drosophila sechellia] ...   166   3e-39
+gi|45550648|ref|NP_649040.2| allatostatin C receptor 1 [Drosophi...   166   3e-39
+gi|195591284|ref|XP_002085372.1| GD14751 [Drosophila simulans] >...   166   4e-39
+gi|195107430|ref|XP_001998315.1| GI23895 [Drosophila mojavensis]...   166   4e-39
+gi|194751837|ref|XP_001958230.1| GF23626 [Drosophila ananassae] ...   166   5e-39
+gi|149409053|ref|XP_001508247.1| PREDICTED: neuromedin-B recepto...   165   7e-39
+gi|260827746|ref|XP_002608825.1| hypothetical protein BRAFLDRAFT...   165   9e-39
+gi|300676956|gb|ADK26827.1| hypocretin (orexin) receptor 2 [Zono...   165   1e-38
+gi|300676776|gb|ADK26652.1| hypocretin (orexin) receptor 2 [Zono...   165   1e-38
+gi|109000952|ref|XP_001099090.1| PREDICTED: orexin receptor type...   165   1e-38
+gi|1314330|gb|AAB07760.1| neuropeptide y/peptide YY receptor typ...   164   2e-38
+gi|224048609|ref|XP_002195247.1| PREDICTED: hypocretin (orexin) ...   164   2e-38
+gi|120300948|ref|NP_001073337.1| orexin receptor type 2 [Danio r...   163   3e-38
+gi|345328470|ref|XP_001514852.2| PREDICTED: endothelin B recepto...   163   4e-38
+gi|2494960|sp|Q90328.1|EDNRB_COTJA RecName: Full=Endothelin B re...   162   7e-38
+gi|21667326|gb|AAM74023.1|AF472616_1 endothelin receptor type B ...   162   7e-38
+gi|118404350|ref|NP_001072476.1| endothelin receptor type B [Xen...   160   3e-37
+gi|224095222|ref|XP_002195920.1| PREDICTED: galanin receptor 3 [...   160   3e-37
+gi|166344071|gb|ABY86758.1| endothelin B1 receptor [Fundulus het...   160   4e-37
+gi|112817632|ref|NP_001036811.1| orexin receptor type 1 [Sus scr...   160   4e-37
+gi|301609404|ref|XP_002934279.1| PREDICTED: galanin receptor typ...   159   6e-37
+gi|195171981|ref|XP_002026780.1| GL27012 [Drosophila persimilis]...   159   6e-37
+gi|338722030|ref|XP_001917460.2| PREDICTED: LOW QUALITY PROTEIN:...   158   9e-37
+gi|47223409|emb|CAG04270.1| unnamed protein product [Tetraodon n...   158   9e-37
+gi|198467397|ref|XP_002134525.1| GA22343 [Drosophila pseudoobscu...   158   1e-36
+gi|55700008|dbj|BAD69656.1| endothelin receptor b1 [Dimidiochrom...   158   2e-36
+gi|193786773|dbj|BAG52096.1| unnamed protein product [Homo sapiens]   158   2e-36
+gi|4885057|ref|NP_005152.1| apelin receptor [Homo sapiens] >gnl|...   157   2e-36
+gi|55636083|ref|XP_521984.1| PREDICTED: apelin receptor isoform ...   157   2e-36
+gi|332252409|ref|XP_003275347.1| PREDICTED: apelin receptor-like...   157   2e-36
+gi|26347189|dbj|BAC37243.1| unnamed protein product [Mus musculus]    157   2e-36
+gi|189054936|dbj|BAG37920.1| unnamed protein product [Homo sapiens]   157   3e-36
+gi|740017|prf||2004299A angiotensin receptor                          157   3e-36
+gi|134142085|gb|ABO61386.1| hypocretin orexin receptor [Danio re...   156   3e-36
+gi|301774630|ref|XP_002922749.1| PREDICTED: apelin receptor-like...   156   3e-36
+gi|6753014|ref|NP_035914.1| apelin receptor [Mus musculus] >gnl|...   156   3e-36
+gi|57099955|ref|XP_540616.1| PREDICTED: apelin receptor [Canis l...   156   3e-36
+gi|55700012|dbj|BAD69658.1| endothelin receptor b1 [Lamprologus ...   156   3e-36
+gi|55700006|dbj|BAD69655.1| endothelin receptor b1 [Altolamprolo...   156   4e-36
+gi|224045987|ref|XP_002191432.1| PREDICTED: galanin receptor 1 [...   156   4e-36
+gi|149756491|ref|XP_001504962.1| PREDICTED: apelin receptor-like...   156   4e-36
+gi|114051660|ref|NP_001040591.1| apelin receptor [Macaca mulatta...   156   5e-36
+gi|47215386|emb|CAG02202.1| unnamed protein product [Tetraodon n...   156   5e-36
+gi|55700014|dbj|BAD69659.1| endothelin receptor b1 [Neolamprolog...   156   6e-36
+gi|344253529|gb|EGW09633.1| Apelin receptor [Cricetulus griseus]      156   7e-36
+gi|197102789|ref|NP_001124631.1| apelin receptor [Pongo abelii] ...   155   7e-36
+gi|197209952|ref|NP_001127740.1| neuropeptide receptor A5 [Bomby...   155   8e-36
+gi|185133375|ref|NP_001118006.1| somatostatin receptor type 1 su...   155   9e-36
+gi|334324003|ref|XP_003340468.1| PREDICTED: orexin receptor type...   155   1e-35
+gi|291385266|ref|XP_002709201.1| PREDICTED: apelin receptor [Ory...   155   1e-35
+gi|341874317|gb|EGT30252.1| CBN-NPR-9 protein [Caenorhabditis br...   155   2e-35
+gi|260828205|ref|XP_002609054.1| hypothetical protein BRAFLDRAFT...   154   2e-35
+gi|73965005|ref|XP_540444.2| PREDICTED: galanin receptor type 2 ...   154   2e-35
+gi|115841642|ref|XP_001196527.1| PREDICTED: hypothetical protein...   153   4e-35
+gi|198476585|ref|XP_001357404.2| GA10920 [Drosophila pseudoobscu...   153   5e-35
+gi|296218236|ref|XP_002755322.1| PREDICTED: apelin receptor-like...   153   5e-35
+gi|66473516|gb|AAY46405.1| G protein-coupled receptor [Aedes aeg...   152   6e-35
+gi|18858583|ref|NP_571272.1| endothelin B receptor [Danio rerio]...   152   6e-35
+gi|189530858|ref|XP_692025.3| PREDICTED: D(5)-like dopamine rece...   152   7e-35
+gi|82524838|ref|NP_783176.2| trace amine-associated receptor 7b ...   152   8e-35
+gi|308494897|ref|XP_003109637.1| CRE-NPR-9 protein [Caenorhabdit...   152   8e-35
+gi|9506709|ref|NP_062045.1| galanin receptor type 2 [Rattus norv...   152   9e-35
+gi|17570665|ref|NP_509896.1| Neuropeptide Receptor family member...   151   1e-34
+gi|161353471|ref|NP_034384.3| galanin receptor type 2 [Mus muscu...   151   1e-34
+gi|332260154|ref|XP_003279150.1| PREDICTED: LOW QUALITY PROTEIN:...   151   1e-34
+gi|3642918|gb|AAC36589.1| galanin receptor type 2 [Mus musculus]      151   1e-34
+gi|28460706|ref|NP_783175.1| trace amine-associated receptor 7a ...   151   1e-34
+gi|26343723|dbj|BAC35518.1| unnamed protein product [Mus musculus]    151   2e-34
+gi|125805883|ref|XP_001334570.1| PREDICTED: type-1 angiotensin I...   151   2e-34
+gi|344248576|gb|EGW04680.1| Galanin receptor type 2 [Cricetulus ...   151   2e-34
+gi|301769019|ref|XP_002919936.1| PREDICTED: galanin receptor typ...   151   2e-34
+gi|326924193|ref|XP_003208316.1| PREDICTED: probable G-protein c...   151   2e-34
+gi|1518036|gb|AAC60068.1| dopamine D1C receptor [Anguilla anguilla]   150   2e-34
+gi|344249290|gb|EGW05394.1| Trace amine-associated receptor 7c [...   150   3e-34
+gi|301777200|ref|XP_002924021.1| PREDICTED: orexin receptor type...   150   3e-34
+gi|118428678|gb|ABK91549.1| endothelin receptor type A [Danio re...   150   3e-34
+gi|297701832|ref|XP_002827910.1| PREDICTED: galanin receptor typ...   150   3e-34
+gi|58082059|ref|NP_001010829.1| trace amine-associated receptor ...   150   3e-34
+gi|326924438|ref|XP_003208434.1| PREDICTED: endothelin B recepto...   150   3e-34
+gi|336020529|gb|AEH84414.1| G-protein coupled receptor 83-like p...   150   4e-34
+gi|344249288|gb|EGW05392.1| Trace amine-associated receptor 7e [...   150   4e-34
+gi|260828209|ref|XP_002609056.1| hypothetical protein BRAFLDRAFT...   150   4e-34
+gi|118089269|ref|XP_426254.2| PREDICTED: hypothetical protein [G...   150   4e-34
+gi|45383870|ref|NP_989451.1| endothelin receptor B subtype 2 [Ga...   150   4e-34
+gi|6981018|ref|NP_037196.1| orexin receptor type 1 [Rattus norve...   150   4e-34
+gi|251823830|ref|NP_945197.2| orexin receptor type 1 [Mus muscul...   150   4e-34
+gi|327269970|ref|XP_003219765.1| PREDICTED: galanin receptor typ...   150   5e-34
+gi|149723288|ref|XP_001494132.1| PREDICTED: galanin receptor typ...   149   5e-34
+gi|189441650|gb|AAI67440.1| Endothelin receptor type A [Danio re...   149   5e-34
+gi|14600104|gb|AAK71251.1|AF380200_1 trace amine receptor 12 [Ra...   149   5e-34
+gi|3036823|emb|CAA76055.1| endothelin receptor B subtype 2 [Cotu...   149   5e-34
+gi|37704009|gb|AAR01326.1| orexin receptor type-1 [Mus musculus]      149   5e-34
+gi|150832510|ref|NP_001092915.1| endothelin-1 receptor [Danio re...   149   5e-34
+gi|4503905|ref|NP_003848.1| galanin receptor type 2 [Homo sapien...   149   6e-34
+gi|332254564|ref|XP_003276400.1| PREDICTED: orexin receptor type...   149   6e-34
+gi|109118354|ref|XP_001103768.1| PREDICTED: galanin receptor typ...   149   6e-34
+gi|157278423|ref|NP_001098314.1| endothelin receptor [Oryzias la...   149   6e-34
+gi|190336787|gb|AAI62564.1| Endothelin receptor type A [Danio re...   149   6e-34
+gi|118562426|dbj|BAF37676.1| endothelin receptor B2 [Coturnix ja...   149   7e-34
+gi|268565175|ref|XP_002639359.1| Hypothetical protein CBG03939 [...   149   8e-34
+gi|344287522|ref|XP_003415502.1| PREDICTED: orexin receptor type...   149   8e-34
+gi|126322112|ref|XP_001374339.1| PREDICTED: galanin receptor typ...   148   9e-34
+gi|58000429|ref|NP_001009975.1| trace amine-associated receptor ...   148   9e-34
+gi|344245029|gb|EGW01133.1| Orexin receptor type 1 [Cricetulus g...   148   1e-33
+gi|114687758|ref|NP_001041647.1| orexin receptor type 1 [Bos tau...   148   1e-33
+gi|4249727|gb|AAD13777.1| neuropeptide Y2 receptor [Sus scrofa]       148   1e-33
+gi|344249287|gb|EGW05391.1| Trace amine-associated receptor 7a [...   148   1e-33
+gi|326923717|ref|XP_003208081.1| PREDICTED: D(5)-like dopamine r...   148   1e-33
+gi|119709601|dbj|BAF42697.1| endothelin receptor B2 [Coturnix ja...   148   1e-33
+gi|58082057|ref|NP_001010827.1| trace amine-associated receptor ...   148   2e-33
+gi|47523392|ref|NP_999315.1| neuropeptide Y receptor type 2 [Sus...   148   2e-33
+gi|297665708|ref|XP_002811181.1| PREDICTED: orexin receptor type...   148   2e-33
+gi|307184614|gb|EFN70952.1| Prolactin-releasing peptide receptor...   148   2e-33
+gi|217416485|ref|NP_001136143.1| dopamine D1C receptor [Gallus g...   147   2e-33
+gi|2897124|gb|AAC39601.1| orexin receptor-1 [Homo sapiens]            147   2e-33
+gi|340717887|ref|XP_003397405.1| PREDICTED: prolactin-releasing ...   147   2e-33
+gi|222080095|ref|NP_001516.2| orexin receptor type 1 [Homo sapie...   147   3e-33
+gi|158254474|dbj|BAF83210.1| unnamed protein product [Homo sapiens]   147   3e-33
+gi|1706290|sp|P53454.1|DRD5L_FUGRU RecName: Full=D(5)-like dopam...   147   3e-33
+gi|4009515|gb|AAC95468.1| galanin receptor 2 [Mus musculus]           147   3e-33
+gi|324518746|gb|ADY47194.1| Allatostatin-A receptor [Ascaris suum]    147   3e-33
+
+Searching..................................................done
+
+
+Results from round 3
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+gi|73992701|ref|XP_543088.2| PREDICTED: neurotensin receptor typ...   300   2e-79
+gi|344306334|ref|XP_003421843.1| PREDICTED: neurotensin receptor...   294   2e-77
+gi|149414049|ref|XP_001506365.1| PREDICTED: neurotensin receptor...   294   2e-77
+gi|326931931|ref|XP_003212077.1| PREDICTED: neurotensin receptor...   290   2e-76
+gi|110611243|ref|NP_002522.2| neurotensin receptor type 1 [Homo ...   285   8e-75
+gi|35021|emb|CAA49675.1| neurotensin receptor [Homo sapiens] >gn...   285   8e-75
+gi|119595751|gb|EAW75345.1| neurotensin receptor 1 (high affinit...   285   1e-74
+gi|54696338|gb|AAV38541.1| neurotensin receptor 1 (high affinity...   285   1e-74
+gi|194664347|ref|XP_588365.4| PREDICTED: G protein-coupled recep...   281   1e-73
+gi|321116847|dbj|BAJ72343.1| neurotensin receptor 1 [Gallus gallus]   280   2e-73
+gi|296200874|ref|XP_002747793.1| PREDICTED: neurotensin receptor...   280   3e-73
+gi|301780738|ref|XP_002925779.1| PREDICTED: neurotensin receptor...   278   7e-73
+gi|224078434|ref|XP_002194686.1| PREDICTED: similar to neurotens...   276   2e-72
+gi|149734162|ref|XP_001493279.1| PREDICTED: neurotensin receptor...   275   6e-72
+gi|297481802|ref|XP_002692455.1| PREDICTED: neurotensin receptor...   272   4e-71
+gi|300798587|ref|NP_001179588.1| neurotensin receptor type 1 [Bo...   272   5e-71
+gi|292626927|ref|XP_697816.4| PREDICTED: neurotensin receptor ty...   268   8e-70
+gi|157822691|ref|NP_001102437.1| neurotensin receptor type 1 [Ra...   266   4e-69
+gi|149711606|ref|XP_001495230.1| PREDICTED: neuromedin-U recepto...   265   6e-69
+gi|344254953|gb|EGW11057.1| Neurotensin receptor type 1 [Cricetu...   265   1e-68
+gi|344310426|gb|AEN03789.1| allatotropin receptor [Aedes aegypti]     263   2e-68
+gi|9055296|ref|NP_061236.1| neurotensin receptor type 1 [Mus mus...   262   5e-68
+gi|126337620|ref|XP_001367638.1| PREDICTED: endothelin B recepto...   255   1e-65
+gi|62087976|dbj|BAD92435.1| endothelin receptor type B isoform 1...   254   2e-65
+gi|4580924|gb|AAD24541.1|AF114165_1 endothelin receptor B delta ...   253   2e-65
+gi|319655697|ref|NP_001188326.1| endothelin B receptor isoform 3...   253   3e-65
+gi|158254834|dbj|BAF83388.1| unnamed protein product [Homo sapiens]   253   4e-65
+gi|297274617|ref|XP_001089047.2| PREDICTED: endothelin B recepto...   253   4e-65
+gi|327281619|ref|XP_003225544.1| PREDICTED: neuromedin-U recepto...   253   4e-65
+gi|344925883|ref|NP_001010943.2| endothelin B receptor precursor...   253   4e-65
+gi|55639883|ref|XP_509693.1| PREDICTED: endothelin B receptor is...   253   4e-65
+gi|998644|gb|AAB34052.1| endothelin receptor subtype B, ETB [hum...   252   5e-65
+gi|233234|gb|AAB19411.1| ETB endothelin receptor [Homo sapiens]       252   6e-65
+gi|8926588|gb|AAF81902.1|AF276427_1 endothelin B receptor [Canis...   252   6e-65
+gi|208967785|dbj|BAG72538.1| endothelin receptor type B [synthet...   252   6e-65
+gi|4557547|ref|NP_000106.1| endothelin B receptor isoform 1 prec...   252   6e-65
+gi|332216541|ref|XP_003257409.1| PREDICTED: endothelin B recepto...   252   7e-65
+gi|90078232|dbj|BAE88796.1| unnamed protein product [Macaca fasc...   252   7e-65
+gi|297694246|ref|XP_002824394.1| PREDICTED: LOW QUALITY PROTEIN:...   252   8e-65
+gi|62512169|sp|P56497.3|EDNRB_CANFA RecName: Full=Endothelin B r...   251   8e-65
+gi|3004964|gb|AAC23486.1| endothelin receptor type B [Equus caba...   251   9e-65
+gi|344275219|ref|XP_003409411.1| PREDICTED: LOW QUALITY PROTEIN:...   251   9e-65
+gi|340728353|ref|XP_003402490.1| PREDICTED: orexin receptor type...   251   1e-64
+gi|281345853|gb|EFB21437.1| hypothetical protein PANDA_015096 [A...   251   2e-64
+gi|83921631|ref|NP_001033091.1| endothelin B receptor precursor ...   250   3e-64
+gi|27805819|ref|NP_776734.1| endothelin B receptor precursor [Bo...   249   3e-64
+gi|3334903|gb|AAC26970.1| endothelin receptor B [Canis lupus fam...   249   3e-64
+gi|326930722|ref|XP_003211491.1| PREDICTED: galanin receptor typ...   249   4e-64
+gi|8393333|ref|NP_059029.1| endothelin B receptor precursor [Rat...   249   6e-64
+gi|224060643|ref|XP_002190989.1| PREDICTED: similar to Neuromedi...   249   6e-64
+gi|323508388|dbj|BAJ77121.1| endothelin receptor type B [Capra h...   248   7e-64
+gi|301780316|ref|XP_002925574.1| PREDICTED: endothelin B recepto...   248   8e-64
+gi|317418658|emb|CBN80696.1| Neuromedin-U receptor 1 [Dicentrarc...   248   8e-64
+gi|301764122|ref|XP_002917495.1| PREDICTED: neuromedin-U recepto...   248   1e-63
+gi|56123|emb|CAA40916.1| ET-B endothelin receptor [Rattus norveg...   248   1e-63
+gi|148668175|gb|EDL00505.1| endothelin receptor type B, isoform ...   248   1e-63
+gi|22128033|gb|AAM92568.1|AE014177_1 endothelin receptor type B ...   246   4e-63
+gi|6681269|ref|NP_031930.1| endothelin B receptor isoform 1 [Mus...   246   5e-63
+gi|126352462|ref|NP_001075306.1| endothelin B receptor precursor...   245   8e-63
+gi|197209900|ref|NP_001127714.1| neuropeptide receptor A16 [Bomb...   245   9e-63
+gi|335303498|ref|XP_003133772.2| PREDICTED: neuromedin-U recepto...   243   3e-62
+gi|7110607|ref|NP_034471.1| neuromedin-U receptor 1 [Mus musculu...   243   4e-62
+gi|315467910|dbj|BAJ49819.1| neuromedin U receptor 2 [Carassius ...   243   4e-62
+gi|148708270|gb|EDL40217.1| neuromedin U receptor 1 [Mus musculus]    243   4e-62
+gi|326926012|ref|XP_003209200.1| PREDICTED: neuromedin-U recepto...   242   5e-62
+gi|327279424|ref|XP_003224456.1| PREDICTED: neuromedin-U recepto...   242   7e-62
+gi|68369196|ref|XP_695127.1| PREDICTED: neuromedin-U receptor 2-...   241   2e-61
+gi|281349807|gb|EFB25391.1| hypothetical protein PANDA_005717 [A...   240   3e-61
+gi|291387676|ref|XP_002710220.1| PREDICTED: neuromedin U recepto...   239   3e-61
+gi|4503467|ref|NP_003982.1| endothelin B receptor isoform 2 prec...   239   6e-61
+gi|301615883|ref|XP_002937396.1| PREDICTED: neuromedin-U recepto...   234   1e-59
+gi|189233529|ref|NP_001121535.1| galanin receptor type 2 [Gallus...   234   2e-59
+gi|327277358|ref|XP_003223432.1| PREDICTED: endothelin B recepto...   232   7e-59
+gi|224067651|ref|XP_002195061.1| PREDICTED: similar to neuromedi...   232   8e-59
+gi|118095167|ref|XP_426705.2| PREDICTED: similar to Neuromedin U...   232   8e-59
+gi|52078095|gb|AAU25823.1| neurotensin receptor 1 [Rana catesbei...   230   2e-58
+gi|91081453|ref|XP_973937.1| PREDICTED: similar to capa receptor...   229   3e-58
+gi|323433877|gb|ADX66344.1| allatotropin receptor [Manduca sexta]     229   4e-58
+gi|345484951|ref|XP_001604582.2| PREDICTED: orexin receptor type...   229   4e-58
+gi|296061831|emb|CBL55500.1| endothelin receptor B [Oryctolagus ...   229   7e-58
+gi|301621387|ref|XP_002940025.1| PREDICTED: galanin receptor typ...   228   7e-58
+gi|297676461|ref|XP_002816154.1| PREDICTED: LOW QUALITY PROTEIN:...   228   1e-57
+gi|327264993|ref|XP_003217293.1| PREDICTED: galanin receptor typ...   228   1e-57
+gi|260793912|ref|XP_002591954.1| hypothetical protein BRAFLDRAFT...   228   2e-57
+gi|218563766|ref|NP_001001127.1| endothelin receptor type B [Gal...   227   2e-57
+gi|229893721|gb|ACQ90220.1| pheromone biosynthesis-activating ne...   227   2e-57
+gi|47217151|emb|CAG03508.1| unnamed protein product [Tetraodon n...   226   4e-57
+gi|24646524|ref|NP_731790.1| CG8784 [Drosophila melanogaster] >g...   225   6e-57
+gi|195329294|ref|XP_002031346.1| GM24101 [Drosophila sechellia] ...   224   1e-56
+gi|60729668|pir||JC8011 G protein-coupled neuropeptide pyrokinin...   224   2e-56
+gi|47220082|emb|CAG12230.1| unnamed protein product [Tetraodon n...   224   2e-56
+gi|326929439|ref|XP_003210871.1| PREDICTED: galanin receptor typ...   224   2e-56
+gi|91083969|ref|XP_975121.1| PREDICTED: similar to CG34381 CG343...   224   2e-56
+gi|130504631|ref|NP_001076190.1| endothelin B receptor precursor...   224   2e-56
+gi|22901726|gb|AAN10042.1| putative PRXamide receptor [Drosophil...   224   2e-56
+gi|191991849|ref|NP_001122137.1| G protein-coupled receptor 151 ...   223   3e-56
+gi|195571185|ref|XP_002103584.1| GD18898 [Drosophila simulans] >...   223   3e-56
+gi|296205852|ref|XP_002749981.1| PREDICTED: neuromedin-U recepto...   223   3e-56
+gi|83416255|gb|ABC18170.1| type 1 orexin receptor [Sus scrofa]        223   3e-56
+gi|194901496|ref|XP_001980288.1| GG19589 [Drosophila erecta] >gn...   223   4e-56
+gi|195500763|ref|XP_002097513.1| GE26264 [Drosophila yakuba] >gn...   223   5e-56
+gi|194741220|ref|XP_001953087.1| GF17594 [Drosophila ananassae] ...   222   8e-56
+gi|292627430|ref|XP_002666635.1| PREDICTED: type-1 angiotensin I...   221   9e-56
+gi|22328109|gb|AAH36543.1| Neuromedin U receptor 1 [Homo sapiens]     221   1e-55
+gi|149731104|ref|XP_001494050.1| PREDICTED: growth hormone secre...   221   1e-55
+gi|332815670|ref|XP_001140471.2| PREDICTED: neuromedin-U recepto...   221   2e-55
+gi|126303064|ref|XP_001376634.1| PREDICTED: neurotensin receptor...   221   2e-55
+gi|292619681|ref|XP_002664053.1| PREDICTED: galanin receptor typ...   221   2e-55
+gi|188497623|ref|NP_006047.3| neuromedin-U receptor 1 [Homo sapi...   220   2e-55
+gi|156717806|ref|NP_001096443.1| hypothetical protein LOC1001250...   220   2e-55
+gi|345481477|ref|XP_001606201.2| PREDICTED: neuropeptide Y recep...   220   3e-55
+gi|2865470|gb|AAC02680.1| orphan G protein-coupled receptor [Hom...   220   3e-55
+gi|195036852|ref|XP_001989882.1| GH19039 [Drosophila grimshawi] ...   220   3e-55
+gi|340713232|ref|XP_003395149.1| PREDICTED: neuromedin-U recepto...   219   4e-55
+gi|229893723|gb|ACQ90221.1| pheromone biosynthesis-activating ne...   219   4e-55
+gi|189239225|ref|XP_973738.2| PREDICTED: similar to orexin recep...   219   5e-55
+gi|76630247|ref|XP_586493.2| PREDICTED: neurotensin receptor typ...   219   7e-55
+gi|160386036|sp|A5A4L1.1|GHSR_MUSPF RecName: Full=Growth hormone...   218   7e-55
+gi|296227557|ref|XP_002759428.1| PREDICTED: growth hormone secre...   218   9e-55
+gi|125813135|ref|XP_001339169.1| PREDICTED: galanin receptor typ...   218   9e-55
+gi|109000952|ref|XP_001099090.1| PREDICTED: orexin receptor type...   218   9e-55
+gi|344244481|gb|EGW00585.1| Neuromedin-U receptor 1 [Cricetulus ...   218   1e-54
+gi|109091369|ref|XP_001087416.1| PREDICTED: neurotensin receptor...   218   2e-54
+gi|342671947|dbj|BAK57312.1| growth hormone secretagogue recepto...   218   2e-54
+gi|229893725|gb|ACQ90222.1| pheromone biosynthesis-activating ne...   217   2e-54
+gi|345307953|ref|XP_001508714.2| PREDICTED: neuromedin-U recepto...   217   2e-54
+gi|294774344|dbj|BAJ05629.1| endothelin receptor alpha [Lethente...   217   2e-54
+gi|157279929|ref|NP_001098480.1| galanin receptor type 2 [Bos ta...   217   3e-54
+gi|228008045|dbj|BAH57571.1| growth hormone secretagogue recepto...   217   3e-54
+gi|47523448|ref|NP_999345.1| growth hormone secretagogue recepto...   217   3e-54
+gi|221139823|ref|NP_001137208.1| growth hormone secretagogue rec...   216   3e-54
+gi|28893445|ref|NP_796304.1| growth hormone secretagogue recepto...   216   4e-54
+gi|228008052|dbj|BAH57573.1| growth hormone secretagogue recepto...   216   4e-54
+gi|14140234|ref|NP_114464.1| growth hormone secretagogue recepto...   216   4e-54
+gi|327267911|ref|XP_003218742.1| PREDICTED: endothelin B recepto...   216   4e-54
+gi|344243903|gb|EGW00007.1| Growth hormone secretagogue receptor...   216   6e-54
+gi|292627700|ref|XP_002666717.1| PREDICTED: growth hormone secre...   215   6e-54
+gi|338722030|ref|XP_001917460.2| PREDICTED: LOW QUALITY PROTEIN:...   215   7e-54
+gi|301623309|ref|XP_002940961.1| PREDICTED: neuromedin-U recepto...   215   7e-54
+gi|332030935|gb|EGI70561.1| Neuropeptide capa receptor [Acromyrm...   215   7e-54
+gi|21667326|gb|AAM74023.1|AF472616_1 endothelin receptor type B ...   215   9e-54
+gi|228008118|dbj|BAH57565.1| growth hormone secretagogue recepto...   215   1e-53
+gi|238005547|dbj|BAH60674.1| growth hormone secretagogue recepto...   215   1e-53
+gi|300676776|gb|ADK26652.1| hypocretin (orexin) receptor 2 [Zono...   214   1e-53
+gi|224048609|ref|XP_002195247.1| PREDICTED: hypocretin (orexin) ...   214   1e-53
+gi|166344071|gb|ABY86758.1| endothelin B1 receptor [Fundulus het...   214   1e-53
+gi|306756046|gb|ADN05127.1| growth hormone secretagogue receptor...   214   1e-53
+gi|300676956|gb|ADK26827.1| hypocretin (orexin) receptor 2 [Zono...   214   1e-53
+gi|153792311|ref|NP_001093415.1| growth hormone secretagogue rec...   214   1e-53
+gi|344265671|ref|XP_003404906.1| PREDICTED: neuromedin-U recepto...   214   2e-53
+gi|346644609|dbj|BAK79080.1| growth hormone secretagogue recepto...   214   2e-53
+gi|112817632|ref|NP_001036811.1| orexin receptor type 1 [Sus scr...   214   2e-53
+gi|2494960|sp|Q90328.1|EDNRB_COTJA RecName: Full=Endothelin B re...   214   2e-53
+gi|4585668|emb|CAB40835.1| angiotensin receptor [Anguilla anguilla]   213   3e-53
+gi|301772430|ref|XP_002921634.1| PREDICTED: growth hormone secre...   213   4e-53
+gi|260805612|ref|XP_002597680.1| hypothetical protein BRAFLDRAFT...   213   5e-53
+gi|345328470|ref|XP_001514852.2| PREDICTED: endothelin B recepto...   212   6e-53
+gi|9082154|gb|AAF82754.1|AF242873_1 neuromedin U receptor 1 [Rat...   212   6e-53
+gi|238005549|dbj|BAH60675.1| growth hormone secretagogue recepto...   212   7e-53
+gi|52078097|gb|AAU25824.1| neurotensin receptor 2 [Rana catesbei...   212   7e-53
+gi|194871386|ref|XP_001972838.1| GG13659 [Drosophila erecta] >gn...   212   9e-53
+gi|260792561|ref|XP_002591283.1| hypothetical protein BRAFLDRAFT...   211   1e-52
+gi|118097442|ref|XP_425209.2| PREDICTED: similar to neuromedin U...   211   1e-52
+gi|306756044|gb|ADN05126.1| growth hormone secretagogue receptor...   211   1e-52
+gi|345790480|ref|XP_003433375.1| PREDICTED: neuromedin-U recepto...   211   1e-52
+gi|148666060|gb|EDK98476.1| neurotensin receptor 2, isoform CRA_...   211   1e-52
+gi|149052674|gb|EDM04491.1| neuromedin U receptor 2 [Rattus norv...   211   1e-52
+gi|260833474|ref|XP_002611682.1| hypothetical protein BRAFLDRAFT...   211   1e-52
+gi|260804261|ref|XP_002597007.1| hypothetical protein BRAFLDRAFT...   211   1e-52
+gi|83288329|sp|Q9ESQ4.2|NMUR2_RAT RecName: Full=Neuromedin-U rec...   211   2e-52
+gi|1314330|gb|AAB07760.1| neuropeptide y/peptide YY receptor typ...   211   2e-52
+gi|55700008|dbj|BAD69656.1| endothelin receptor b1 [Dimidiochrom...   211   2e-52
+gi|12831219|ref|NP_075588.1| neuromedin-U receptor 1 [Rattus nor...   211   2e-52
+gi|57085713|ref|XP_546288.1| PREDICTED: neuromedin-U receptor 2 ...   210   2e-52
+gi|260793920|ref|XP_002591958.1| hypothetical protein BRAFLDRAFT...   210   2e-52
+gi|55700012|dbj|BAD69658.1| endothelin receptor b1 [Lamprologus ...   210   2e-52
+gi|308233379|dbj|BAJ22792.1| growth hormone secretagogue recepto...   210   2e-52
+gi|55700006|dbj|BAD69655.1| endothelin receptor b1 [Altolamprolo...   210   3e-52
+gi|194219683|ref|XP_001917596.1| PREDICTED: LOW QUALITY PROTEIN:...   210   3e-52
+gi|260793924|ref|XP_002591960.1| hypothetical protein BRAFLDRAFT...   210   3e-52
+gi|31543324|ref|NP_071611.2| neuromedin-U receptor 2 [Rattus nor...   210   3e-52
+gi|148224730|ref|NP_001083132.1| type-1 angiotensin II receptor ...   209   4e-52
+gi|55700014|dbj|BAD69659.1| endothelin receptor b1 [Neolamprolog...   209   4e-52
+gi|1351896|sp|P32303.2|AGTRA_XENLA RecName: Full=Type-1 angioten...   209   4e-52
+gi|301609404|ref|XP_002934279.1| PREDICTED: galanin receptor typ...   209   5e-52
+gi|126327930|ref|XP_001368709.1| PREDICTED: p2Y purinoceptor 6-l...   209   5e-52
+gi|47215386|emb|CAG02202.1| unnamed protein product [Tetraodon n...   209   5e-52
+gi|118404350|ref|NP_001072476.1| endothelin receptor type B [Xen...   209   5e-52
+gi|195107430|ref|XP_001998315.1| GI23895 [Drosophila mojavensis]...   209   6e-52
+gi|195022120|ref|XP_001985521.1| GH14454 [Drosophila grimshawi] ...   209   6e-52
+gi|110765902|ref|XP_001123033.1| PREDICTED: neuropeptide Y recep...   209   7e-52
+gi|78045495|ref|NP_001030220.1| neuromedin-U receptor 2 [Bos tau...   209   8e-52
+gi|224471785|dbj|BAH23869.1| prolactin-releasing peptide recepto...   208   8e-52
+gi|326928544|ref|XP_003210437.1| PREDICTED: neuromedin-U recepto...   208   1e-51
+gi|307196750|gb|EFN78209.1| Galanin receptor type 2 [Harpegnatho...   208   1e-51
+gi|120300948|ref|NP_001073337.1| orexin receptor type 2 [Danio r...   208   1e-51
+gi|68366932|ref|XP_688565.1| PREDICTED: endothelin B receptor [D...   208   1e-51
+gi|189535554|ref|XP_685405.3| PREDICTED: neuromedin-U receptor 1...   208   1e-51
+gi|16754689|gb|AAL26695.1| neuromedin U receptor type 2 [Mus mus...   208   2e-51
+gi|195037264|ref|XP_001990084.1| GH19145 [Drosophila grimshawi] ...   208   2e-51
+gi|229893719|gb|ACQ90219.1| pheromone biosynthesis-activating ne...   208   2e-51
+gi|195128337|ref|XP_002008620.1| GI13590 [Drosophila mojavensis]...   207   2e-51
+gi|31543326|ref|NP_694719.2| neuromedin-U receptor 2 [Mus muscul...   207   3e-51
+gi|195440212|ref|XP_002067936.1| GK11187 [Drosophila willistoni]...   207   3e-51
+gi|327266808|ref|XP_003218196.1| PREDICTED: growth hormone secre...   207   3e-51
+gi|193870725|gb|ACF22973.1| neuropeptide Y receptor Y2 [Callorhi...   206   3e-51
+gi|260804241|ref|XP_002596997.1| hypothetical protein BRAFLDRAFT...   206   4e-51
+gi|315467908|dbj|BAJ49818.1| neuromedin U receptor 1 [Carassius ...   206   4e-51
+gi|301777200|ref|XP_002924021.1| PREDICTED: orexin receptor type...   206   4e-51
+gi|195451766|ref|XP_002073066.1| GK13937 [Drosophila willistoni]...   206   5e-51
+gi|195379210|ref|XP_002048373.1| GJ13930 [Drosophila virilis] >g...   206   5e-51
+gi|73965005|ref|XP_540444.2| PREDICTED: galanin receptor type 2 ...   206   5e-51
+gi|185135451|ref|NP_001117065.1| prolactin-releasing peptide rec...   206   5e-51
+gi|147902830|ref|NP_001080343.1| P2Y purinoceptor 4 [Xenopus lae...   206   6e-51
+gi|194018626|ref|NP_001123399.1| angiotensin 2 receptor, type 1 ...   206   6e-51
+gi|270001281|gb|EEZ97728.1| hypothetical protein TcasGA2_TC01131...   205   7e-51
+gi|2829680|sp|P79928.1|P2RY4_XENLA RecName: Full=P2Y purinocepto...   205   7e-51
+gi|71895973|ref|NP_001025633.1| pyrimidinergic receptor P2Y, G-p...   205   8e-51
+gi|334324003|ref|XP_003340468.1| PREDICTED: orexin receptor type...   205   8e-51
+gi|62529001|gb|AAX84798.1| pyrokinin-like receptor 2 [Anopheles ...   205   8e-51
+gi|224095222|ref|XP_002195920.1| PREDICTED: galanin receptor 3 [...   205   8e-51
+gi|163916592|gb|AAI57737.1| P2ry4 protein [Xenopus laevis]            205   9e-51
+gi|333468419|gb|EGK96940.1| AGAP003076-PB [Anopheles gambiae str...   205   9e-51
+gi|126471025|dbj|BAF48111.1| angiotensin receptor [Bufo marinus]      205   1e-50
+gi|189241567|ref|XP_968501.2| PREDICTED: similar to pyrokinin-re...   205   1e-50
+gi|195394920|ref|XP_002056087.1| GJ10418 [Drosophila virilis] >g...   204   1e-50
+gi|195053980|ref|XP_001993904.1| GH22190 [Drosophila grimshawi] ...   204   1e-50
+gi|18858583|ref|NP_571272.1| endothelin B receptor [Danio rerio]...   204   1e-50
+gi|224045987|ref|XP_002191432.1| PREDICTED: galanin receptor 1 [...   204   1e-50
+gi|344287522|ref|XP_003415502.1| PREDICTED: orexin receptor type...   204   2e-50
+gi|148236657|ref|NP_001079250.1| type-1 angiotensin II receptor ...   204   2e-50
+gi|66473516|gb|AAY46405.1| G protein-coupled receptor [Aedes aeg...   204   2e-50
+gi|227016454|gb|ACP18687.1| trace amine-associated receptor 5 [L...   203   3e-50
+gi|114687758|ref|NP_001041647.1| orexin receptor type 1 [Bos tau...   203   3e-50
+gi|2897124|gb|AAC39601.1| orexin receptor-1 [Homo sapiens]            203   3e-50
+gi|170932505|ref|NP_064552.3| neuromedin-U receptor 2 [Homo sapi...   203   3e-50
+gi|317419971|emb|CBN82007.1| Type-1 angiotensin II receptor [Dic...   203   3e-50
+gi|9944990|gb|AAG03064.1|AF292402_1 neuromedin U receptor-type 2...   203   3e-50
+gi|195109066|ref|XP_001999111.1| GI24332 [Drosophila mojavensis]...   203   3e-50
+gi|297665708|ref|XP_002811181.1| PREDICTED: orexin receptor type...   203   3e-50
+gi|332254564|ref|XP_003276400.1| PREDICTED: orexin receptor type...   203   4e-50
+gi|164451925|gb|ABY56825.1| growth hormone secretagogue receptor...   203   4e-50
+gi|301769019|ref|XP_002919936.1| PREDICTED: galanin receptor typ...   203   4e-50
+gi|251823830|ref|NP_945197.2| orexin receptor type 1 [Mus muscul...   203   4e-50
+gi|9082156|gb|AAF82755.1|AF242874_1 neuromedin U receptor 2 [Hom...   203   4e-50
+gi|301774735|ref|XP_002922788.1| PREDICTED: neurotensin receptor...   203   4e-50
+gi|332254951|ref|XP_003276599.1| PREDICTED: LOW QUALITY PROTEIN:...   203   4e-50
+gi|222080095|ref|NP_001516.2| orexin receptor type 1 [Homo sapie...   203   4e-50
+gi|87299594|ref|NP_001034615.1| prolactin-releasing peptide rece...   203   4e-50
+gi|158254474|dbj|BAF83210.1| unnamed protein product [Homo sapiens]   203   4e-50
+gi|9506709|ref|NP_062045.1| galanin receptor type 2 [Rattus norv...   203   4e-50
+gi|344245029|gb|EGW01133.1| Orexin receptor type 1 [Cricetulus g...   203   5e-50
+gi|345794361|ref|XP_544446.3| PREDICTED: orexin receptor type 1 ...   203   5e-50
+gi|37704009|gb|AAR01326.1| orexin receptor type-1 [Mus musculus]      203   5e-50
+gi|260827746|ref|XP_002608825.1| hypothetical protein BRAFLDRAFT...   203   5e-50
+gi|118428678|gb|ABK91549.1| endothelin receptor type A [Danio re...   203   5e-50
+gi|149723288|ref|XP_001494132.1| PREDICTED: galanin receptor typ...   203   5e-50
+gi|332252409|ref|XP_003275347.1| PREDICTED: apelin receptor-like...   202   6e-50
+gi|332260154|ref|XP_003279150.1| PREDICTED: LOW QUALITY PROTEIN:...   202   7e-50
+gi|193786773|dbj|BAG52096.1| unnamed protein product [Homo sapiens]   202   7e-50
+gi|161353471|ref|NP_034384.3| galanin receptor type 2 [Mus muscu...   202   8e-50
+gi|281351315|gb|EFB26899.1| hypothetical protein PANDA_011799 [A...   202   8e-50
+gi|82524842|ref|NP_783181.2| trace amine-associated receptor 7d ...   202   8e-50
+gi|55625238|ref|XP_527091.1| PREDICTED: neuromedin-U receptor 2 ...   202   8e-50
+gi|4885057|ref|NP_005152.1| apelin receptor [Homo sapiens] >gnl|...   202   8e-50
+gi|55636083|ref|XP_521984.1| PREDICTED: apelin receptor isoform ...   202   8e-50
+gi|6981018|ref|NP_037196.1| orexin receptor type 1 [Rattus norve...   202   8e-50
+gi|162295917|gb|ABX83905.1| growth hormone secretagogue receptor...   202   8e-50
+gi|3642918|gb|AAC36589.1| galanin receptor type 2 [Mus musculus]      202   9e-50
+gi|306518597|ref|NP_990530.2| lysophosphatidic acid receptor 6 [...   202   9e-50
+gi|189441650|gb|AAI67440.1| Endothelin receptor type A [Danio re...   201   1e-49
+gi|740017|prf||2004299A angiotensin receptor                          201   1e-49
+gi|150832510|ref|NP_001092915.1| endothelin-1 receptor [Danio re...   201   1e-49
+gi|157201141|dbj|BAF80118.1| growth hormone secretagogue recepto...   201   1e-49
+gi|134142085|gb|ABO61386.1| hypocretin orexin receptor [Danio re...   201   1e-49
+gi|16877377|gb|AAH16938.1| Neuromedin U receptor 2 [Homo sapiens...   201   1e-49
+gi|190336787|gb|AAI62564.1| Endothelin receptor type A [Danio re...   201   1e-49
+gi|189054936|dbj|BAG37920.1| unnamed protein product [Homo sapiens]   201   1e-49
+gi|189530858|ref|XP_692025.3| PREDICTED: D(5)-like dopamine rece...   201   1e-49
+gi|332230469|ref|XP_003264417.1| PREDICTED: galanin receptor typ...   201   1e-49
+gi|57099955|ref|XP_540616.1| PREDICTED: apelin receptor [Canis l...   201   2e-49
+gi|26343723|dbj|BAC35518.1| unnamed protein product [Mus musculus]    201   2e-49
+gi|301774630|ref|XP_002922749.1| PREDICTED: apelin receptor-like...   201   2e-49
+gi|297701832|ref|XP_002827910.1| PREDICTED: galanin receptor typ...   201   2e-49
+gi|197209952|ref|NP_001127740.1| neuropeptide receptor A5 [Bomby...   201   2e-49
+gi|114051660|ref|NP_001040591.1| apelin receptor [Macaca mulatta...   201   2e-49
+gi|38258277|sp|Q923X5.1|TAA7D_RAT RecName: Full=Trace amine-asso...   200   2e-49
+gi|296222903|ref|XP_002757388.1| PREDICTED: galanin receptor typ...   200   3e-49
+gi|344248576|gb|EGW04680.1| Galanin receptor type 2 [Cricetulus ...   200   4e-49
+gi|197102789|ref|NP_001124631.1| apelin receptor [Pongo abelii] ...   200   4e-49
+gi|270002919|gb|EEZ99366.1| hypothetical protein TcasGA2_TC00497...   199   4e-49
+gi|15823689|dbj|BAB69060.1| low affinity neurotensin receptor [M...   199   4e-49
+gi|109118354|ref|XP_001103768.1| PREDICTED: galanin receptor typ...   199   4e-49
+gi|322796108|gb|EFZ18684.1| hypothetical protein SINV_01561 [Sol...   199   5e-49
+gi|185133375|ref|NP_001118006.1| somatostatin receptor type 1 su...   199   5e-49
+gi|4503905|ref|NP_003848.1| galanin receptor type 2 [Homo sapien...   199   6e-49
+gi|308199499|ref|NP_001184075.1| trace amine-associated receptor...   199   7e-49
+gi|326923717|ref|XP_003208081.1| PREDICTED: D(5)-like dopamine r...   199   8e-49
+gi|47223409|emb|CAG04270.1| unnamed protein product [Tetraodon n...   198   9e-49
+gi|121583912|ref|NP_032773.2| neurotensin receptor type 2 [Mus m...   198   9e-49
+gi|260804243|ref|XP_002596998.1| hypothetical protein BRAFLDRAFT...   198   9e-49
+gi|344252388|gb|EGW08492.1| Neurotensin receptor type 2 [Cricetu...   198   1e-48
+gi|326673994|ref|XP_003200046.1| PREDICTED: growth hormone secre...   198   1e-48
+gi|291385266|ref|XP_002709201.1| PREDICTED: apelin receptor [Ory...   198   1e-48
+gi|296218236|ref|XP_002755322.1| PREDICTED: apelin receptor-like...   198   1e-48
+gi|332808280|ref|XP_524646.3| PREDICTED: orexin receptor type 1 ...   197   2e-48
+gi|344253529|gb|EGW09633.1| Apelin receptor [Cricetulus griseus]      197   2e-48
+gi|301775310|ref|XP_002923079.1| PREDICTED: trace amine-associat...   197   2e-48
+gi|149756491|ref|XP_001504962.1| PREDICTED: apelin receptor-like...   197   2e-48
+gi|109107862|ref|XP_001115246.1| PREDICTED: p2Y purinoceptor 6 i...   197   2e-48
+gi|301603913|ref|XP_002931618.1| PREDICTED: growth hormone secre...   197   2e-48
+gi|114673689|ref|XP_523975.2| PREDICTED: galanin receptor type 1...   197   2e-48
+gi|45383870|ref|NP_989451.1| endothelin receptor B subtype 2 [Ga...   197   2e-48
+gi|12083651|ref|NP_073186.1| neurotensin receptor type 2 [Rattus...   197   3e-48
+gi|417040|sp|P32250.1|LPAR6_CHICK RecName: Full=Lysophosphatidic...   197   3e-48
+gi|300796356|ref|NP_001179224.1| pyrimidinergic receptor P2Y, G-...   197   3e-48
+gi|62528999|gb|AAX84797.1| pyrokinin-like receptor 1 [Anopheles ...   197   3e-48
+gi|26347189|dbj|BAC37243.1| unnamed protein product [Mus musculus]    196   3e-48
+gi|118780947|ref|XP_311184.3| putative growth hormone releasing ...   196   3e-48
+gi|242019190|ref|XP_002430047.1| class A rhodopsin-like G-protei...   196   3e-48
+gi|63169636|gb|AAY34744.1| pheromone biosynthesis activating neu...   196   3e-48
+gi|341874317|gb|EGT30252.1| CBN-NPR-9 protein [Caenorhabditis br...   196   4e-48
+gi|3036823|emb|CAA76055.1| endothelin receptor B subtype 2 [Cotu...   196   4e-48
+gi|326924438|ref|XP_003208434.1| PREDICTED: endothelin B recepto...   196   4e-48
+gi|6753014|ref|NP_035914.1| apelin receptor [Mus musculus] >gnl|...   196   4e-48
+gi|118562426|dbj|BAF37676.1| endothelin receptor B2 [Coturnix ja...   196   4e-48
+gi|327269970|ref|XP_003219765.1| PREDICTED: galanin receptor typ...   196   5e-48
+gi|118088537|ref|XP_001231565.1| PREDICTED: similar to Trace ami...   196   5e-48
+gi|73980436|ref|XP_540085.2| PREDICTED: neurotensin receptor typ...   196   5e-48
+gi|157118435|ref|XP_001653188.1| neuropeptide y receptor (npy-r)...   196   5e-48
+gi|4249727|gb|AAD13777.1| neuropeptide Y2 receptor [Sus scrofa]       196   6e-48
+gi|1706290|sp|P53454.1|DRD5L_FUGRU RecName: Full=D(5)-like dopam...   196   6e-48
+gi|149638434|ref|XP_001507023.1| PREDICTED: orexin receptor type...   196   6e-48
+gi|126322112|ref|XP_001374339.1| PREDICTED: galanin receptor typ...   196   6e-48
+gi|326932803|ref|XP_003212502.1| PREDICTED: prolactin-releasing ...   196   6e-48
+gi|125827601|ref|XP_001332886.1| PREDICTED: p2Y purinoceptor 2-l...   196   7e-48
+gi|47523392|ref|NP_999315.1| neuropeptide Y receptor type 2 [Sus...   196   7e-48
+gi|326924216|ref|XP_003208327.1| PREDICTED: lysophosphatidic aci...   196   7e-48
+gi|327276523|ref|XP_003223019.1| PREDICTED: galanin receptor typ...   196   7e-48
+gi|4009515|gb|AAC95468.1| galanin receptor 2 [Mus musculus]           195   7e-48
+gi|334350373|ref|XP_001363759.2| PREDICTED: type-2 angiotensin I...   195   7e-48
+gi|50745545|ref|XP_420150.1| PREDICTED: hypothetical protein [Ga...   195   7e-48
+gi|157278423|ref|NP_001098314.1| endothelin receptor [Oryzias la...   195   7e-48
+gi|224097782|ref|XP_002188000.1| PREDICTED: G protein-coupled re...   195   8e-48
+gi|217416485|ref|NP_001136143.1| dopamine D1C receptor [Gallus g...   195   9e-48
+gi|301606808|ref|XP_002933014.1| PREDICTED: prolactin-releasing ...   195   9e-48
+gi|28212244|ref|NP_783177.1| trace amine-associated receptor 7h ...   195   1e-47
+gi|296198450|ref|XP_002746736.1| PREDICTED: orexin receptor type...   195   1e-47
+gi|188536273|gb|ABY62317.2| pheromone biosynthesis-activating ne...   195   1e-47
+gi|224052569|ref|XP_002189224.1| PREDICTED: similar to dopamine ...   195   1e-47
+gi|119709601|dbj|BAF42697.1| endothelin receptor B2 [Coturnix ja...   195   1e-47
+gi|126311101|ref|XP_001380542.1| PREDICTED: trace amine-associat...   195   1e-47
+gi|198466389|ref|XP_002135178.1| GA23907 [Drosophila pseudoobscu...   195   1e-47
+gi|169636451|ref|NP_001108618.1| si:ch211-271b8.4 [Danio rerio] ...   194   1e-47
+gi|113951677|ref|NP_001039308.1| lysophosphatidic acid receptor ...   194   1e-47
+gi|166344069|gb|ABY86757.1| endothelin A receptor [Fundulus hete...   194   1e-47
+gi|55646095|ref|XP_523721.1| PREDICTED: galanin receptor type 2 ...   194   1e-47
+gi|88771691|gb|ABD52277.1| pheromone biosynthesis activating neu...   194   2e-47
+gi|30424718|ref|NP_780325.1| lysophosphatidic acid receptor 6 [M...   194   2e-47
+gi|187608254|ref|NP_001120643.1| prolactin-releasing peptide rec...   194   2e-47
+gi|296195351|ref|XP_002745457.1| PREDICTED: neuropeptide Y recep...   194   2e-47
+gi|2494988|sp|P70310.1|NTR2_MOUSE RecName: Full=Neurotensin rece...   194   2e-47
+gi|149409053|ref|XP_001508247.1| PREDICTED: neuromedin-B recepto...   194   2e-47
+gi|69218028|gb|AAZ04131.1| prolactin-releasing peptide receptor ...   194   2e-47
+gi|338715463|ref|XP_003363272.1| PREDICTED: lysophosphatidic aci...   194   2e-47
+gi|4505447|ref|NP_000901.1| neuropeptide Y receptor type 2 [Homo...   194   2e-47
+gi|170068290|ref|XP_001868810.1| neuropeptide Y receptor [Culex ...   194   2e-47
+gi|326924193|ref|XP_003208316.1| PREDICTED: probable G-protein c...   193   3e-47
+gi|149744791|ref|XP_001501471.1| PREDICTED: lysophosphatidic aci...   193   3e-47
+gi|332217541|ref|XP_003257917.1| PREDICTED: neuropeptide Y recep...   193   3e-47
+gi|344253824|gb|EGW09928.1| Oleoyl-L-alpha-lysophosphatidic acid...   193   3e-47
+gi|195494582|ref|XP_002094899.1| GE19956 [Drosophila yakuba] >gn...   193   3e-47
+gi|1000751|gb|AAA93170.1| type 2 neuropeptide Y receptor [Homo s...   193   3e-47
+gi|25151251|ref|NP_497057.2| hypothetical protein Y54E2A.1 [Caen...   193   3e-47
+gi|335287614|ref|XP_003355396.1| PREDICTED: galanin receptor typ...   193   3e-47
+gi|63100803|gb|AAH95538.1| Lysophosphatidic acid receptor 4 [Hom...   193   3e-47
+gi|125774271|ref|XP_001358394.1| GA21320 [Drosophila pseudoobscu...   193   3e-47
+gi|17570665|ref|NP_509896.1| Neuropeptide Receptor family member...   193   4e-47
+gi|291234847|ref|XP_002737358.1| PREDICTED: tachykinin receptor-...   193   4e-47
+gi|2240035|gb|AAB66322.1| P2Y5-like receptor [Homo sapiens]           193   4e-47
+gi|18031651|gb|AAG54080.1| allatostatin C/drostatin C receptor 1...   193   4e-47
+gi|344281920|ref|XP_003412724.1| PREDICTED: c-X-C chemokine rece...   193   4e-47
+gi|4885311|ref|NP_005287.1| lysophosphatidic acid receptor 4 [Ho...   193   4e-47
+gi|295389396|dbj|BAJ06368.1| lysophosphatidic acid receptor-4 [M...   193   4e-47
+gi|344281806|ref|XP_003412668.1| PREDICTED: lysophosphatidic aci...   192   4e-47
+gi|775210|gb|AAB60356.1| galanin receptor [Homo sapiens] >gnl|BL...   192   4e-47
+gi|344256491|gb|EGW12595.1| Lysophosphatidic acid receptor 4 [Cr...   192   4e-47
+gi|326669372|ref|XP_001921651.2| PREDICTED: p2Y purinoceptor 4-l...   192   5e-47
+gi|297710417|ref|XP_002831883.1| PREDICTED: lysophosphatidic aci...   192   5e-47
+gi|227016428|gb|ACP18675.1| trace amine-associated receptor 5 [B...   192   5e-47
+gi|195352164|ref|XP_002042584.1| GM14973 [Drosophila sechellia] ...   192   5e-47
+gi|195591284|ref|XP_002085372.1| GD14751 [Drosophila simulans] >...   192   5e-47
+gi|336020529|gb|AEH84414.1| G-protein coupled receptor 83-like p...   192   5e-47
+gi|167000885|ref|NP_001471.2| galanin receptor type 1 [Homo sapi...   192   5e-47
+gi|45550648|ref|NP_649040.2| allatostatin C receptor 1 [Drosophi...   192   5e-47
+gi|154425561|gb|AAI51291.1| NPY2R protein [Bos taurus] >gnl|BL_O...   192   5e-47
+gi|322801293|gb|EFZ21980.1| hypothetical protein SINV_09915 [Sol...   192   5e-47
+gi|327289267|ref|XP_003229346.1| PREDICTED: c-X-C chemokine rece...   192   5e-47
+gi|157818577|ref|NP_001100410.1| lysophosphatidic acid receptor ...   192   6e-47
+gi|118089269|ref|XP_426254.2| PREDICTED: hypothetical protein [G...   192   6e-47
+gi|109131327|ref|XP_001101441.1| PREDICTED: lysophosphatidic aci...   192   6e-47
+gi|296235863|ref|XP_002763078.1| PREDICTED: lysophosphatidic aci...   192   6e-47
+gi|559048|gb|AAA50767.1| galanin receptor [Homo sapiens] >gnl|BL...   192   6e-47
+gi|195146126|ref|XP_002014041.1| GL24468 [Drosophila persimilis]...   192   6e-47
+gi|291407910|ref|XP_002720181.1| PREDICTED: lysophosphatidic aci...   192   6e-47
+gi|301790870|ref|XP_002930440.1| PREDICTED: lysophosphatidic aci...   192   6e-47
+gi|292616095|ref|XP_690480.2| PREDICTED: galanin receptor type 1...   192   7e-47
+gi|148236289|ref|NP_001091574.1| lysophosphatidic acid receptor ...   192   7e-47
+gi|109122537|ref|XP_001086740.1| PREDICTED: galanin receptor typ...   192   7e-47
+gi|301611243|ref|XP_002935149.1| PREDICTED: lysophosphatidic aci...   192   7e-47
+gi|114689258|ref|XP_521150.2| PREDICTED: lysophosphatidic acid r...   192   7e-47
+gi|76626091|ref|XP_586310.2| PREDICTED: trace amine associated r...   192   8e-47
+gi|166344073|gb|ABY86759.1| endothelin C receptor [Fundulus hete...   192   8e-47
+gi|321466118|gb|EFX77115.1| hypothetical protein DAPPUDRAFT_5451...   192   9e-47
+gi|301765272|ref|XP_002918064.1| PREDICTED: p2Y purinoceptor 4-l...   192   9e-47
+gi|26342134|dbj|BAC34729.1| unnamed protein product [Mus musculus]    192   9e-47
+gi|1518036|gb|AAC60068.1| dopamine D1C receptor [Anguilla anguilla]   192   9e-47
+gi|47122836|gb|AAH69996.1| Lysophosphatidic acid receptor 4 [Hom...   191   1e-46
+gi|71841593|gb|AAZ43087.1| pk-1 receptor [Anopheles gambiae]          191   1e-46
+gi|308494897|ref|XP_003109637.1| CRE-NPR-9 protein [Caenorhabdit...   191   1e-46
+gi|296189291|ref|XP_002742718.1| PREDICTED: lysophosphatidic aci...   191   1e-46
+gi|344291698|ref|XP_003417570.1| PREDICTED: neuropeptide Y recep...   191   1e-46
+gi|296207309|ref|XP_002750589.1| PREDICTED: orexin receptor type...   191   1e-46
+gi|71895751|ref|NP_001026299.1| neuropeptide Y receptor type 2 [...   191   1e-46
+gi|291233061|ref|XP_002736473.1| PREDICTED: tachykinin receptor-...   191   1e-46
+gi|125805883|ref|XP_001334570.1| PREDICTED: type-1 angiotensin I...   191   1e-46
+gi|326918250|ref|XP_003205403.1| PREDICTED: neuropeptide Y recep...   191   1e-46
+gi|74136225|ref|NP_001028004.1| neuropeptide Y receptor type 2 [...   191   2e-46
+gi|31873392|emb|CAD97687.1| hypothetical protein [Homo sapiens]       191   2e-46
+gi|27806597|ref|NP_776500.1| neuropeptides B/W receptor type 2 [...   191   2e-46
+gi|2232069|gb|AAB62190.1| purinergic receptor P2Y5 [Homo sapiens]     191   2e-46
+gi|344249290|gb|EGW05394.1| Trace amine-associated receptor 7c [...   190   2e-46
+gi|4098212|gb|AAD00248.1| neuropeptide Y receptor type 2 [Homo s...   190   2e-46
+gi|334350337|ref|XP_001372840.2| PREDICTED: lysophosphatidic aci...   190   2e-46
+gi|345484257|ref|XP_003424987.1| PREDICTED: LOW QUALITY PROTEIN:...   190   2e-46
+gi|241082205|ref|XP_002409017.1| neuropeptide FF receptor, putat...   190   2e-46
+gi|33695113|ref|NP_005758.2| lysophosphatidic acid receptor 6 [H...   190   3e-46
+gi|291237735|ref|XP_002738788.1| PREDICTED: tachykinin receptor-...   190   3e-46
+gi|332841287|ref|XP_001151721.2| PREDICTED: lysophosphatidic aci...   190   3e-46
+gi|28460706|ref|NP_783175.1| trace amine-associated receptor 7a ...   190   3e-46
+gi|74007893|ref|XP_549098.2| PREDICTED: lysophosphatidic acid re...   190   3e-46
+gi|344249288|gb|EGW05392.1| Trace amine-associated receptor 7e [...   190   3e-46
+gi|115430069|ref|NP_001068573.1| apelin receptor A [Danio rerio]...   190   3e-46
+gi|57526988|ref|NP_001009650.1| trace amine-associated receptor ...   190   3e-46
+gi|344281986|ref|XP_003412756.1| PREDICTED: lysophosphatidic aci...   190   4e-46
+gi|254998322|dbj|BAH88922.1| P2Y5 [Mesocricetus auratus]              189   4e-46
+gi|195435746|ref|XP_002065840.1| GK20338 [Drosophila willistoni]...   189   5e-46
+gi|301621018|ref|XP_002939852.1| PREDICTED: 5-hydroxytryptamine ...   189   5e-46
+gi|345315260|ref|XP_001518585.2| PREDICTED: neuromedin-U recepto...   189   5e-46
+gi|30520143|ref|NP_848832.1| relaxin-3 receptor 1 [Mus musculus]...   189   5e-46
+gi|301621440|ref|XP_002940056.1| PREDICTED: 5-hydroxytryptamine ...   189   5e-46
+gi|82524838|ref|NP_783176.2| trace amine-associated receptor 7b ...   189   6e-46
+gi|193784714|dbj|BAG53867.1| unnamed protein product [Homo sapiens]   189   6e-46
+gi|292617086|ref|XP_002663233.1| PREDICTED: apelin receptor A [D...   189   6e-46
+gi|26337229|dbj|BAC32299.1| unnamed protein product [Mus musculus]    189   7e-46
+gi|58082059|ref|NP_001010829.1| trace amine-associated receptor ...   189   7e-46
+gi|162416253|sp|Q7SZP9.2|APJA_DANRE RecName: Full=Apelin recepto...   189   7e-46
+gi|291221830|ref|XP_002730924.1| PREDICTED: neuropeptide recepto...   189   7e-46
+gi|327278178|ref|XP_003223839.1| PREDICTED: D(1C) dopamine recep...   189   7e-46
+gi|308473693|ref|XP_003099070.1| CRE-NMUR-4 protein [Caenorhabdi...   189   8e-46
+gi|147901001|ref|NP_001090494.1| lysophosphatidic acid receptor ...   189   8e-46
+gi|62898339|dbj|BAD97109.1| G-protein coupled purinergic recepto...   189   8e-46
+gi|156370963|ref|XP_001628536.1| predicted protein [Nematostella...   189   8e-46
+gi|344249284|gb|EGW05388.1| Trace amine-associated receptor 5 [C...   188   8e-46
+gi|194751837|ref|XP_001958230.1| GF23626 [Drosophila ananassae] ...   188   1e-45
+gi|31873378|emb|CAD97680.1| hypothetical protein [Homo sapiens]       188   1e-45
+gi|169153826|emb|CAQ14214.1| novel protein similar to vertebrate...   188   1e-45
+gi|56122212|gb|AAV74257.1| neuropeptide Y receptor Y2 [Saimiri b...   188   1e-45
+gi|58082057|ref|NP_001010827.1| trace amine-associated receptor ...   188   1e-45
+gi|344249287|gb|EGW05391.1| Trace amine-associated receptor 7a [...   188   1e-45
+gi|125834502|ref|XP_001334713.1| PREDICTED: lysophosphatidic aci...   188   1e-45
+gi|327286248|ref|XP_003227843.1| PREDICTED: lysophosphatidic aci...   187   1e-45
+gi|2465432|gb|AAC39581.1| putative neurotransmitter receptor [Ho...   187   1e-45
+gi|30581164|ref|NP_005277.2| neuropeptides B/W receptor type 2 [...   187   1e-45
+gi|118403856|ref|NP_001072847.1| lysophosphatidic acid receptor ...   187   2e-45
+gi|189233525|ref|NP_001121534.1| galanin receptor type 1 [Gallus...   187   2e-45
+
+Sequences not found previously or not previously below threshold:
+
+gi|195451762|ref|XP_002073065.1| GK13356 [Drosophila willistoni]...   220   3e-55
+gi|126333238|ref|XP_001376195.1| PREDICTED: apelin receptor-like...   205   1e-50
+gi|153792345|ref|NP_001093438.1| growth hormone secretagogue rec...   202   7e-50
+gi|149434698|ref|XP_001517046.1| PREDICTED: apelin receptor-like...   201   1e-49
+gi|47228020|emb|CAF97649.1| unnamed protein product [Tetraodon n...   201   2e-49
+gi|344289100|ref|XP_003416283.1| PREDICTED: growth hormone secre...   200   3e-49
+gi|332214783|ref|XP_003256515.1| PREDICTED: growth hormone secre...   200   3e-49
+gi|38455410|ref|NP_940799.1| growth hormone secretagogue recepto...   199   4e-49
+gi|109044268|ref|XP_001084886.1| PREDICTED: growth hormone secre...   198   1e-48
+gi|50511737|gb|AAT77421.1| growth hormone secretagogue receptor ...   198   1e-48
+gi|57619311|ref|NP_001009760.1| growth hormone secretagogue rece...   197   2e-48
+gi|297672503|ref|XP_002814334.1| PREDICTED: growth hormone secre...   195   7e-48
+gi|326926139|ref|XP_003209262.1| PREDICTED: growth hormone secre...   193   3e-47
+gi|148277572|ref|NP_001091688.1| pyrokinin-like receptor 2 [Apis...   192   6e-47
+gi|335281877|ref|XP_003353916.1| PREDICTED: apelin receptor-like...   192   7e-47
+gi|318037392|ref|NP_001187251.1| growth hormone secretagog recep...   191   1e-46
+gi|334347277|ref|XP_001363182.2| PREDICTED: growth hormone secre...   190   3e-46
+gi|119151364|tpg|DAA05842.1| TPA_inf: pyrokinin-receptor-like G ...   190   3e-46
+gi|206584511|gb|ACI15384.1| neuropeptide Y2/7 receptor [Lampetra...   190   3e-46
+gi|50742763|ref|XP_426167.1| PREDICTED: similar to Neuromedin-B ...   190   4e-46
+gi|194676581|ref|XP_587789.4| PREDICTED: relaxin/insulin-like fa...   189   5e-46
+gi|297487760|ref|XP_002696445.1| PREDICTED: relaxin/insulin-like...   189   6e-46
+gi|344263903|ref|XP_003404034.1| PREDICTED: neuromedin-B recepto...   188   9e-46
+gi|56605940|ref|NP_001008311.1| relaxin-3 receptor 1 [Rattus nor...   187   2e-45
+
+  Database: filtnr
+    Posted date:  Sep 19, 2011  1:36 PM
+  Number of letters in database: 1,740,938,412
+  Number of sequences in database:  5,131,667
+  
+  Database: /dors/meilerlab/apps/scripts/sequence_analysis/../db/filtn
+  r.01
+    Posted date:  Sep 19, 2011  1:42 PM
+  Number of letters in database: 2,285,224,685
+  Number of sequences in database:  6,711,192
+  
+  Database: /dors/meilerlab/apps/scripts/sequence_analysis/../db/filtn
+  r.02
+    Posted date:  Sep 19, 2011  1:45 PM
+  Number of letters in database: 1,228,445,294
+  Number of sequences in database:  3,479,686
+  
+Lambda     K      H
+   0.338    0.173    0.587 
+
+Lambda     K      H
+   0.267   0.0528    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Hits to DB: 12,211,282,757
+Number of Sequences: 15322545
+Number of extensions: 658926811
+Number of successful extensions: 2874248
+Number of sequences better than 10.0: 500
+Number of HSP's better than 10.0 without gapping: 100154
+Number of HSP's successfully gapped in prelim test: 29492
+Number of HSP's that attempted gapping in prelim test: 2472872
+Number of HSP's gapped (non-prelim): 228416
+length of query: 340
+length of database: 5,254,608,391
+effective HSP length: 140
+effective length of query: 200
+effective length of database: 3,109,452,091
+effective search space: 621890418200
+effective search space used: 621890418200
+T: 11
+A: 40
+X1: 16 ( 7.8 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 40 (22.0 bits)
+S2: 83 (36.2 bits)

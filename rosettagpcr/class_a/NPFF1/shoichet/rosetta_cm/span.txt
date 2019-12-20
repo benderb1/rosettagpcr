@@ -1,0 +1,11 @@
+TM region prediction for target.topo predicted using OCTOPUS
+7 325
+antiparallel
+n2c
+  12    32    12    32
+  47    67    47    67
+  88   108    88   108
+ 124   144   124   144
+ 185   205   185   205
+ 236   256   236   256
+ 275   295   275   295

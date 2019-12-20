@@ -1,0 +1,25 @@
+##############################################################################
+OCTOPUS result file
+Generated from http://octopus.cbr.su.se/ at 2018-10-23 21:11:13
+Total request time: 6.54 seconds.
+##############################################################################
+
+
+Sequence name: query_sequence
+Sequence length: 343 aa.
+Sequence:
+EEEESWAGRRIPVSLLYSGLAIGGTLANGMVIYLVSSARKLQTTSNAFIVNGCAADLSVC
+ALWMPQEAVLGLLPTGSAEPPADWDGAGGSYRLLRGGLLGLGLTVSLLSHCLVALNRYLL
+ITRAPATYQALYQRRHTAGMLALSWALALGLVLLLPPWAPRPGAAPPRVHYPALLAAAAL
+LAQTALLLHCYLGIVRRVRVSVKRVSVLNFHLLHQLPGCAAAATNHRIFRSIKQSMGLSA
+AQKAKVKHSAIAVVVIFLVCFAPYHLVLLVKAAAFSYYRGDRNAMCGLEERLYTASVVFL
+CLSTVNGVADPIIYVLATDHSRQEVSRIHKGWKEWSMKTDVTR
+
+OCTOPUS predicted topology:
+ooooooooooooMMMMMMMMMMMMMMMMMMMMMiiiiiiiiiiiiiMMMMMMMMMMMMMM
+MMMMMMMoooooooooooooooooooooooooooMMMMMMMMMMMMMMMMMMMMMiiiii
+iiiiiiiiiiiiiiiMMMMMMMMMMMMMMMMMMMMMoooooooooooooooooMMMMMMM
+MMMMMMMMMMMMMMiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+iiiiiiMMMMMMMMMMMMMMMMMMMMMoooooooooooooooooooooooooMMMMMMMM
+MMMMMMMMMMMMMiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+

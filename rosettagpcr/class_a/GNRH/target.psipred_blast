@@ -1,0 +1,1615 @@
+BLASTP 2.2.18 [Mar-02-2008]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Schaffer, Alejandro A., L. Aravind, Thomas L. Madden,
+Sergei Shavirin, John L. Spouge, Yuri I. Wolf,  
+Eugene V. Koonin, and Stephen F. Altschul (2001), 
+"Improving the accuracy of PSI-BLAST protein database searches with 
+composition-based statistics and other refinements",  Nucleic Acids Res. 29:2994-3005.
+
+Query= GNRH
+         (303 letters)
+
+Database: filtnr 
+           15,322,545 sequences; 5,254,608,391 total letters
+
+Searching..................................................done
+
+
+Results from round 1
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|4504059|ref|NP_000397.1| gonadotropin-releasing hormone recep...   620   e-176
+gi|55622802|ref|XP_526608.1| PREDICTED: gonadotropin-releasing h...   616   e-174
+gi|109074666|ref|XP_001109227.1| PREDICTED: gonadotropin-releasi...   607   e-172
+gi|296196442|ref|XP_002745835.1| PREDICTED: gonadotropin-releasi...   598   e-169
+gi|50978830|ref|NP_001003121.1| gonadotropin-releasing hormone r...   590   e-166
+gi|281338800|gb|EFB14384.1| hypothetical protein PANDA_016457 [A...   589   e-166
+gi|301782701|ref|XP_002926765.1| PREDICTED: gonadotropin-releasi...   588   e-166
+gi|126352316|ref|NP_001075305.1| gonadotropin-releasing hormone ...   588   e-166
+gi|12002705|gb|AAG43378.1|AF156930_1 gonadotropin releasing horm...   582   e-164
+gi|28381363|sp|P49922.2|GNRHR_PIG RecName: Full=Gonadotropin-rel...   579   e-163
+gi|29135325|ref|NP_803480.1| gonadotropin-releasing hormone rece...   577   e-163
+gi|110729313|gb|ABG88199.1| gonadotropin-releasing hormone recep...   576   e-162
+gi|130487536|ref|NP_001076207.1| gonadotropin-releasing hormone ...   576   e-162
+gi|417086|sp|P32237.1|GNRHR_SHEEP RecName: Full=Gonadotropin-rel...   575   e-162
+gi|116248092|sp|Q19PY9.1|GNRHR_BOSMU RecName: Full=Gonadotropin-...   575   e-162
+gi|119514772|gb|ABL76162.1| gonadotropin releasing hormone recep...   575   e-162
+gi|332238568|ref|XP_003268473.1| PREDICTED: gonadotropin-releasi...   574   e-162
+gi|344288424|ref|XP_003415950.1| PREDICTED: gonadotropin-releasi...   573   e-162
+gi|57164395|ref|NP_001009397.1| gonadotropin-releasing hormone r...   571   e-161
+gi|149035134|gb|EDL89838.1| gonadotropin releasing hormone recep...   558   e-157
+gi|407039|gb|AAA41265.1| gonadotropin-releasing hormone receptor...   556   e-156
+gi|77798109|ref|NP_112300.2| gonadotropin-releasing hormone rece...   556   e-156
+gi|462202|sp|P30969.2|GNRHR_RAT RecName: Full=Gonadotropin-relea...   554   e-156
+gi|56304|emb|CAA48776.1| unnamed protein product [Rattus norvegi...   551   e-155
+gi|6754032|ref|NP_034453.1| gonadotropin-releasing hormone recep...   521   e-146
+gi|498276|gb|AAA37716.1| gonadotropin releasing hormone receptor...   519   e-145
+gi|47523620|ref|NP_999438.1| gonadotropin-releasing hormone rece...   516   e-144
+gi|290543492|ref|NP_001166428.1| gonadotropin-releasing hormone ...   509   e-142
+gi|28380055|sp|Q9TTI8.1|GNRHR_TRIVU RecName: Full=Gonadotropin-r...   496   e-138
+gi|126331566|ref|XP_001362289.1| PREDICTED: gonadotropin-releasi...   483   e-134
+gi|297673475|ref|XP_002814792.1| PREDICTED: gonadotropin-releasi...   453   e-125
+gi|281020881|gb|ADA12248.1| gonadotropin releasing hormone recep...   451   e-125
+gi|182765462|ref|NP_001116830.1| gonadotropin-releasing hormone ...   438   e-121
+gi|344255652|gb|EGW11756.1| Gonadotropin-releasing hormone recep...   365   4e-99
+gi|38511720|gb|AAH61250.1| Gnrhr protein [Mus musculus]               361   7e-98
+gi|904145|gb|AAB41939.1| gonadotropin-releasing hormone receptor...   305   6e-81
+gi|61676184|ref|NP_001012781.1| gonadotropin-releasing hormone r...   296   3e-78
+gi|722238|gb|AAA63885.1| gonadotropin-releasing hormone receptor...   295   5e-78
+gi|114594521|ref|XP_001163813.1| PREDICTED: gonadotropin-releasi...   295   8e-78
+gi|109074668|ref|XP_001109168.1| PREDICTED: gonadotropin-releasi...   293   2e-77
+gi|296196444|ref|XP_002745836.1| PREDICTED: gonadotropin-releasi...   285   7e-75
+gi|18075913|emb|CAD11992.1| gonadotropin-releasing hormone recep...   276   3e-72
+gi|6808613|gb|AAF28464.1| pituitary gonadotropin releasing hormo...   276   4e-72
+gi|344288426|ref|XP_003415951.1| PREDICTED: gonadotropin-releasi...   275   5e-72
+gi|119935275|ref|XP_001256919.1| PREDICTED: gonadotropin-releasi...   271   7e-71
+gi|147898501|ref|NP_001079176.1| gonadotropin releasing hormone ...   271   8e-71
+gi|60302672|ref|NP_001012627.1| gonadotropin-releasing hormone r...   271   1e-70
+gi|858745|gb|AAB38515.1| GnRH receptor [Ovis aries]                   270   2e-70
+gi|148706010|gb|EDL37957.1| gonadotropin releasing hormone recep...   269   4e-70
+gi|149035135|gb|EDL89839.1| gonadotropin releasing hormone recep...   265   4e-69
+gi|224063351|ref|XP_002190060.1| PREDICTED: gonadotropin-releasi...   258   6e-67
+gi|222418560|ref|NP_001138451.1| gonadotropin releasing hormone ...   257   1e-66
+gi|116805391|gb|ABK27710.1| type 1/III gonadotropin-releasing ho...   255   6e-66
+gi|169403918|dbj|BAG12379.1| gonadotropin releasing hormone rece...   251   7e-65
+gi|139152305|gb|ABO77118.1| gonadotropin-releasing hormone recep...   249   5e-64
+gi|302316214|gb|ADL14591.1| gonadotropin releasing hormone recep...   249   6e-64
+gi|17939853|emb|CAD19495.1| gonadotropin releasing hormone recep...   248   1e-63
+gi|186461215|gb|ACC78285.1| gonadotropin releasing hormone recep...   246   2e-63
+gi|11993052|gb|AAG42575.1|AF144063_1 GnRH receptor-1 [Rana cates...   244   1e-62
+gi|302316216|gb|ADL14592.1| gonadotropin releasing hormone recep...   243   3e-62
+gi|139152317|gb|ABO77119.1| gonadotropin-releasing hormone recep...   241   1e-61
+gi|82754176|gb|ABB89900.1| type 1/III gonadotropin-releasing hor...   240   2e-61
+gi|30144690|gb|AAP15162.1| GnRH receptor 1 [Rana ridibundus]          237   2e-60
+gi|327283769|ref|XP_003226613.1| PREDICTED: gonadotropin-releasi...   237   2e-60
+gi|340730408|gb|AEK64844.1| gonadotropin-releasing hormone recep...   237   2e-60
+gi|6689212|emb|CAB65407.1| gonadotropin-releasing hormone recept...   235   6e-60
+gi|28830316|gb|AAO50198.2| gonadotropin-releasing hormone recept...   234   2e-59
+gi|83033264|gb|ABB97085.1| gonadotrophin-releasing hormone recep...   233   3e-59
+gi|166157864|ref|NP_001107548.1| type 2/nmI gonadotropin-releasi...   232   6e-59
+gi|56112299|gb|AAV71128.1| gonadotropin-releasing hormone recept...   232   6e-59
+gi|42627727|dbj|BAD11150.1| gonadotropin-releasing hormone recep...   231   9e-59
+gi|63054892|gb|AAY28982.1| gonadotropin-releasing hormone recept...   231   1e-58
+gi|156182200|gb|ABU55292.1| type I gonadotropin-releasing hormon...   230   2e-58
+gi|5733822|gb|AAD49750.1|AF174481_1 gonadotropin-releasing hormo...   228   1e-57
+gi|90074699|dbj|BAE87049.1| gonadotropin-releasing hormone recep...   226   3e-57
+gi|157278585|ref|NP_001098393.1| gonadotropin-releasing hormone ...   226   3e-57
+gi|37359718|dbj|BAC97833.1| gonadotropin-releasing hormone recep...   226   3e-57
+gi|114705478|gb|ABI75336.1| gonadotropin-releasing hormone recep...   226   3e-57
+gi|67624872|emb|CAE54807.2| 2B protein [Dicentrarchus labrax]         226   5e-57
+gi|76880403|dbj|BAE45698.1| type 1/III-3 gonadotropin-releasing ...   225   6e-57
+gi|345319976|ref|XP_003430226.1| PREDICTED: gonadotropin-releasi...   225   6e-57
+gi|90074697|dbj|BAE87048.1| gonadotropin-releasing hormone recep...   220   3e-55
+gi|47220880|emb|CAG03087.1| unnamed protein product [Tetraodon n...   219   6e-55
+gi|76880395|dbj|BAE45694.1| type 1/III-1 gonadotropin-releasing ...   218   9e-55
+gi|147901685|ref|NP_001091663.1| gonadotropin releasing hormone ...   217   2e-54
+gi|156254302|gb|ABU62659.1| gonadotropin-releasing hormone recep...   217   2e-54
+gi|344306673|ref|XP_003422010.1| PREDICTED: gonadotropin-releasi...   216   4e-54
+gi|157278501|ref|NP_001098352.1| gonadotropin-releasing hormone ...   214   1e-53
+gi|37359724|dbj|BAC97836.1| gonadotropin-releasing hormone recep...   213   2e-53
+gi|55725596|emb|CAE54804.2| gonadotrophin releasing hormone rece...   213   4e-53
+gi|45382825|ref|NP_989984.1| gonadotropin-releasing hormone rece...   211   1e-52
+gi|37362420|gb|AAQ88391.1| GnRH receptor type 1 [Oreochromis aur...   207   2e-51
+gi|37362422|gb|AAQ88392.1| GnRH receptor type 3 [Oreochromis aur...   206   3e-51
+gi|53680461|gb|AAU89433.1| gonadotropin releasing hormone type I...   206   4e-51
+gi|76880399|dbj|BAE45696.1| type 1/III-2 gonadotropin-releasing ...   204   1e-50
+gi|47214198|emb|CAG00826.1| unnamed protein product [Tetraodon n...   204   1e-50
+gi|118421171|gb|ABK88281.1| gonadotropin-releasing hormone recep...   204   1e-50
+gi|90074701|dbj|BAE87050.1| gonadotropin-releasing hormone recep...   204   2e-50
+gi|28830314|gb|AAO50196.2| gonadotropin-releasing hormone recept...   203   2e-50
+gi|30144694|gb|AAP15164.1| GnRH receptor 3 [Rana ridibundus]          202   6e-50
+gi|294489280|ref|NP_001170921.1| gonadotropin releasing hormone ...   199   4e-49
+gi|33316064|gb|AAQ04564.1|AF439802_1 putative gonadotropin relea...   198   9e-49
+gi|16589056|gb|AAL27000.1|AF403014_1 type II gonadotropin-releas...   198   9e-49
+gi|47209557|emb|CAF93245.1| unnamed protein product [Tetraodon n...   198   1e-48
+gi|76880407|dbj|BAE45700.1| type 2/nmI-1 gonadotropin-releasing ...   197   1e-48
+gi|126313702|ref|XP_001369168.1| PREDICTED: gonadotropin-releasi...   197   2e-48
+gi|154799591|emb|CAL39150.1| gonadotropin-releasing hormone rece...   197   2e-48
+gi|166157856|ref|NP_001107547.1| gonadotropin-releasing hormone ...   197   2e-48
+gi|291292274|gb|ADD92009.1| gonadotropin releasing hormone recep...   196   4e-48
+gi|108514727|gb|ABF93210.1| GnRH receptor type 1 [Epinephelus co...   195   6e-48
+gi|46451447|gb|AAS97968.1| GnRH receptor [Sparus aurata]              195   7e-48
+gi|14916996|sp|O42329.2|GNRR2_CLAGA RecName: Full=Gonadotropin-r...   193   3e-47
+gi|44976678|gb|AAS49920.1| gonadotropin-releasing hormone recept...   192   6e-47
+gi|9857657|dbj|BAB11961.1| gonadotropin-releasing hormone recept...   191   9e-47
+gi|35215011|dbj|BAC77240.2| GnRH receptor type1 [Oreochromis nil...   191   2e-46
+gi|185133560|ref|NP_001117823.1| gonadotropin-releasing hormone ...   191   2e-46
+gi|146160993|gb|ABQ08716.1| gonadotropin-releasing hormone recep...   189   7e-46
+gi|215263216|emb|CAQ57754.1| GnRH receptor I [Rana esculenta]         187   2e-45
+gi|35215013|dbj|BAC77241.2| GnRH receptor type2 [Oreochromis nil...   187   2e-45
+gi|48675949|ref|NP_001001639.1| GnRH II receptor 7 transmembrane...   187   3e-45
+gi|76880415|dbj|BAE45704.1| type 2/nmI-2 gonadotropin-releasing ...   186   3e-45
+gi|76880411|dbj|BAE45702.1| type 2/nmI-2 gonadotropin-releasing ...   186   4e-45
+gi|82754178|gb|ABB89901.1| type 3/II gonadotropin-releasing horm...   186   4e-45
+gi|22324515|gb|AAM95605.1|AF329894_1 gonadotropin-releasing horm...   186   5e-45
+gi|11993050|gb|AAG42574.1|AF144062_1 GnRH receptor-3 [Rana cates...   185   7e-45
+gi|28822121|gb|AAO50197.1| gonadotropin-releasing hormone recept...   183   3e-44
+gi|166157872|ref|NP_001107549.1| gonadotropin-releasing hormone ...   182   6e-44
+gi|148227062|ref|NP_001079211.1| gonadotropin-releasing hormone ...   182   8e-44
+gi|28380051|sp|Q95MG6.1|GNRR2_CALJA RecName: Full=Gonadotropin-r...   182   8e-44
+gi|296228549|ref|XP_002759859.1| PREDICTED: gonadotropin-releasi...   181   9e-44
+gi|28380052|sp|Q95MH6.1|GNRR2_CERAE RecName: Full=Gonadotropin-r...   180   2e-43
+gi|184161257|gb|ACC68665.1| gonadotropin-releasing hormone recep...   179   7e-43
+gi|139152230|gb|ABO77113.1| gonadotropin-releasing hormone recep...   178   7e-43
+gi|260821880|ref|XP_002606331.1| hypothetical protein BRAFLDRAFT...   178   8e-43
+gi|157278583|ref|NP_001098392.1| gonadotropin-releasing hormone ...   177   2e-42
+gi|56112301|gb|AAV71129.1| gonadotropin-releasing hormone recept...   177   2e-42
+gi|47205009|emb|CAF92557.1| unnamed protein product [Tetraodon n...   177   2e-42
+gi|56112305|gb|AAV71131.1| gonadotropin-releasing hormone recept...   177   3e-42
+gi|74136245|ref|NP_001028014.1| gonadotropin-releasing hormone I...   176   4e-42
+gi|139152270|gb|ABO77115.1| gonadotropin-releasing hormone recep...   176   6e-42
+gi|11995301|gb|AAG42949.1| GnRH receptor-2 [Rana catesbeiana]         176   6e-42
+gi|3334763|emb|CAB17082.1| gonadotropin releasing hormone recept...   174   2e-41
+gi|722236|gb|AAA63884.1| gonadotropin-releasing hormone receptor...   171   1e-40
+gi|30144692|gb|AAP15163.1| GnRH receptor 2 [Rana ridibundus]          171   2e-40
+gi|198476585|ref|XP_001357404.2| GA10920 [Drosophila pseudoobscu...   171   2e-40
+gi|4406500|gb|AAD20001.1| gonadotropin releasing hormone recepto...   169   5e-40
+gi|281353332|gb|EFB28916.1| hypothetical protein PANDA_013984 [A...   167   1e-39
+gi|4406502|gb|AAD20002.1| gonadotropin releasing hormone recepto...   167   2e-39
+gi|195438288|ref|XP_002067069.1| GK24218 [Drosophila willistoni]...   167   2e-39
+gi|185134947|ref|NP_001116991.1| gonadotropin-releasing hormone ...   166   3e-39
+gi|14625493|gb|AAK29745.1| gonadotropin-releasing hormone recept...   164   2e-38
+gi|301778387|ref|XP_002924608.1| PREDICTED: gonadotropin-releasi...   164   2e-38
+gi|112983116|ref|NP_001037049.1| adipokinetic hormone receptor [...   164   2e-38
+gi|114705480|gb|ABI75337.1| gonadotropin releasing hormone recep...   162   4e-38
+gi|37651167|dbj|BAC98943.1| gonadotropin-releasing hormone recep...   162   5e-38
+gi|37651169|dbj|BAC98944.1| gonadotropin-releasing hormone recep...   162   8e-38
+gi|222418562|ref|NP_001138452.1| gonadotropin releasing hormone ...   162   8e-38
+gi|297663816|ref|XP_002810361.1| PREDICTED: gonadotropin-releasi...   161   1e-37
+gi|37926802|gb|AAP74658.1| GnRH receptor II [Homo sapiens]            159   5e-37
+gi|19697896|gb|AAL89821.1| GnRH receptor II 5TM [Homo sapiens]        159   5e-37
+gi|283765400|gb|ADB28158.1| gonadotropin-releasing hormone recep...   158   1e-36
+gi|189491898|gb|ACE00761.1| adipokinetic hormone receptor [Mandu...   157   2e-36
+gi|48426377|emb|CAG34061.1| gonadotropin-releasing hormone recep...   156   3e-36
+gi|160905686|gb|ABX52401.1| ACP receptor [Bombyx mori]                155   8e-36
+gi|44976823|gb|AAS49921.1| gonadotropin-releasing hormone recept...   154   1e-35
+gi|48426375|emb|CAG34060.1| gonadotropin-releasing hormone recep...   154   1e-35
+gi|149212710|gb|ABR22601.1| gonadotropin-releasing hormone recep...   154   2e-35
+gi|321478402|gb|EFX89359.1| hypothetical protein DAPPUDRAFT_4064...   154   2e-35
+gi|149212702|gb|ABR22597.1| gonadotropin-releasing hormone recep...   153   3e-35
+gi|340730410|gb|AEK64845.1| gonadotropin-releasing hormone recep...   153   3e-35
+gi|189039065|gb|ACD75498.1| red-pigment concentrating hormone re...   152   5e-35
+gi|197209924|ref|NP_001127726.1| neuropeptide receptor A28 [Bomb...   150   3e-34
+gi|74096305|ref|NP_001027765.1| gonadotropin-releasing hormone r...   148   1e-33
+gi|76253723|ref|NP_001028997.1| gonadotropin-releasing hormone r...   148   1e-33
+gi|67624870|emb|CAE54806.2| 1B protein [Dicentrarchus labrax]         148   1e-33
+gi|149212708|gb|ABR22600.1| gonadotropin-releasing hormone recep...   148   1e-33
+gi|185134933|ref|NP_001116990.1| gonadotropin-releasing hormone ...   146   4e-33
+gi|198429237|ref|XP_002119144.1| PREDICTED: hypothetical protein...   144   1e-32
+gi|74096031|ref|NP_001027656.1| Gonadotropin-releasing hormone r...   144   1e-32
+gi|291292278|gb|ADD92011.1| gonadotropin releasing hormone recep...   144   1e-32
+gi|45594646|gb|AAS68623.1| GnRH II receptor 5 transmembrane [Sus...   144   2e-32
+gi|89039345|gb|ABD60146.1| adipokinetic hormone receptor [Anophe...   144   2e-32
+gi|158285004|ref|XP_308034.4| AGAP002156-PB [Anopheles gambiae s...   143   3e-32
+gi|76253773|ref|NP_001028996.1| gonadotropin-releasing hormone r...   143   4e-32
+gi|185134985|ref|NP_001116992.1| gonadotropin-releasing hormone ...   143   4e-32
+gi|76253787|ref|NP_001028995.1| gonadotropin-releasing hormone r...   142   5e-32
+gi|149212700|gb|ABR22596.1| gonadotropin-releasing hormone recep...   142   7e-32
+gi|195030652|ref|XP_001988182.1| GH11026 [Drosophila grimshawi] ...   142   9e-32
+gi|195385408|ref|XP_002051398.1| GJ15464 [Drosophila virilis] >g...   141   1e-31
+gi|326926994|ref|XP_003209680.1| PREDICTED: gonadotropin-releasi...   141   2e-31
+gi|149212706|gb|ABR22599.1| gonadotropin-releasing hormone recep...   140   2e-31
+gi|284795249|ref|NP_001165352.1| gonadotropin-releasing hormone ...   140   2e-31
+gi|149212698|gb|ABR22595.1| gonadotropin-releasing hormone recep...   139   6e-31
+gi|15741086|gb|AAL06717.1| type III GnRH receptor splice variant...   138   1e-30
+gi|195116377|ref|XP_002002732.1| GI17543 [Drosophila mojavensis]...   136   5e-30
+gi|194862657|ref|XP_001970058.1| GG23593 [Drosophila erecta] >gn...   135   1e-29
+gi|334904105|gb|AEH25943.1| adipokinetic hormone receptor [Gloss...   134   1e-29
+gi|195577106|ref|XP_002078414.1| GD22549 [Drosophila simulans] >...   134   1e-29
+gi|195471698|ref|XP_002088139.1| GE18412 [Drosophila yakuba] >gn...   134   1e-29
+gi|3659702|gb|AAC61523.1| gonadotropin-releasing hormone recepto...   134   2e-29
+gi|157129044|ref|XP_001655249.1| gonadotropin-releasing hormone ...   134   3e-29
+gi|157129042|ref|XP_001655248.1| gonadotropin-releasing hormone ...   134   3e-29
+gi|332016315|gb|EGI57228.1| Gonadotropin-releasing hormone II re...   133   3e-29
+gi|215263220|emb|CAQ57756.1| GnRH receptor III [Rana esculenta]       133   4e-29
+gi|17137594|ref|NP_477387.1| Gonadotropin-releasing hormone rece...   133   4e-29
+gi|45552233|ref|NP_995639.1| Gonadotropin-releasing hormone rece...   133   4e-29
+gi|22901736|gb|AAN10047.1| putative AKH receptor [Drosophila mel...   133   4e-29
+gi|340730412|gb|AEK64846.1| gonadotropin-releasing hormone recep...   132   6e-29
+gi|215511359|gb|ACJ67881.1| gonadotrophin-releasing hormone rece...   132   7e-29
+gi|160905684|gb|ABX52400.1| ACP receptor [Tribolium castaneum]        130   3e-28
+gi|189234837|ref|XP_971565.2| PREDICTED: similar to gonadotropin...   130   3e-28
+gi|270002847|gb|EEZ99294.1| hypothetical protein TcasGA2_TC00124...   129   4e-28
+gi|258590761|emb|CAY77166.1| adipokinetic hormone receptor [Aede...   129   4e-28
+gi|258590757|emb|CAY77164.1| adipokinetic hormone receptor [Aede...   129   5e-28
+gi|326933792|ref|XP_003212983.1| PREDICTED: vasopressin V1b rece...   129   8e-28
+gi|32699576|sp|Q8SPZ1.1|GNRHR_MACMU RecName: Full=Gonadotropin-r...   127   2e-27
+gi|225030853|gb|ACN79527.1| gonadotropin-releasing hormone recep...   127   2e-27
+gi|71895639|ref|NP_001026669.1| vasopressin V1b receptor [Gallus...   127   3e-27
+gi|241718457|ref|XP_002412155.1| seven transmembrane receptor, p...   126   5e-27
+gi|184161261|gb|ACC68667.1| gonadotropin-releasing hormone recep...   126   5e-27
+gi|184161259|gb|ACC68666.1| gonadotropin-releasing hormone recep...   125   7e-27
+gi|194758305|ref|XP_001961402.1| GF14951 [Drosophila ananassae] ...   125   8e-27
+gi|291292276|gb|ADD92010.1| gonadotropin releasing hormone recep...   124   1e-26
+gi|94400905|ref|NP_001035354.1| adipokinetic hormone receptor [A...   124   2e-26
+gi|195338720|ref|XP_002035972.1| GM13935 [Drosophila sechellia] ...   123   3e-26
+gi|283806645|ref|NP_001164571.1| ACP receptor [Nasonia vitripenn...   123   4e-26
+gi|74146437|dbj|BAE28970.1| unnamed protein product [Mus musculus]    123   4e-26
+gi|139152297|gb|ABO77116.1| gonadotropin-releasing hormone recep...   122   6e-26
+gi|126339113|ref|XP_001372716.1| PREDICTED: vasopressin V1a rece...   122   6e-26
+gi|1060933|dbj|BAA08567.1| V1a arginine vasopressin receptor [Mu...   121   1e-25
+gi|139152245|gb|ABO77114.1| gonadotropin-releasing hormone recep...   121   1e-25
+gi|6683118|dbj|BAA89050.1| V1a arginine vasopressin receptor [Mu...   121   1e-25
+gi|33149329|ref|NP_058543.2| vasopressin V1a receptor [Mus muscu...   121   1e-25
+gi|327278615|ref|XP_003224056.1| PREDICTED: vasopressin V1b rece...   121   1e-25
+gi|78098578|gb|ABB20590.1| adipokinetic hormone receptor [Peripl...   120   2e-25
+gi|33391248|gb|AAQ17230.1| adipokinetic hormone receptor [Peripl...   120   2e-25
+gi|134053892|ref|NP_001076809.1| adipokinetic hormone receptor [...   120   2e-25
+gi|158285002|ref|XP_001687839.1| putative gonadotrophin releasin...   119   5e-25
+gi|224085776|ref|XP_002189484.1| PREDICTED: arginine vasopressin...   119   8e-25
+gi|312375308|gb|EFR22706.1| hypothetical protein AND_14320 [Anop...   118   1e-24
+gi|215274150|sp|Q96P88.3|GNRR2_HUMAN RecName: Full=Putative gona...   118   1e-24
+gi|328716445|ref|XP_001945436.2| PREDICTED: gonadotropin-releasi...   118   1e-24
+gi|328716443|ref|XP_003245941.1| PREDICTED: gonadotropin-releasi...   117   2e-24
+gi|301068501|gb|ADK55068.1| adipokinetic hormone receptor [Polyr...   117   3e-24
+gi|260821952|ref|XP_002606367.1| hypothetical protein BRAFLDRAFT...   117   3e-24
+gi|340718180|ref|XP_003397549.1| PREDICTED: gonadotropin-releasi...   116   4e-24
+gi|242015123|ref|XP_002428223.1| class A rhodopsin-like G-protei...   114   1e-23
+gi|307181168|gb|EFN68876.1| Gonadotropin-releasing hormone II re...   114   2e-23
+gi|260810633|ref|XP_002600062.1| hypothetical protein BRAFLDRAFT...   114   2e-23
+gi|326668792|ref|XP_003198871.1| PREDICTED: oxytocin receptor-li...   112   5e-23
+gi|47196303|emb|CAF88569.1| unnamed protein product [Tetraodon n...   112   6e-23
+gi|309364514|emb|CAP24755.2| CBR-GNRR-1 protein [Caenorhabditis ...   111   1e-22
+gi|268565203|ref|XP_002639368.1| C. briggsae CBR-GNRR-1 protein ...   111   1e-22
+gi|197209962|ref|NP_001127745.1| neuropeptide receptor A29 [Bomb...   110   2e-22
+gi|268370124|ref|NP_001161243.1| adipokinetic hormone receptor [...   110   2e-22
+gi|47224178|emb|CAG13098.1| unnamed protein product [Tetraodon n...   110   2e-22
+gi|50058086|dbj|BAD27389.1| GnRH receptor type3 [Oreochromis nil...   110   3e-22
+gi|55724851|emb|CAE54805.1| 2C protein [Dicentrarchus labrax]         110   3e-22
+gi|322801231|gb|EFZ21918.1| hypothetical protein SINV_00261 [Sol...   110   3e-22
+gi|157123803|ref|XP_001653920.1| gonadotropin-releasing hormone ...   109   4e-22
+gi|341879534|gb|EGT35469.1| hypothetical protein CAEBREN_14099 [...   109   5e-22
+gi|341879525|gb|EGT35460.1| CBN-GNRR-1 protein [Caenorhabditis b...   109   5e-22
+gi|170029979|ref|XP_001842868.1| gonadotropin-releasing hormone ...   108   1e-21
+gi|158301919|ref|XP_321591.4| putative gonadotrophin releasing h...   108   2e-21
+gi|160905682|gb|ABX52399.1| ACP receptor [Anopheles gambiae]          107   2e-21
+gi|149212712|gb|ABR22602.1| gonadotropin-releasing hormone recep...   107   2e-21
+gi|149212704|gb|ABR22598.1| gonadotropin-releasing hormone recep...   107   3e-21
+gi|296246020|gb|ADH03416.1| gonadotropin releasing hormone recep...   106   5e-21
+gi|15741084|gb|AAL06716.1| type III GnRH receptor splice variant...   105   1e-20
+gi|317418943|emb|CBN80981.1| Vasotocin VT1 receptor [Dicentrarch...   104   2e-20
+gi|296492356|gb|ADH29698.1| arginine vasopressin receptor 1A [Pe...   103   2e-20
+gi|126471027|dbj|BAF48112.1| arginine vasotocin type1 receptor [...   103   3e-20
+gi|344243306|gb|EGV99409.1| Vasopressin V1a receptor [Cricetulus...   103   3e-20
+gi|296246018|gb|ADH03415.1| gonadotropin releasing hormone recep...   103   3e-20
+gi|301626361|ref|XP_002942361.1| PREDICTED: vasopressin V1b rece...   103   3e-20
+gi|296492410|gb|ADH29725.1| arginine vasopressin receptor 1A [Pe...   103   4e-20
+gi|296492414|gb|ADH29727.1| arginine vasopressin receptor 1A [Pe...   103   4e-20
+gi|296492354|gb|ADH29697.1| arginine vasopressin receptor 1A [Pe...   103   4e-20
+gi|260821878|ref|XP_002606330.1| hypothetical protein BRAFLDRAFT...   103   4e-20
+gi|307181167|gb|EFN68875.1| Gonadotropin-releasing hormone II re...   103   4e-20
+gi|296492358|gb|ADH29699.1| arginine vasopressin receptor 1A [Pe...   103   4e-20
+gi|296492368|gb|ADH29704.1| arginine vasopressin receptor 1A [Pe...   103   5e-20
+gi|296492408|gb|ADH29724.1| arginine vasopressin receptor 1A [Pe...   103   5e-20
+gi|296492394|gb|ADH29717.1| arginine vasopressin receptor 1A [Pe...   103   5e-20
+gi|296492412|gb|ADH29726.1| arginine vasopressin receptor 1A [Pe...   103   5e-20
+gi|296492380|gb|ADH29710.1| arginine vasopressin receptor 1A [Pe...   103   5e-20
+gi|296492384|gb|ADH29712.1| arginine vasopressin receptor 1A [Pe...   103   5e-20
+gi|296492392|gb|ADH29716.1| arginine vasopressin receptor 1A [Pe...   103   5e-20
+gi|296492396|gb|ADH29718.1| arginine vasopressin receptor 1A [Pe...   103   5e-20
+gi|296492406|gb|ADH29723.1| arginine vasopressin receptor 1A [Pe...   102   5e-20
+gi|296492402|gb|ADH29721.1| arginine vasopressin receptor 1A [Pe...   102   5e-20
+gi|296492376|gb|ADH29708.1| arginine vasopressin receptor 1A [Pe...   102   5e-20
+gi|296492404|gb|ADH29722.1| arginine vasopressin receptor 1A [Pe...   102   6e-20
+gi|296492378|gb|ADH29709.1| arginine vasopressin receptor 1A [Pe...   102   6e-20
+gi|118764566|dbj|BAF38756.1| V3/V1b-type arginine vasotocin rece...   102   7e-20
+gi|296492360|gb|ADH29700.1| arginine vasopressin receptor 1A [Pe...   102   8e-20
+gi|296492416|gb|ADH29728.1| arginine vasopressin receptor 1A [Pe...   102   8e-20
+gi|313661382|ref|NP_001186299.1| isotocin receptor-like 2 [Danio...   102   8e-20
+gi|296492366|gb|ADH29703.1| arginine vasopressin receptor 1A [Pe...   102   9e-20
+gi|54036618|sp|Q9WTV9.1|V1AR_MICOH RecName: Full=Vasopressin V1a...   102   1e-19
+gi|306922641|gb|ADN07516.1| arginine vasopressin receptor 1A [Mi...   102   1e-19
+gi|73920969|sp|Q9WTV8.2|V1AR_MICMA RecName: Full=Vasopressin V1a...   101   1e-19
+gi|338191090|gb|AEI54996.1| arginine vasotocin receptor V1a1 [Ep...   101   1e-19
+gi|296492390|gb|ADH29715.1| arginine vasopressin receptor 1A [Pe...   101   2e-19
+gi|296492398|gb|ADH29719.1| arginine vasopressin receptor 1A [Pe...   101   2e-19
+gi|70910044|emb|CAI64587.1| G protein-coupled receptor [Crassost...   101   2e-19
+gi|169264532|emb|CAP19989.1| G protein coupled receptor [Crassos...   100   2e-19
+gi|146334859|gb|ABQ23254.1| vasotocin receptor type 1b [Taricha ...   100   3e-19
+gi|149422572|ref|XP_001520677.1| PREDICTED: vasopressin V1a rece...   100   3e-19
+gi|169264530|emb|CAP19987.1| G protein coupled receptor [Crassos...   100   3e-19
+gi|283765398|gb|ADB28157.1| gonadotropin-releasing hormone recep...   100   4e-19
+gi|169264529|emb|CAP19986.1| G protein coupled receptor [Crassos...   100   4e-19
+gi|85822896|gb|ABC84862.1| gonadotrophin releasing hormone recep...    99   6e-19
+gi|291389479|ref|XP_002711283.1| PREDICTED: arginine vasopressin...    99   1e-18
+gi|47229762|emb|CAG06958.1| unnamed protein product [Tetraodon n...    98   1e-18
+gi|194869809|ref|XP_001972525.1| GG13838 [Drosophila erecta] >gn...    97   3e-18
+gi|195160605|ref|XP_002021165.1| GL24963 [Drosophila persimilis]...    97   3e-18
+gi|125978709|ref|XP_001353387.1| GA10504 [Drosophila pseudoobscu...    97   3e-18
+gi|20385582|gb|AAM21341.1|AF373862_1 Drm corazonin receptor [Dro...    97   4e-18
+gi|171850880|emb|CAP17413.1| G Protein coupled receptor [Crassos...    97   4e-18
+gi|21358377|ref|NP_648571.1| GRHRII [Drosophila melanogaster] >g...    97   4e-18
+gi|162957232|gb|ABY26011.1| arginine-vasopressin receptor 1a [Mi...    97   4e-18
+gi|195012841|ref|XP_001983758.1| GH16073 [Drosophila grimshawi] ...    97   4e-18
+gi|194747121|ref|XP_001956001.1| GF24986 [Drosophila ananassae] ...    97   4e-18
+gi|195589802|ref|XP_002084638.1| GD12727 [Drosophila simulans] >...    97   4e-18
+gi|22901732|gb|AAN10045.1| putative corazonin receptor [Drosophi...    97   4e-18
+gi|195327107|ref|XP_002030263.1| GM24664 [Drosophila sechellia] ...    96   5e-18
+gi|195376261|ref|XP_002046915.1| GJ12227 [Drosophila virilis] >g...    96   5e-18
+gi|195440760|ref|XP_002068208.1| GK12785 [Drosophila willistoni]...    96   5e-18
+gi|307335541|gb|ADN43376.1| arginine vasopressin receptor 1a [Mi...    96   6e-18
+gi|307335535|gb|ADN43373.1| arginine vasopressin receptor 1a [Mi...    96   6e-18
+gi|60729565|pir||JC7896 corazonin receptor (CG10698) - fruit fly...    96   7e-18
+gi|307335497|gb|ADN43354.1| arginine vasopressin receptor 1a [Mi...    96   7e-18
+gi|33149327|ref|NP_444178.2| vasopressin V1a receptor [Rattus no...    96   9e-18
+gi|434000|emb|CAA77748.1| V1a arginine vasopressin receptor [Rat...    96   1e-17
+gi|309401194|gb|ADO79885.1| arginine vasopressin receptor 1A [Ma...    95   1e-17
+gi|307335511|gb|ADN43361.1| arginine vasopressin receptor 1a [Ch...    95   1e-17
+gi|307335503|gb|ADN43357.1| arginine vasopressin receptor 1a [Mi...    95   1e-17
+gi|1276863|gb|AAC52507.1| vasopressin V1a receptor [Rattus norve...    95   1e-17
+gi|307335545|gb|ADN43378.1| arginine vasopressin receptor 1a [Mi...    95   1e-17
+gi|162957216|gb|ABY26003.1| arginine-vasopressin receptor 1a [Mi...    95   1e-17
+gi|307335515|gb|ADN43363.1| arginine vasopressin receptor 1a [Ch...    95   1e-17
+gi|162957236|gb|ABY26013.1| arginine-vasopressin receptor 1a [Mi...    95   1e-17
+gi|162957194|gb|ABY25992.1| arginine-vasopressin receptor 1a [Mi...    95   1e-17
+gi|162957266|gb|ABY26028.1| arginine-vasopressin receptor 1a [My...    95   1e-17
+gi|162957224|gb|ABY26007.1| arginine-vasopressin receptor 1a [Mi...    95   1e-17
+gi|162957228|gb|ABY26009.1| arginine-vasopressin receptor 1a [Mi...    95   1e-17
+gi|162957252|gb|ABY26021.1| arginine-vasopressin receptor 1a [Mi...    95   1e-17
+gi|162957220|gb|ABY26005.1| arginine-vasopressin receptor 1a [Mi...    95   1e-17
+gi|157279929|ref|NP_001098480.1| galanin receptor type 2 [Bos ta...    95   2e-17
+gi|307335529|gb|ADN43370.1| arginine vasopressin receptor 1a [Mi...    95   2e-17
+gi|307335491|gb|ADN43351.1| arginine vasopressin receptor 1a [Mi...    95   2e-17
+gi|162957200|gb|ABY25995.1| arginine-vasopressin receptor 1a [Mi...    95   2e-17
+gi|307335505|gb|ADN43358.1| arginine vasopressin receptor 1a [Mi...    95   2e-17
+gi|162957214|gb|ABY26002.1| arginine-vasopressin receptor 1a [Mi...    95   2e-17
+gi|162957226|gb|ABY26008.1| arginine-vasopressin receptor 1a [Mi...    95   2e-17
+gi|297692335|ref|XP_002823515.1| PREDICTED: vasopressin V1a rece...    95   2e-17
+gi|195126150|ref|XP_002007537.1| GI12336 [Drosophila mojavensis]...    95   2e-17
+gi|307335533|gb|ADN43372.1| arginine vasopressin receptor 1a [Mi...    95   2e-17
+gi|307335509|gb|ADN43360.1| arginine vasopressin receptor 1a [Mi...    95   2e-17
+gi|307335531|gb|ADN43371.1| arginine vasopressin receptor 1a [Mi...    95   2e-17
+gi|307335495|gb|ADN43353.1| arginine vasopressin receptor 1a [Mi...    95   2e-17
+gi|162957202|gb|ABY25996.1| arginine-vasopressin receptor 1a [Mi...    94   2e-17
+gi|162957206|gb|ABY25998.1| arginine-vasopressin receptor 1a [Mi...    94   2e-17
+gi|215263218|emb|CAQ57755.1| GnRH receptor-II [Rana esculenta]         94   2e-17
+gi|162957210|gb|ABY26000.1| arginine-vasopressin receptor 1a [Mi...    94   2e-17
+gi|332207386|ref|XP_003252777.1| PREDICTED: LOW QUALITY PROTEIN:...    94   2e-17
+gi|307335501|gb|ADN43356.1| arginine vasopressin receptor 1a [Mi...    94   2e-17
+gi|157279889|ref|NP_001098460.1| vasopressin V1a receptor [Bos t...    94   2e-17
+gi|297262857|ref|XP_001116798.2| PREDICTED: vasopressin V1a rece...    94   2e-17
+gi|162957250|gb|ABY26020.1| arginine-vasopressin receptor 1a [Mi...    94   2e-17
+gi|162957198|gb|ABY25994.1| arginine-vasopressin receptor 1a [Mi...    94   2e-17
+gi|307335521|gb|ADN43366.1| arginine vasopressin receptor 1a [Mi...    94   2e-17
+gi|327273079|ref|XP_003221310.1| PREDICTED: vasopressin V1a rece...    94   2e-17
+gi|162957248|gb|ABY26019.1| arginine-vasopressin receptor 1a [Mi...    94   2e-17
+gi|269838513|gb|ACX85728.2| arginine vasotocin receptor type 1 [...    94   2e-17
+gi|307335525|gb|ADN43368.1| arginine vasopressin receptor 1a [Mi...    94   2e-17
+gi|307335527|gb|ADN43369.1| arginine vasopressin receptor 1a [Mi...    94   2e-17
+gi|162957256|gb|ABY26023.1| arginine-vasopressin receptor 1a [Mi...    94   2e-17
+gi|37540240|gb|AAK17004.1| vasotocin receptor V1-alpha [Takifugu...    94   3e-17
+gi|162957212|gb|ABY26001.1| arginine-vasopressin receptor 1a [Mi...    94   3e-17
+gi|162957262|gb|ABY26026.1| arginine-vasopressin receptor 1a [Ar...    94   3e-17
+gi|162957204|gb|ABY25997.1| arginine-vasopressin receptor 1a [Mi...    94   3e-17
+gi|125854301|ref|XP_700287.2| PREDICTED: Arg8-vasotocin receptor...    93   6e-17
+gi|85726196|gb|ABC79619.1| gonadotrophin releasing hormone recep...    93   7e-17
+gi|162957246|gb|ABY26018.1| arginine-vasopressin receptor 1a [Mi...    92   7e-17
+gi|118764562|dbj|BAF38754.1| V1-type arginine vasotocin receptor...    92   7e-17
+gi|162957264|gb|ABY26027.1| arginine-vasopressin receptor 1a [Ap...    92   7e-17
+gi|338318925|gb|AEI91710.1| corazonin recepter [Musca domestica]       92   7e-17
+gi|241020353|ref|XP_002405874.1| G protein-coupled receptor, put...    92   7e-17
+gi|162957240|gb|ABY26015.1| arginine-vasopressin receptor 1a [Mi...    92   8e-17
+gi|160333803|ref|NP_001103908.1| vasopressin V1a receptor [Gallu...    92   8e-17
+gi|119617521|gb|EAW97115.1| arginine vasopressin receptor 1A [Ho...    92   8e-17
+gi|74315883|gb|ABA02557.1| arginine vasopressin receptor 1 [Homo...    92   8e-17
+gi|4502331|ref|NP_000697.1| vasopressin V1a receptor [Homo sapie...    92   8e-17
+gi|162957208|gb|ABY25999.1| arginine-vasopressin receptor 1a [Ch...    92   9e-17
+gi|338726453|ref|XP_001917958.2| PREDICTED: vasopressin V1a rece...    92   1e-16
+gi|296212222|ref|XP_002752741.1| PREDICTED: vasopressin V1a rece...    90   3e-16
+gi|17507589|ref|NP_491453.1| human GoNadotropin-Releasing hormon...    90   5e-16
+gi|71895551|ref|NP_001026650.1| arginine vasopressin receptor 2 ...    90   5e-16
+gi|195155725|ref|XP_002018751.1| GL25969 [Drosophila persimilis]...    89   6e-16
+gi|195038323|ref|XP_001990609.1| GH18151 [Drosophila grimshawi] ...    89   7e-16
+gi|260804384|ref|XP_002597068.1| hypothetical protein BRAFLDRAFT...    89   8e-16
+gi|195453795|ref|XP_002073946.1| GK14383 [Drosophila willistoni]...    89   8e-16
+gi|118793835|ref|XP_001238433.1| AGAP001962-PB [Anopheles gambia...    89   8e-16
+gi|241161655|ref|XP_002408968.1| G protein-coupled receptor, put...    89   9e-16
+gi|75004663|sp|Q5WA50.1|CTR2_OCTVU RecName: Full=Cephalotocin re...    89   9e-16
+gi|54792598|dbj|BAD67171.1| cephalotocin receptor 2 [Octopus vul...    89   9e-16
+gi|333469858|gb|EAU75602.2| AGAP001962-PB [Anopheles gambiae str...    89   9e-16
+gi|195493815|ref|XP_002094575.1| GE20128 [Drosophila yakuba] >gn...    89   9e-16
+gi|119591827|gb|EAW71421.1| hCG1791329, isoform CRA_b [Homo sapi...    89   1e-15
+gi|296246016|gb|ADH03414.1| gonadotropin releasing hormone recep...    89   1e-15
+gi|47229613|emb|CAG06809.1| unnamed protein product [Tetraodon n...    88   1e-15
+gi|145651804|ref|NP_001078830.1| inotocin receptor [Tribolium ca...    88   2e-15
+gi|159798024|gb|ABX00684.1| vasopressin/oxytocin receptor-like p...    88   2e-15
+gi|33578087|gb|AAQ22364.1| vasotocin receptor [Rana catesbeiana]       88   2e-15
+gi|326930722|ref|XP_003211491.1| PREDICTED: galanin receptor typ...    87   2e-15
+gi|307175260|gb|EFN65306.1| Cardioacceleratory peptide receptor ...    87   2e-15
+gi|45775082|gb|AAS77205.1| G-protein coupled receptor 3 [Anophel...    87   2e-15
+gi|198453401|ref|XP_002137662.1| GA27348 [Drosophila pseudoobscu...    87   2e-15
+gi|195151979|ref|XP_002016916.1| GL22022 [Drosophila persimilis]...    87   2e-15
+gi|158301393|ref|XP_321100.4| putative vasopressin receptor 1 (A...    87   3e-15
+gi|344267540|ref|XP_003405624.1| PREDICTED: vasopressin V1a rece...    87   3e-15
+gi|270011132|gb|EFA07580.1| hypothetical protein TcasGA2_TC01636...    87   3e-15
+gi|184161263|gb|ACC68668.1| gonadotropin-releasing hormone recep...    87   4e-15
+gi|385729|gb|AAB27087.1| V1a arginine vasopressin receptor [rats...    87   4e-15
+gi|114572178|ref|XP_525039.2| PREDICTED: vasopressin V1b recepto...    86   7e-15
+gi|241596961|ref|XP_002404641.1| G protein-coupled receptor, put...    86   8e-15
+gi|315221128|ref|NP_001186721.1| vasopressin V1a receptor [Ovis ...    86   1e-14
+gi|1351391|sp|P48043.1|V1AR_SHEEP RecName: Full=Vasopressin V1a ...    86   1e-14
+gi|1019656|gb|AAC41627.1| vasopressin V1 receptor [Ovis aries]         86   1e-14
+gi|164653707|gb|ABY65239.1| gonadotropin-releasing hormone recep...    85   1e-14
+gi|11131044|sp|Q90352.1|AVT_CATCO RecName: Full=[Arg8]-vasotocin...    85   1e-14
+gi|261599701|gb|ACX85729.1| arginine vasotocin receptor type 1 [...    85   1e-14
+gi|119612003|gb|EAW91597.1| arginine vasopressin receptor 1B, is...    85   1e-14
+gi|4502333|ref|NP_000698.1| vasopressin V1b receptor [Homo sapie...    85   1e-14
+gi|317411275|gb|ADV18968.1| arginine vasotocin receptor [Hericht...    85   2e-14
+gi|332247697|ref|XP_003272998.1| PREDICTED: vasopressin V1b rece...    85   2e-14
+gi|317411284|gb|ADV18972.1| arginine vasotocin receptor [Hericht...    85   2e-14
+gi|339254138|ref|XP_003372292.1| 7 transmembrane receptor [Trich...    84   2e-14
+gi|76253816|ref|NP_001028994.1| gonadotropin-releasing hormone r...    84   2e-14
+gi|284795253|ref|NP_001165351.1| gonadotropin-releasing hormone ...    84   3e-14
+gi|301768445|ref|XP_002919640.1| PREDICTED: vasopressin V1a rece...    84   3e-14
+gi|281348172|gb|EFB23756.1| hypothetical protein PANDA_008285 [A...    84   3e-14
+gi|47209754|emb|CAF96006.1| unnamed protein product [Tetraodon n...    84   3e-14
+gi|296475989|gb|DAA18104.1| galanin receptor 2 [Bos taurus]            84   4e-14
+gi|55962272|emb|CAI11584.1| novel protein similar to vertebrate ...    84   4e-14
+gi|68358858|ref|XP_683692.1| PREDICTED: [Arg8]-vasotocin recepto...    83   4e-14
+gi|327264993|ref|XP_003217293.1| PREDICTED: galanin receptor typ...    83   4e-14
+gi|264823031|gb|ACY74367.1| arginine vasotocin receptor V1a2 [Cy...    83   5e-14
+gi|294715527|gb|ADF30857.1| vasotocin receptor type 1a [Taricha ...    83   5e-14
+gi|2695677|gb|AAB91470.1| gonadotropin hormone receptor [Bos tau...    83   5e-14
+gi|242000192|ref|XP_002434739.1| G protein-coupled receptor, put...    83   6e-14
+gi|4406079|gb|AAD19846.1| truncated arginine vasopressin recepto...    83   6e-14
+gi|332023904|gb|EGI64124.1| Cardioacceleratory peptide receptor ...    83   7e-14
+gi|21637399|gb|AAM70493.1|AF517936_1 arginine vasotocin receptor...    82   7e-14
+gi|294660755|gb|ADF28679.1| arginine vasotocin receptor [Epineph...    82   9e-14
+gi|340728353|ref|XP_003402490.1| PREDICTED: orexin receptor type...    82   1e-13
+gi|308525085|gb|ADO33897.1| arginine vasotocin receptor V1a2 [Ep...    82   1e-13
+gi|241119262|ref|XP_002402523.1| vasopressin v1a recpetor, putat...    81   2e-13
+gi|261599705|gb|ACX85731.1| isotocin receptor [Cyprinodon nevade...    81   2e-13
+gi|327280398|ref|XP_003224939.1| PREDICTED: mesotocin receptor-l...    81   2e-13
+gi|260813677|ref|XP_002601543.1| hypothetical protein BRAFLDRAFT...    81   3e-13
+gi|307196750|gb|EFN78209.1| Galanin receptor type 2 [Harpegnatho...    80   3e-13
+gi|241693072|ref|XP_002402115.1| corazonin receptor, putative [I...    80   3e-13
+gi|260826572|ref|XP_002608239.1| hypothetical protein BRAFLDRAFT...    80   4e-13
+gi|308457977|ref|XP_003091344.1| CRE-GNRR-1 protein [Caenorhabdi...    80   4e-13
+gi|114585267|ref|XP_001144020.1| PREDICTED: oxytocin receptor is...    80   4e-13
+gi|335287060|ref|XP_003355266.1| PREDICTED: hypothetical protein...    80   4e-13
+gi|23379647|gb|AAM76566.1| oxytocin receptor [Pan troglodytes]         80   4e-13
+gi|37540242|gb|AAK18744.1| vasotocin receptor V1-beta [Takifugu ...    80   5e-13
+gi|119612002|gb|EAW91596.1| arginine vasopressin receptor 1B, is...    80   5e-13
+gi|47227382|emb|CAF96931.1| unnamed protein product [Tetraodon n...    80   5e-13
+gi|171850884|emb|CAP17415.1| G Protein coupled receptor [Crassos...    80   6e-13
+gi|6003592|gb|AAF00506.1|AF184966_1 arginine vasotocin receptor ...    80   6e-13
+gi|11132714|sp|Q90334.1|ITR_CATCO RecName: Full=Isotocin recepto...    79   6e-13
+gi|156408928|ref|XP_001642108.1| predicted protein [Nematostella...    79   7e-13
+gi|339730761|dbj|BAK42592.2| arginine vasotocin receptor [Halich...    79   7e-13
+gi|27806499|ref|NP_776559.1| oxytocin receptor [Bos taurus] >gnl...    79   8e-13
+gi|344246582|gb|EGW02686.1| Oxytocin receptor [Cricetulus griseus]     79   8e-13
+gi|109018630|ref|XP_001089825.1| PREDICTED: vasopressin V1b rece...    79   1e-12
+gi|162957260|gb|ABY26025.1| arginine-vasopressin receptor 1a [Mi...    79   1e-12
+gi|169264531|emb|CAP19988.1| G protein coupled receptor [Crassos...    79   1e-12
+gi|113461951|ref|NP_001038197.1| oxytocin receptor [Macaca mulat...    79   1e-12
+gi|309401186|gb|ADO79881.1| oxytocin receptor [Macaca fascicularis]    79   1e-12
+gi|133779719|gb|ABO38815.1| arginine vasotocin receptor [Paralic...    79   1e-12
+gi|74228474|dbj|BAE25346.1| unnamed protein product [Mus musculus]     79   1e-12
+gi|237639867|gb|ACR08414.1| oxytocin receptor [Bubalus bubalis]        79   1e-12
+gi|296225776|ref|XP_002758671.1| PREDICTED: oxytocin receptor-li...    78   1e-12
+gi|194686849|dbj|BAG66063.1| vasotocin type1 receptor [Protopter...    78   1e-12
+gi|297670769|ref|XP_002813527.1| PREDICTED: oxytocin receptor-li...    78   1e-12
+gi|332231602|ref|XP_003264983.1| PREDICTED: oxytocin receptor [N...    78   1e-12
+gi|23379653|gb|AAM76569.1| oxytocin receptor [Macaca sp.]              78   2e-12
+gi|3822557|gb|AAC69889.1| oxytocin receptor [Bos taurus]               78   2e-12
+gi|157119384|ref|XP_001659389.1| cardioacceleratory peptide rece...    78   2e-12
+gi|55741437|ref|NP_999192.1| oxytocin receptor [Sus scrofa] >gnl...    78   2e-12
+gi|307209887|gb|EFN86666.1| Gonadotropin-releasing hormone II re...    78   2e-12
+gi|9845279|ref|NP_037003.2| oxytocin receptor [Rattus norvegicus...    78   2e-12
+gi|242013100|ref|XP_002427253.1| class A rhodopsin-like G-protei...    78   2e-12
+gi|2495024|sp|Q28756.1|OXYR_SHEEP RecName: Full=Oxytocin recepto...    78   2e-12
+
+Searching..................................................done
+
+
+Results from round 2
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+gi|4504059|ref|NP_000397.1| gonadotropin-releasing hormone recep...   358   6e-97
+gi|109074666|ref|XP_001109227.1| PREDICTED: gonadotropin-releasi...   357   9e-97
+gi|296196442|ref|XP_002745835.1| PREDICTED: gonadotropin-releasi...   357   2e-96
+gi|55622802|ref|XP_526608.1| PREDICTED: gonadotropin-releasing h...   356   2e-96
+gi|50978830|ref|NP_001003121.1| gonadotropin-releasing hormone r...   355   4e-96
+gi|281338800|gb|EFB14384.1| hypothetical protein PANDA_016457 [A...   355   5e-96
+gi|301782701|ref|XP_002926765.1| PREDICTED: gonadotropin-releasi...   355   6e-96
+gi|116248092|sp|Q19PY9.1|GNRHR_BOSMU RecName: Full=Gonadotropin-...   352   3e-95
+gi|28381363|sp|P49922.2|GNRHR_PIG RecName: Full=Gonadotropin-rel...   352   3e-95
+gi|29135325|ref|NP_803480.1| gonadotropin-releasing hormone rece...   352   3e-95
+gi|130487536|ref|NP_001076207.1| gonadotropin-releasing hormone ...   351   6e-95
+gi|110729313|gb|ABG88199.1| gonadotropin-releasing hormone recep...   351   7e-95
+gi|417086|sp|P32237.1|GNRHR_SHEEP RecName: Full=Gonadotropin-rel...   350   1e-94
+gi|126352316|ref|NP_001075305.1| gonadotropin-releasing hormone ...   350   2e-94
+gi|57164395|ref|NP_001009397.1| gonadotropin-releasing hormone r...   349   3e-94
+gi|407039|gb|AAA41265.1| gonadotropin-releasing hormone receptor...   349   4e-94
+gi|344288424|ref|XP_003415950.1| PREDICTED: gonadotropin-releasi...   349   4e-94
+gi|119514772|gb|ABL76162.1| gonadotropin releasing hormone recep...   348   5e-94
+gi|332238568|ref|XP_003268473.1| PREDICTED: gonadotropin-releasi...   344   1e-92
+gi|149035134|gb|EDL89838.1| gonadotropin releasing hormone recep...   340   2e-91
+gi|462202|sp|P30969.2|GNRHR_RAT RecName: Full=Gonadotropin-relea...   339   2e-91
+gi|77798109|ref|NP_112300.2| gonadotropin-releasing hormone rece...   339   2e-91
+gi|56304|emb|CAA48776.1| unnamed protein product [Rattus norvegi...   339   3e-91
+gi|12002705|gb|AAG43378.1|AF156930_1 gonadotropin releasing horm...   338   7e-91
+gi|290543492|ref|NP_001166428.1| gonadotropin-releasing hormone ...   327   2e-87
+gi|6754032|ref|NP_034453.1| gonadotropin-releasing hormone recep...   315   4e-84
+gi|498276|gb|AAA37716.1| gonadotropin releasing hormone receptor...   314   8e-84
+gi|47523620|ref|NP_999438.1| gonadotropin-releasing hormone rece...   314   1e-83
+gi|28380055|sp|Q9TTI8.1|GNRHR_TRIVU RecName: Full=Gonadotropin-r...   309   3e-82
+gi|126331566|ref|XP_001362289.1| PREDICTED: gonadotropin-releasi...   297   1e-78
+gi|182765462|ref|NP_001116830.1| gonadotropin-releasing hormone ...   295   6e-78
+gi|18075913|emb|CAD11992.1| gonadotropin-releasing hormone recep...   293   2e-77
+gi|6808613|gb|AAF28464.1| pituitary gonadotropin releasing hormo...   292   4e-77
+gi|60302672|ref|NP_001012627.1| gonadotropin-releasing hormone r...   283   2e-74
+gi|222418560|ref|NP_001138451.1| gonadotropin releasing hormone ...   278   5e-73
+gi|224063351|ref|XP_002190060.1| PREDICTED: gonadotropin-releasi...   278   9e-73
+gi|147898501|ref|NP_001079176.1| gonadotropin releasing hormone ...   275   6e-72
+gi|281020881|gb|ADA12248.1| gonadotropin releasing hormone recep...   267   1e-69
+gi|195438288|ref|XP_002067069.1| GK24218 [Drosophila willistoni]...   266   4e-69
+gi|302316214|gb|ADL14591.1| gonadotropin releasing hormone recep...   265   7e-69
+gi|56112299|gb|AAV71128.1| gonadotropin-releasing hormone recept...   265   8e-69
+gi|139152305|gb|ABO77118.1| gonadotropin-releasing hormone recep...   264   1e-68
+gi|302316216|gb|ADL14592.1| gonadotropin releasing hormone recep...   263   2e-68
+gi|139152317|gb|ABO77119.1| gonadotropin-releasing hormone recep...   263   2e-68
+gi|63054892|gb|AAY28982.1| gonadotropin-releasing hormone recept...   263   3e-68
+gi|114705478|gb|ABI75336.1| gonadotropin-releasing hormone recep...   262   5e-68
+gi|6689212|emb|CAB65407.1| gonadotropin-releasing hormone recept...   261   1e-67
+gi|83033264|gb|ABB97085.1| gonadotrophin-releasing hormone recep...   260   2e-67
+gi|169403918|dbj|BAG12379.1| gonadotropin releasing hormone rece...   258   6e-67
+gi|67624872|emb|CAE54807.2| 2B protein [Dicentrarchus labrax]         257   2e-66
+gi|37359718|dbj|BAC97833.1| gonadotropin-releasing hormone recep...   256   4e-66
+gi|157278585|ref|NP_001098393.1| gonadotropin-releasing hormone ...   255   4e-66
+gi|157278501|ref|NP_001098352.1| gonadotropin-releasing hormone ...   255   8e-66
+gi|11993052|gb|AAG42575.1|AF144063_1 GnRH receptor-1 [Rana cates...   254   1e-65
+gi|340730408|gb|AEK64844.1| gonadotropin-releasing hormone recep...   253   2e-65
+gi|37359724|dbj|BAC97836.1| gonadotropin-releasing hormone recep...   253   3e-65
+gi|90074697|dbj|BAE87048.1| gonadotropin-releasing hormone recep...   253   3e-65
+gi|90074699|dbj|BAE87049.1| gonadotropin-releasing hormone recep...   253   3e-65
+gi|42627727|dbj|BAD11150.1| gonadotropin-releasing hormone recep...   252   5e-65
+gi|82754176|gb|ABB89900.1| type 1/III gonadotropin-releasing hor...   252   6e-65
+gi|198476585|ref|XP_001357404.2| GA10920 [Drosophila pseudoobscu...   251   1e-64
+gi|76880403|dbj|BAE45698.1| type 1/III-3 gonadotropin-releasing ...   251   1e-64
+gi|116805391|gb|ABK27710.1| type 1/III gonadotropin-releasing ho...   250   2e-64
+gi|55725596|emb|CAE54804.2| gonadotrophin releasing hormone rece...   249   4e-64
+gi|30144690|gb|AAP15162.1| GnRH receptor 1 [Rana ridibundus]          248   8e-64
+gi|28830316|gb|AAO50198.2| gonadotropin-releasing hormone recept...   246   3e-63
+gi|156254302|gb|ABU62659.1| gonadotropin-releasing hormone recep...   246   3e-63
+gi|327283769|ref|XP_003226613.1| PREDICTED: gonadotropin-releasi...   246   4e-63
+gi|147901685|ref|NP_001091663.1| gonadotropin releasing hormone ...   245   6e-63
+gi|166157864|ref|NP_001107548.1| type 2/nmI gonadotropin-releasi...   244   1e-62
+gi|224085776|ref|XP_002189484.1| PREDICTED: arginine vasopressin...   244   1e-62
+gi|344306673|ref|XP_003422010.1| PREDICTED: gonadotropin-releasi...   243   2e-62
+gi|45382825|ref|NP_989984.1| gonadotropin-releasing hormone rece...   242   5e-62
+gi|90074701|dbj|BAE87050.1| gonadotropin-releasing hormone recep...   242   6e-62
+gi|76880395|dbj|BAE45694.1| type 1/III-1 gonadotropin-releasing ...   241   9e-62
+gi|37362420|gb|AAQ88391.1| GnRH receptor type 1 [Oreochromis aur...   241   9e-62
+gi|344255652|gb|EGW11756.1| Gonadotropin-releasing hormone recep...   239   4e-61
+gi|112983116|ref|NP_001037049.1| adipokinetic hormone receptor [...   238   6e-61
+gi|108514727|gb|ABF93210.1| GnRH receptor type 1 [Epinephelus co...   238   1e-60
+gi|5733822|gb|AAD49750.1|AF174481_1 gonadotropin-releasing hormo...   236   3e-60
+gi|126339113|ref|XP_001372716.1| PREDICTED: vasopressin V1a rece...   236   3e-60
+gi|118421171|gb|ABK88281.1| gonadotropin-releasing hormone recep...   236   4e-60
+gi|47220880|emb|CAG03087.1| unnamed protein product [Tetraodon n...   233   2e-59
+gi|126313702|ref|XP_001369168.1| PREDICTED: gonadotropin-releasi...   232   4e-59
+gi|74146437|dbj|BAE28970.1| unnamed protein product [Mus musculus]    232   5e-59
+gi|53680461|gb|AAU89433.1| gonadotropin releasing hormone type I...   232   6e-59
+gi|6683118|dbj|BAA89050.1| V1a arginine vasopressin receptor [Mu...   232   6e-59
+gi|33149329|ref|NP_058543.2| vasopressin V1a receptor [Mus muscu...   232   6e-59
+gi|1060933|dbj|BAA08567.1| V1a arginine vasopressin receptor [Mu...   231   8e-59
+gi|37362422|gb|AAQ88392.1| GnRH receptor type 3 [Oreochromis aur...   231   9e-59
+gi|16589056|gb|AAL27000.1|AF403014_1 type II gonadotropin-releas...   231   1e-58
+gi|189491898|gb|ACE00761.1| adipokinetic hormone receptor [Mandu...   230   2e-58
+gi|76880415|dbj|BAE45704.1| type 2/nmI-2 gonadotropin-releasing ...   230   3e-58
+gi|14916996|sp|O42329.2|GNRR2_CLAGA RecName: Full=Gonadotropin-r...   230   3e-58
+gi|76880411|dbj|BAE45702.1| type 2/nmI-2 gonadotropin-releasing ...   228   1e-57
+gi|294489280|ref|NP_001170921.1| gonadotropin releasing hormone ...   228   1e-57
+gi|185133560|ref|NP_001117823.1| gonadotropin-releasing hormone ...   226   3e-57
+gi|326933792|ref|XP_003212983.1| PREDICTED: vasopressin V1b rece...   225   9e-57
+gi|71895639|ref|NP_001026669.1| vasopressin V1b receptor [Gallus...   225   9e-57
+gi|195385408|ref|XP_002051398.1| GJ15464 [Drosophila virilis] >g...   225   1e-56
+gi|35215013|dbj|BAC77241.2| GnRH receptor type2 [Oreochromis nil...   224   1e-56
+gi|195577106|ref|XP_002078414.1| GD22549 [Drosophila simulans] >...   224   1e-56
+gi|195030652|ref|XP_001988182.1| GH11026 [Drosophila grimshawi] ...   224   1e-56
+gi|76880407|dbj|BAE45700.1| type 2/nmI-1 gonadotropin-releasing ...   223   3e-56
+gi|76880399|dbj|BAE45696.1| type 1/III-2 gonadotropin-releasing ...   223   4e-56
+gi|195116377|ref|XP_002002732.1| GI17543 [Drosophila mojavensis]...   222   6e-56
+gi|30144694|gb|AAP15164.1| GnRH receptor 3 [Rana ridibundus]          221   7e-56
+gi|194862657|ref|XP_001970058.1| GG23593 [Drosophila erecta] >gn...   221   7e-56
+gi|195471698|ref|XP_002088139.1| GE18412 [Drosophila yakuba] >gn...   220   2e-55
+gi|189039065|gb|ACD75498.1| red-pigment concentrating hormone re...   220   2e-55
+gi|38511720|gb|AAH61250.1| Gnrhr protein [Mus musculus]               220   3e-55
+gi|327278615|ref|XP_003224056.1| PREDICTED: vasopressin V1b rece...   220   3e-55
+gi|22901736|gb|AAN10047.1| putative AKH receptor [Drosophila mel...   219   4e-55
+gi|45552233|ref|NP_995639.1| Gonadotropin-releasing hormone rece...   219   4e-55
+gi|17137594|ref|NP_477387.1| Gonadotropin-releasing hormone rece...   218   6e-55
+gi|28380052|sp|Q95MH6.1|GNRR2_CERAE RecName: Full=Gonadotropin-r...   218   9e-55
+gi|149422572|ref|XP_001520677.1| PREDICTED: vasopressin V1a rece...   218   1e-54
+gi|3659702|gb|AAC61523.1| gonadotropin-releasing hormone recepto...   218   1e-54
+gi|35215011|dbj|BAC77240.2| GnRH receptor type1 [Oreochromis nil...   217   1e-54
+gi|321478402|gb|EFX89359.1| hypothetical protein DAPPUDRAFT_4064...   217   2e-54
+gi|28830314|gb|AAO50196.2| gonadotropin-releasing hormone recept...   216   3e-54
+gi|48675949|ref|NP_001001639.1| GnRH II receptor 7 transmembrane...   216   4e-54
+gi|194758305|ref|XP_001961402.1| GF14951 [Drosophila ananassae] ...   216   5e-54
+gi|158285004|ref|XP_308034.4| AGAP002156-PB [Anopheles gambiae s...   216   5e-54
+gi|291292274|gb|ADD92009.1| gonadotropin releasing hormone recep...   215   7e-54
+gi|28380051|sp|Q95MG6.1|GNRR2_CALJA RecName: Full=Gonadotropin-r...   215   7e-54
+gi|296228549|ref|XP_002759859.1| PREDICTED: gonadotropin-releasi...   215   8e-54
+gi|157129042|ref|XP_001655248.1| gonadotropin-releasing hormone ...   215   8e-54
+gi|89039345|gb|ABD60146.1| adipokinetic hormone receptor [Anophe...   215   8e-54
+gi|157278583|ref|NP_001098392.1| gonadotropin-releasing hormone ...   215   1e-53
+gi|37540240|gb|AAK17004.1| vasotocin receptor V1-alpha [Takifugu...   215   1e-53
+gi|157129044|ref|XP_001655249.1| gonadotropin-releasing hormone ...   214   1e-53
+gi|9857657|dbj|BAB11961.1| gonadotropin-releasing hormone recept...   214   2e-53
+gi|47209557|emb|CAF93245.1| unnamed protein product [Tetraodon n...   213   4e-53
+gi|296212222|ref|XP_002752741.1| PREDICTED: vasopressin V1a rece...   212   5e-53
+gi|47214198|emb|CAG00826.1| unnamed protein product [Tetraodon n...   211   7e-53
+gi|11993050|gb|AAG42574.1|AF144062_1 GnRH receptor-3 [Rana cates...   211   9e-53
+gi|114705480|gb|ABI75337.1| gonadotropin releasing hormone recep...   210   2e-52
+gi|258590757|emb|CAY77164.1| adipokinetic hormone receptor [Aede...   210   2e-52
+gi|74136245|ref|NP_001028014.1| gonadotropin-releasing hormone I...   210   3e-52
+gi|344267540|ref|XP_003405624.1| PREDICTED: vasopressin V1a rece...   210   3e-52
+gi|160905686|gb|ABX52401.1| ACP receptor [Bombyx mori]                210   3e-52
+gi|334904105|gb|AEH25943.1| adipokinetic hormone receptor [Gloss...   209   4e-52
+gi|146160993|gb|ABQ08716.1| gonadotropin-releasing hormone recep...   209   5e-52
+gi|14625493|gb|AAK29745.1| gonadotropin-releasing hormone recept...   208   6e-52
+gi|28822121|gb|AAO50197.1| gonadotropin-releasing hormone recept...   208   1e-51
+gi|258590761|emb|CAY77166.1| adipokinetic hormone receptor [Aede...   207   1e-51
+gi|332207386|ref|XP_003252777.1| PREDICTED: LOW QUALITY PROTEIN:...   207   2e-51
+gi|184161257|gb|ACC68665.1| gonadotropin-releasing hormone recep...   207   2e-51
+gi|185134947|ref|NP_001116991.1| gonadotropin-releasing hormone ...   207   2e-51
+gi|297692335|ref|XP_002823515.1| PREDICTED: vasopressin V1a rece...   207   2e-51
+gi|139152270|gb|ABO77115.1| gonadotropin-releasing hormone recep...   207   2e-51
+gi|139152230|gb|ABO77113.1| gonadotropin-releasing hormone recep...   207   2e-51
+gi|260821880|ref|XP_002606331.1| hypothetical protein BRAFLDRAFT...   207   2e-51
+gi|74096305|ref|NP_001027765.1| gonadotropin-releasing hormone r...   206   3e-51
+gi|82754178|gb|ABB89901.1| type 3/II gonadotropin-releasing horm...   206   3e-51
+gi|76253723|ref|NP_001028997.1| gonadotropin-releasing hormone r...   206   3e-51
+gi|44976678|gb|AAS49920.1| gonadotropin-releasing hormone recept...   206   4e-51
+gi|309401194|gb|ADO79885.1| arginine vasopressin receptor 1A [Ma...   206   4e-51
+gi|22324515|gb|AAM95605.1|AF329894_1 gonadotropin-releasing horm...   206   5e-51
+gi|119617521|gb|EAW97115.1| arginine vasopressin receptor 1A [Ho...   205   6e-51
+gi|197209924|ref|NP_001127726.1| neuropeptide receptor A28 [Bomb...   205   7e-51
+gi|338726453|ref|XP_001917958.2| PREDICTED: vasopressin V1a rece...   205   7e-51
+gi|74315883|gb|ABA02557.1| arginine vasopressin receptor 1 [Homo...   205   8e-51
+gi|4502331|ref|NP_000697.1| vasopressin V1a receptor [Homo sapie...   205   8e-51
+gi|149212708|gb|ABR22600.1| gonadotropin-releasing hormone recep...   205   8e-51
+gi|33316064|gb|AAQ04564.1|AF439802_1 putative gonadotropin relea...   204   1e-50
+gi|198429237|ref|XP_002119144.1| PREDICTED: hypothetical protein...   204   1e-50
+gi|332016315|gb|EGI57228.1| Gonadotropin-releasing hormone II re...   204   2e-50
+gi|134053892|ref|NP_001076809.1| adipokinetic hormone receptor [...   203   2e-50
+gi|76253773|ref|NP_001028996.1| gonadotropin-releasing hormone r...   203   2e-50
+gi|74096031|ref|NP_001027656.1| Gonadotropin-releasing hormone r...   203   3e-50
+gi|166157856|ref|NP_001107547.1| gonadotropin-releasing hormone ...   203   4e-50
+gi|149212702|gb|ABR22597.1| gonadotropin-releasing hormone recep...   202   4e-50
+gi|149212710|gb|ABR22601.1| gonadotropin-releasing hormone recep...   202   5e-50
+gi|148227062|ref|NP_001079211.1| gonadotropin-releasing hormone ...   202   5e-50
+gi|189234837|ref|XP_971565.2| PREDICTED: similar to gonadotropin...   202   6e-50
+gi|297262857|ref|XP_001116798.2| PREDICTED: vasopressin V1a rece...   202   6e-50
+gi|327273079|ref|XP_003221310.1| PREDICTED: vasopressin V1a rece...   202   7e-50
+gi|166157872|ref|NP_001107549.1| gonadotropin-releasing hormone ...   201   9e-50
+gi|296492398|gb|ADH29719.1| arginine vasopressin receptor 1A [Pe...   201   1e-49
+gi|296492410|gb|ADH29725.1| arginine vasopressin receptor 1A [Pe...   201   1e-49
+gi|296492380|gb|ADH29710.1| arginine vasopressin receptor 1A [Pe...   201   1e-49
+gi|296492376|gb|ADH29708.1| arginine vasopressin receptor 1A [Pe...   201   1e-49
+gi|296492414|gb|ADH29727.1| arginine vasopressin receptor 1A [Pe...   201   1e-49
+gi|296492378|gb|ADH29709.1| arginine vasopressin receptor 1A [Pe...   201   1e-49
+gi|283806645|ref|NP_001164571.1| ACP receptor [Nasonia vitripenn...   201   1e-49
+gi|344243306|gb|EGV99409.1| Vasopressin V1a receptor [Cricetulus...   201   1e-49
+gi|296492402|gb|ADH29721.1| arginine vasopressin receptor 1A [Pe...   201   1e-49
+gi|296492366|gb|ADH29703.1| arginine vasopressin receptor 1A [Pe...   201   2e-49
+gi|296492412|gb|ADH29726.1| arginine vasopressin receptor 1A [Pe...   201   2e-49
+gi|73920969|sp|Q9WTV8.2|V1AR_MICMA RecName: Full=Vasopressin V1a...   201   2e-49
+gi|296492368|gb|ADH29704.1| arginine vasopressin receptor 1A [Pe...   201   2e-49
+gi|296492384|gb|ADH29712.1| arginine vasopressin receptor 1A [Pe...   200   2e-49
+gi|296492396|gb|ADH29718.1| arginine vasopressin receptor 1A [Pe...   200   2e-49
+gi|296492392|gb|ADH29716.1| arginine vasopressin receptor 1A [Pe...   200   2e-49
+gi|296492406|gb|ADH29723.1| arginine vasopressin receptor 1A [Pe...   200   2e-49
+gi|296492358|gb|ADH29699.1| arginine vasopressin receptor 1A [Pe...   200   2e-49
+gi|296492416|gb|ADH29728.1| arginine vasopressin receptor 1A [Pe...   200   2e-49
+gi|291389479|ref|XP_002711283.1| PREDICTED: arginine vasopressin...   200   2e-49
+gi|296492404|gb|ADH29722.1| arginine vasopressin receptor 1A [Pe...   200   2e-49
+gi|296492354|gb|ADH29697.1| arginine vasopressin receptor 1A [Pe...   200   2e-49
+gi|296492394|gb|ADH29717.1| arginine vasopressin receptor 1A [Pe...   200   2e-49
+gi|296492408|gb|ADH29724.1| arginine vasopressin receptor 1A [Pe...   200   2e-49
+gi|296492356|gb|ADH29698.1| arginine vasopressin receptor 1A [Pe...   200   3e-49
+gi|296492360|gb|ADH29700.1| arginine vasopressin receptor 1A [Pe...   200   3e-49
+gi|195376261|ref|XP_002046915.1| GJ12227 [Drosophila virilis] >g...   199   3e-49
+gi|306922641|gb|ADN07516.1| arginine vasopressin receptor 1A [Mi...   199   3e-49
+gi|225030853|gb|ACN79527.1| gonadotropin-releasing hormone recep...   199   4e-49
+gi|76253787|ref|NP_001028995.1| gonadotropin-releasing hormone r...   199   4e-49
+gi|54036618|sp|Q9WTV9.1|V1AR_MICOH RecName: Full=Vasopressin V1a...   199   4e-49
+gi|297663816|ref|XP_002810361.1| PREDICTED: gonadotropin-releasi...   199   5e-49
+gi|160333803|ref|NP_001103908.1| vasopressin V1a receptor [Gallu...   198   7e-49
+gi|284795249|ref|NP_001165352.1| gonadotropin-releasing hormone ...   198   8e-49
+gi|338191090|gb|AEI54996.1| arginine vasotocin receptor V1a1 [Ep...   198   8e-49
+gi|296492390|gb|ADH29715.1| arginine vasopressin receptor 1A [Pe...   198   9e-49
+gi|126471027|dbj|BAF48112.1| arginine vasotocin type1 receptor [...   198   1e-48
+gi|160905684|gb|ABX52400.1| ACP receptor [Tribolium castaneum]        198   1e-48
+gi|157279889|ref|NP_001098460.1| vasopressin V1a receptor [Bos t...   197   1e-48
+gi|46451447|gb|AAS97968.1| GnRH receptor [Sparus aurata]              197   2e-48
+gi|37651169|dbj|BAC98944.1| gonadotropin-releasing hormone recep...   197   2e-48
+gi|270002847|gb|EEZ99294.1| hypothetical protein TcasGA2_TC00124...   197   2e-48
+gi|33149327|ref|NP_444178.2| vasopressin V1a receptor [Rattus no...   197   2e-48
+gi|313661382|ref|NP_001186299.1| isotocin receptor-like 2 [Danio...   196   3e-48
+gi|78098578|gb|ABB20590.1| adipokinetic hormone receptor [Peripl...   196   4e-48
+gi|338318925|gb|AEI91710.1| corazonin recepter [Musca domestica]      196   4e-48
+gi|146334859|gb|ABQ23254.1| vasotocin receptor type 1b [Taricha ...   196   4e-48
+gi|33391248|gb|AAQ17230.1| adipokinetic hormone receptor [Peripl...   195   5e-48
+gi|222418562|ref|NP_001138452.1| gonadotropin releasing hormone ...   195   6e-48
+gi|1276863|gb|AAC52507.1| vasopressin V1a receptor [Rattus norve...   195   8e-48
+gi|109074668|ref|XP_001109168.1| PREDICTED: gonadotropin-releasi...   195   8e-48
+gi|296196444|ref|XP_002745836.1| PREDICTED: gonadotropin-releasi...   195   8e-48
+gi|37651167|dbj|BAC98943.1| gonadotropin-releasing hormone recep...   194   1e-47
+gi|301626361|ref|XP_002942361.1| PREDICTED: vasopressin V1b rece...   194   1e-47
+gi|33578087|gb|AAQ22364.1| vasotocin receptor [Rana catesbeiana]      194   1e-47
+gi|326668792|ref|XP_003198871.1| PREDICTED: oxytocin receptor-li...   194   1e-47
+gi|260821952|ref|XP_002606367.1| hypothetical protein BRAFLDRAFT...   194   2e-47
+gi|158285002|ref|XP_001687839.1| putative gonadotrophin releasin...   193   2e-47
+gi|344310426|gb|AEN03789.1| allatotropin receptor [Aedes aegypti]     193   3e-47
+gi|294715527|gb|ADF30857.1| vasotocin receptor type 1a [Taricha ...   193   3e-47
+gi|61676184|ref|NP_001012781.1| gonadotropin-releasing hormone r...   193   3e-47
+gi|434000|emb|CAA77748.1| V1a arginine vasopressin receptor [Rat...   193   4e-47
+gi|224093944|ref|XP_002187321.1| PREDICTED: arginine vasopressin...   193   4e-47
+gi|114594521|ref|XP_001163813.1| PREDICTED: gonadotropin-releasi...   192   5e-47
+gi|94400905|ref|NP_001035354.1| adipokinetic hormone receptor [A...   192   5e-47
+gi|4406502|gb|AAD20002.1| gonadotropin releasing hormone recepto...   192   6e-47
+gi|118764566|dbj|BAF38756.1| V3/V1b-type arginine vasotocin rece...   192   7e-47
+gi|269838513|gb|ACX85728.2| arginine vasotocin receptor type 1 [...   191   8e-47
+gi|4406500|gb|AAD20001.1| gonadotropin releasing hormone recepto...   191   9e-47
+gi|340728353|ref|XP_003402490.1| PREDICTED: orexin receptor type...   189   6e-46
+gi|185134985|ref|NP_001116992.1| gonadotropin-releasing hormone ...   189   6e-46
+gi|301068501|gb|ADK55068.1| adipokinetic hormone receptor [Polyr...   188   8e-46
+gi|195338720|ref|XP_002035972.1| GM13935 [Drosophila sechellia] ...   188   1e-45
+gi|344288426|ref|XP_003415951.1| PREDICTED: gonadotropin-releasi...   188   1e-45
+gi|2495024|sp|Q28756.1|OXYR_SHEEP RecName: Full=Oxytocin recepto...   187   2e-45
+gi|311265112|ref|XP_003130493.1| PREDICTED: vasopressin V1b rece...   187   2e-45
+gi|297673475|ref|XP_002814792.1| PREDICTED: gonadotropin-releasi...   187   2e-45
+gi|114572178|ref|XP_525039.2| PREDICTED: vasopressin V1b recepto...   186   3e-45
+gi|149212706|gb|ABR22599.1| gonadotropin-releasing hormone recep...   186   3e-45
+gi|149212698|gb|ABR22595.1| gonadotropin-releasing hormone recep...   186   3e-45
+gi|317418943|emb|CBN80981.1| Vasotocin VT1 receptor [Dicentrarch...   186   4e-45
+gi|47205009|emb|CAF92557.1| unnamed protein product [Tetraodon n...   186   4e-45
+gi|722238|gb|AAA63885.1| gonadotropin-releasing hormone receptor...   186   5e-45
+gi|149212700|gb|ABR22596.1| gonadotropin-releasing hormone recep...   186   5e-45
+gi|340718180|ref|XP_003397549.1| PREDICTED: gonadotropin-releasi...   186   5e-45
+gi|4502333|ref|NP_000698.1| vasopressin V1b receptor [Homo sapie...   185   5e-45
+gi|119612003|gb|EAW91597.1| arginine vasopressin receptor 1B, is...   185   6e-45
+gi|149707995|ref|XP_001489571.1| PREDICTED: vasopressin V1b rece...   185   6e-45
+gi|74005994|ref|XP_545695.2| PREDICTED: vasopressin V1b receptor...   185   9e-45
+gi|332247697|ref|XP_003272998.1| PREDICTED: vasopressin V1b rece...   184   1e-44
+gi|118764562|dbj|BAF38754.1| V1-type arginine vasotocin receptor...   184   1e-44
+gi|385729|gb|AAB27087.1| V1a arginine vasopressin receptor [rats...   184   1e-44
+gi|301768445|ref|XP_002919640.1| PREDICTED: vasopressin V1a rece...   183   3e-44
+gi|281348172|gb|EFB23756.1| hypothetical protein PANDA_008285 [A...   183   3e-44
+gi|197209962|ref|NP_001127745.1| neuropeptide receptor A29 [Bomb...   183   3e-44
+gi|241119262|ref|XP_002402523.1| vasopressin v1a recpetor, putat...   183   4e-44
+gi|55962272|emb|CAI11584.1| novel protein similar to vertebrate ...   183   4e-44
+gi|11995301|gb|AAG42949.1| GnRH receptor-2 [Rana catesbeiana]         182   5e-44
+gi|68358858|ref|XP_683692.1| PREDICTED: [Arg8]-vasotocin recepto...   182   5e-44
+gi|307181168|gb|EFN68876.1| Gonadotropin-releasing hormone II re...   182   7e-44
+gi|109018630|ref|XP_001089825.1| PREDICTED: vasopressin V1b rece...   181   9e-44
+gi|1019656|gb|AAC41627.1| vasopressin V1 receptor [Ovis aries]        180   2e-43
+gi|125854301|ref|XP_700287.2| PREDICTED: Arg8-vasotocin receptor...   180   2e-43
+gi|1351391|sp|P48043.1|V1AR_SHEEP RecName: Full=Vasopressin V1a ...   180   2e-43
+gi|310774906|ref|NP_001185587.1| vasopressin V1a receptor [Canis...   180   3e-43
+gi|148706010|gb|EDL37957.1| gonadotropin releasing hormone recep...   179   4e-43
+gi|326930722|ref|XP_003211491.1| PREDICTED: galanin receptor typ...   179   4e-43
+gi|47229613|emb|CAG06809.1| unnamed protein product [Tetraodon n...   179   4e-43
+gi|119935275|ref|XP_001256919.1| PREDICTED: gonadotropin-releasi...   179   5e-43
+gi|30144692|gb|AAP15163.1| GnRH receptor 2 [Rana ridibundus]          179   6e-43
+gi|322801231|gb|EFZ21918.1| hypothetical protein SINV_00261 [Sol...   179   6e-43
+gi|71895551|ref|NP_001026650.1| arginine vasopressin receptor 2 ...   178   7e-43
+gi|47229762|emb|CAG06958.1| unnamed protein product [Tetraodon n...   178   8e-43
+gi|44976823|gb|AAS49921.1| gonadotropin-releasing hormone recept...   178   9e-43
+gi|197209900|ref|NP_001127714.1| neuropeptide receptor A16 [Bomb...   178   9e-43
+gi|315221128|ref|NP_001186721.1| vasopressin V1a receptor [Ovis ...   178   9e-43
+gi|149035135|gb|EDL89839.1| gonadotropin releasing hormone recep...   178   1e-42
+gi|904145|gb|AAB41939.1| gonadotropin-releasing hormone receptor...   177   2e-42
+gi|242015123|ref|XP_002428223.1| class A rhodopsin-like G-protei...   177   2e-42
+gi|858745|gb|AAB38515.1| GnRH receptor [Ovis aries]                   176   3e-42
+gi|126336379|ref|XP_001375059.1| PREDICTED: oxytocin receptor-li...   176   3e-42
+gi|312375308|gb|EFR22706.1| hypothetical protein AND_14320 [Anop...   175   6e-42
+gi|328716443|ref|XP_003245941.1| PREDICTED: gonadotropin-releasi...   175   6e-42
+gi|270011132|gb|EFA07580.1| hypothetical protein TcasGA2_TC01636...   175   7e-42
+gi|154799591|emb|CAL39150.1| gonadotropin-releasing hormone rece...   175   9e-42
+gi|195012841|ref|XP_001983758.1| GH16073 [Drosophila grimshawi] ...   174   1e-41
+gi|301604027|ref|XP_002931664.1| PREDICTED: vasopressin V1a rece...   174   1e-41
+gi|323433877|gb|ADX66344.1| allatotropin receptor [Manduca sexta]     173   3e-41
+gi|60729565|pir||JC7896 corazonin receptor (CG10698) - fruit fly...   173   3e-41
+gi|169264530|emb|CAP19987.1| G protein coupled receptor [Crassos...   173   4e-41
+gi|327280398|ref|XP_003224939.1| PREDICTED: mesotocin receptor-l...   173   4e-41
+gi|20385582|gb|AAM21341.1|AF373862_1 Drm corazonin receptor [Dro...   173   4e-41
+gi|145651804|ref|NP_001078830.1| inotocin receptor [Tribolium ca...   173   4e-41
+gi|159798024|gb|ABX00684.1| vasopressin/oxytocin receptor-like p...   173   4e-41
+gi|158301393|ref|XP_321100.4| putative vasopressin receptor 1 (A...   173   5e-41
+gi|45775082|gb|AAS77205.1| G-protein coupled receptor 3 [Anophel...   172   5e-41
+gi|21358377|ref|NP_648571.1| GRHRII [Drosophila melanogaster] >g...   172   5e-41
+gi|22901732|gb|AAN10045.1| putative corazonin receptor [Drosophi...   172   5e-41
+gi|195126150|ref|XP_002007537.1| GI12336 [Drosophila mojavensis]...   172   5e-41
+gi|195589802|ref|XP_002084638.1| GD12727 [Drosophila simulans] >...   172   6e-41
+gi|195160605|ref|XP_002021165.1| GL24963 [Drosophila persimilis]...   172   6e-41
+gi|260805612|ref|XP_002597680.1| hypothetical protein BRAFLDRAFT...   172   6e-41
+gi|125978709|ref|XP_001353387.1| GA10504 [Drosophila pseudoobscu...   172   7e-41
+gi|195327107|ref|XP_002030263.1| GM24664 [Drosophila sechellia] ...   171   1e-40
+gi|157279929|ref|NP_001098480.1| galanin receptor type 2 [Bos ta...   171   1e-40
+gi|215263216|emb|CAQ57754.1| GnRH receptor I [Rana esculenta]         171   1e-40
+gi|322795745|gb|EFZ18424.1| hypothetical protein SINV_08630 [Sol...   171   1e-40
+gi|47213273|emb|CAG12390.1| unnamed protein product [Tetraodon n...   171   1e-40
+gi|194747121|ref|XP_001956001.1| GF24986 [Drosophila ananassae] ...   171   1e-40
+gi|11131044|sp|Q90352.1|AVT_CATCO RecName: Full=[Arg8]-vasotocin...   171   1e-40
+gi|37540242|gb|AAK18744.1| vasotocin receptor V1-beta [Takifugu ...   171   2e-40
+gi|195440760|ref|XP_002068208.1| GK12785 [Drosophila willistoni]...   171   2e-40
+gi|194869809|ref|XP_001972525.1| GG13838 [Drosophila erecta] >gn...   171   2e-40
+gi|328716445|ref|XP_001945436.2| PREDICTED: gonadotropin-releasi...   170   2e-40
+gi|195038323|ref|XP_001990609.1| GH18151 [Drosophila grimshawi] ...   170   2e-40
+gi|241718457|ref|XP_002412155.1| seven transmembrane receptor, p...   169   3e-40
+gi|171850880|emb|CAP17413.1| G Protein coupled receptor [Crassos...   169   4e-40
+gi|291402513|ref|XP_002717487.1| PREDICTED: arginine vasopressin...   169   5e-40
+gi|195107430|ref|XP_001998315.1| GI23895 [Drosophila mojavensis]...   168   8e-40
+gi|169264529|emb|CAP19986.1| G protein coupled receptor [Crassos...   168   8e-40
+gi|327264993|ref|XP_003217293.1| PREDICTED: galanin receptor typ...   168   9e-40
+gi|332230469|ref|XP_003264417.1| PREDICTED: galanin receptor typ...   168   1e-39
+gi|268370124|ref|NP_001161243.1| adipokinetic hormone receptor [...   167   2e-39
+gi|195453795|ref|XP_002073946.1| GK14383 [Drosophila willistoni]...   167   2e-39
+gi|114673689|ref|XP_523975.2| PREDICTED: galanin receptor type 1...   167   2e-39
+gi|195493815|ref|XP_002094575.1| GE20128 [Drosophila yakuba] >gn...   167   2e-39
+gi|345484951|ref|XP_001604582.2| PREDICTED: orexin receptor type...   167   2e-39
+gi|296230588|ref|XP_002760772.1| PREDICTED: vasopressin V1b rece...   166   3e-39
+gi|307335497|gb|ADN43354.1| arginine vasopressin receptor 1a [Mi...   166   3e-39
+gi|195053980|ref|XP_001993904.1| GH22190 [Drosophila grimshawi] ...   166   3e-39
+gi|307335495|gb|ADN43353.1| arginine vasopressin receptor 1a [Mi...   166   3e-39
+gi|162957264|gb|ABY26027.1| arginine-vasopressin receptor 1a [Ap...   166   3e-39
+gi|307335545|gb|ADN43378.1| arginine vasopressin receptor 1a [Mi...   166   3e-39
+gi|344276760|ref|XP_003410175.1| PREDICTED: vasopressin V1b rece...   166   4e-39
+gi|296222903|ref|XP_002757388.1| PREDICTED: galanin receptor typ...   166   4e-39
+gi|162957256|gb|ABY26023.1| arginine-vasopressin receptor 1a [Mi...   166   4e-39
+gi|162957194|gb|ABY25992.1| arginine-vasopressin receptor 1a [Mi...   166   4e-39
+gi|307335529|gb|ADN43370.1| arginine vasopressin receptor 1a [Mi...   166   5e-39
+gi|307335531|gb|ADN43371.1| arginine vasopressin receptor 1a [Mi...   165   6e-39
+gi|307335509|gb|ADN43360.1| arginine vasopressin receptor 1a [Mi...   165   6e-39
+gi|162957200|gb|ABY25995.1| arginine-vasopressin receptor 1a [Mi...   165   6e-39
+gi|307335505|gb|ADN43358.1| arginine vasopressin receptor 1a [Mi...   165   6e-39
+gi|162957226|gb|ABY26008.1| arginine-vasopressin receptor 1a [Mi...   165   7e-39
+gi|162957214|gb|ABY26002.1| arginine-vasopressin receptor 1a [Mi...   165   7e-39
+gi|162957198|gb|ABY25994.1| arginine-vasopressin receptor 1a [Mi...   165   8e-39
+gi|307335491|gb|ADN43351.1| arginine vasopressin receptor 1a [Mi...   165   9e-39
+gi|162957252|gb|ABY26021.1| arginine-vasopressin receptor 1a [Mi...   165   1e-38
+gi|307335511|gb|ADN43361.1| arginine vasopressin receptor 1a [Ch...   164   1e-38
+gi|307335533|gb|ADN43372.1| arginine vasopressin receptor 1a [Mi...   164   1e-38
+gi|162957202|gb|ABY25996.1| arginine-vasopressin receptor 1a [Mi...   164   1e-38
+gi|189239225|ref|XP_973738.2| PREDICTED: similar to orexin recep...   164   1e-38
+gi|56112301|gb|AAV71129.1| gonadotropin-releasing hormone recept...   164   1e-38
+gi|162957204|gb|ABY25997.1| arginine-vasopressin receptor 1a [Mi...   164   1e-38
+gi|162957266|gb|ABY26028.1| arginine-vasopressin receptor 1a [My...   164   1e-38
+gi|56112305|gb|AAV71131.1| gonadotropin-releasing hormone recept...   164   1e-38
+gi|307335515|gb|ADN43363.1| arginine vasopressin receptor 1a [Ch...   164   2e-38
+gi|162957236|gb|ABY26013.1| arginine-vasopressin receptor 1a [Mi...   164   2e-38
+gi|345319976|ref|XP_003430226.1| PREDICTED: gonadotropin-releasi...   164   2e-38
+gi|162957220|gb|ABY26005.1| arginine-vasopressin receptor 1a [Mi...   164   2e-38
+gi|162957262|gb|ABY26026.1| arginine-vasopressin receptor 1a [Ar...   164   2e-38
+gi|162957216|gb|ABY26003.1| arginine-vasopressin receptor 1a [Mi...   164   2e-38
+gi|321466118|gb|EFX77115.1| hypothetical protein DAPPUDRAFT_5451...   164   2e-38
+gi|77404390|ref|NP_058901.2| vasopressin V1b receptor [Rattus no...   164   2e-38
+gi|162957228|gb|ABY26009.1| arginine-vasopressin receptor 1a [Mi...   164   2e-38
+gi|260826572|ref|XP_002608239.1| hypothetical protein BRAFLDRAFT...   163   2e-38
+gi|162957206|gb|ABY25998.1| arginine-vasopressin receptor 1a [Mi...   163   2e-38
+gi|307335541|gb|ADN43376.1| arginine vasopressin receptor 1a [Mi...   163   2e-38
+gi|162957224|gb|ABY26007.1| arginine-vasopressin receptor 1a [Mi...   163   2e-38
+gi|162957212|gb|ABY26001.1| arginine-vasopressin receptor 1a [Mi...   163   2e-38
+gi|307335535|gb|ADN43373.1| arginine vasopressin receptor 1a [Mi...   163   2e-38
+gi|6003592|gb|AAF00506.1|AF184966_1 arginine vasotocin receptor ...   163   3e-38
+gi|307335525|gb|ADN43368.1| arginine vasopressin receptor 1a [Mi...   163   3e-38
+gi|193870725|gb|ACF22973.1| neuropeptide Y receptor Y2 [Callorhi...   163   3e-38
+gi|307335527|gb|ADN43369.1| arginine vasopressin receptor 1a [Mi...   163   3e-38
+gi|15741086|gb|AAL06717.1| type III GnRH receptor splice variant...   163   3e-38
+gi|149058667|gb|EDM09824.1| arginine vasopressin receptor 1B, is...   163   4e-38
+gi|224093634|ref|XP_002195418.1| PREDICTED: arginine vasopressin...   163   4e-38
+gi|775210|gb|AAB60356.1| galanin receptor [Homo sapiens] >gnl|BL...   163   4e-38
+gi|167000885|ref|NP_001471.2| galanin receptor type 1 [Homo sapi...   163   4e-38
+gi|559048|gb|AAA50767.1| galanin receptor [Homo sapiens] >gnl|BL...   163   4e-38
+gi|307335501|gb|ADN43356.1| arginine vasopressin receptor 1a [Mi...   163   5e-38
+gi|162957210|gb|ABY26000.1| arginine-vasopressin receptor 1a [Mi...   163   5e-38
+gi|307335521|gb|ADN43366.1| arginine vasopressin receptor 1a [Mi...   162   5e-38
+gi|67624870|emb|CAE54806.2| 1B protein [Dicentrarchus labrax]         162   5e-38
+gi|8132111|gb|AAF73221.1|AF152534_1 arginine vasopressin type 1b...   162   6e-38
+gi|326911398|ref|XP_003202046.1| PREDICTED: Arg8-vasotocin recep...   162   6e-38
+gi|162957246|gb|ABY26018.1| arginine-vasopressin receptor 1a [Mi...   162   6e-38
+gi|162957250|gb|ABY26020.1| arginine-vasopressin receptor 1a [Mi...   162   7e-38
+gi|281353332|gb|EFB28916.1| hypothetical protein PANDA_013984 [A...   162   7e-38
+gi|162957248|gb|ABY26019.1| arginine-vasopressin receptor 1a [Mi...   162   8e-38
+gi|333469858|gb|EAU75602.2| AGAP001962-PB [Anopheles gambiae str...   161   9e-38
+gi|6753152|ref|NP_036054.1| vasopressin V1b receptor [Mus muscul...   161   9e-38
+gi|119630827|gb|EAX10422.1| prokineticin receptor 2 [Homo sapiens]    161   9e-38
+gi|197209952|ref|NP_001127740.1| neuropeptide receptor A5 [Bomby...   161   1e-37
+gi|1351393|sp|P48974.1|V1BR_RAT RecName: Full=Vasopressin V1b re...   161   1e-37
+gi|109122537|ref|XP_001086740.1| PREDICTED: galanin receptor typ...   161   1e-37
+gi|332020179|gb|EGI60623.1| [Arg8]-vasotocin receptor [Acromyrme...   161   1e-37
+gi|308525085|gb|ADO33897.1| arginine vasotocin receptor V1a2 [Ep...   161   2e-37
+gi|71896051|ref|NP_001026740.1| oxytocin receptor [Gallus gallus...   160   2e-37
+gi|156182200|gb|ABU55292.1| type I gonadotropin-releasing hormon...   160   3e-37
+gi|1314330|gb|AAB07760.1| neuropeptide y/peptide YY receptor typ...   160   3e-37
+gi|162957240|gb|ABY26015.1| arginine-vasopressin receptor 1a [Mi...   160   3e-37
+gi|327264225|ref|XP_003216915.1| PREDICTED: vasopressin V2 recep...   160   3e-37
+gi|170029979|ref|XP_001842868.1| gonadotropin-releasing hormone ...   159   4e-37
+gi|261599705|gb|ACX85731.1| isotocin receptor [Cyprinodon nevade...   159   5e-37
+gi|301778387|ref|XP_002924608.1| PREDICTED: gonadotropin-releasi...   159   6e-37
+gi|261599701|gb|ACX85729.1| arginine vasotocin receptor type 1 [...   159   7e-37
+gi|317411275|gb|ADV18968.1| arginine vasotocin receptor [Hericht...   158   9e-37
+gi|260804384|ref|XP_002597068.1| hypothetical protein BRAFLDRAFT...   158   9e-37
+gi|194686849|dbj|BAG66063.1| vasotocin type1 receptor [Protopter...   158   1e-36
+gi|241554501|ref|XP_002399500.1| vasopressin v1a recpetor, putat...   158   1e-36
+gi|37926802|gb|AAP74658.1| GnRH receptor II [Homo sapiens]            158   1e-36
+gi|19697896|gb|AAL89821.1| GnRH receptor II 5TM [Homo sapiens]        158   1e-36
+gi|119612002|gb|EAW91596.1| arginine vasopressin receptor 1B, is...   158   1e-36
+gi|109000952|ref|XP_001099090.1| PREDICTED: orexin receptor type...   158   1e-36
+gi|83416255|gb|ABC18170.1| type 1 orexin receptor [Sus scrofa]        158   1e-36
+gi|149623518|ref|XP_001520272.1| PREDICTED: vasopressin V2 recep...   158   1e-36
+gi|133779719|gb|ABO38815.1| arginine vasotocin receptor [Paralic...   158   1e-36
+gi|317411284|gb|ADV18972.1| arginine vasotocin receptor [Hericht...   157   2e-36
+gi|160905682|gb|ABX52399.1| ACP receptor [Anopheles gambiae]          157   2e-36
+gi|241632160|ref|XP_002408590.1| vasopressin v1a recpetor, putat...   157   2e-36
+gi|112817632|ref|NP_001036811.1| orexin receptor type 1 [Sus scr...   157   2e-36
+gi|309356496|emb|CAP37130.2| CBR-TAG-49 protein [Caenorhabditis ...   157   2e-36
+gi|264823031|gb|ACY74367.1| arginine vasotocin receptor V1a2 [Cy...   156   3e-36
+gi|339254138|ref|XP_003372292.1| 7 transmembrane receptor [Trich...   156   5e-36
+gi|158301919|ref|XP_321591.4| putative gonadotrophin releasing h...   156   6e-36
+gi|47227382|emb|CAF96931.1| unnamed protein product [Tetraodon n...   155   6e-36
+gi|224066672|ref|XP_002188302.1| PREDICTED: oxytocin receptor [T...   155   6e-36
+gi|162957232|gb|ABY26011.1| arginine-vasopressin receptor 1a [Mi...   155   7e-36
+gi|301770013|ref|XP_002920425.1| PREDICTED: LOW QUALITY PROTEIN:...   155   8e-36
+gi|296198450|ref|XP_002746736.1| PREDICTED: orexin receptor type...   155   1e-35
+gi|310774904|ref|NP_001185588.1| oxytocin receptor [Canis lupus ...   155   1e-35
+gi|17939853|emb|CAD19495.1| gonadotropin releasing hormone recep...   154   1e-35
+gi|11132714|sp|Q90334.1|ITR_CATCO RecName: Full=Isotocin recepto...   154   1e-35
+gi|308478283|ref|XP_003101353.1| CRE-TAG-49 protein [Caenorhabdi...   154   1e-35
+gi|70910044|emb|CAI64587.1| G protein-coupled receptor [Crassost...   154   2e-35
+gi|169264532|emb|CAP19989.1| G protein coupled receptor [Crassos...   154   2e-35
+gi|118793835|ref|XP_001238433.1| AGAP001962-PB [Anopheles gambia...   154   2e-35
+gi|47214190|emb|CAG00818.1| unnamed protein product [Tetraodon n...   154   2e-35
+gi|215274150|sp|Q96P88.3|GNRR2_HUMAN RecName: Full=Putative gona...   153   2e-35
+gi|184161263|gb|ACC68668.1| gonadotropin-releasing hormone recep...   153   2e-35
+gi|301613592|ref|XP_002936297.1| PREDICTED: mesotocin receptor-l...   153   3e-35
+gi|186461215|gb|ACC78285.1| gonadotropin releasing hormone recep...   153   3e-35
+gi|313661378|ref|NP_001186298.1| isotocin receptor-like 1 [Danio...   153   3e-35
+gi|21637399|gb|AAM70493.1|AF517936_1 arginine vasotocin receptor...   153   3e-35
+
+Sequences not found previously or not previously below threshold:
+
+gi|300798480|ref|NP_001179071.1| vasopressin V1b receptor [Bos t...   186   5e-45
+gi|334000129|gb|AEG42503.1| arginine vasopressin receptor 1B [Ov...   182   7e-44
+gi|195110313|ref|XP_001999726.1| GI22912 [Drosophila mojavensis]...   168   8e-40
+gi|189233529|ref|NP_001121535.1| galanin receptor type 2 [Gallus...   166   4e-39
+gi|224095222|ref|XP_002195920.1| PREDICTED: galanin receptor 3 [...   164   2e-38
+gi|125813135|ref|XP_001339169.1| PREDICTED: galanin receptor typ...   163   3e-38
+gi|260819314|ref|XP_002604982.1| hypothetical protein BRAFLDRAFT...   163   3e-38
+gi|301621387|ref|XP_002940025.1| PREDICTED: galanin receptor typ...   163   4e-38
+gi|224045987|ref|XP_002191432.1| PREDICTED: galanin receptor 1 [...   161   1e-37
+gi|292619681|ref|XP_002664053.1| PREDICTED: galanin receptor typ...   160   2e-37
+gi|326917347|ref|XP_003204961.1| PREDICTED: galanin receptor typ...   160   2e-37
+gi|189233525|ref|NP_001121534.1| galanin receptor type 1 [Gallus...   160   2e-37
+gi|73965005|ref|XP_540444.2| PREDICTED: galanin receptor type 2 ...   159   4e-37
+gi|47220082|emb|CAG12230.1| unnamed protein product [Tetraodon n...   159   6e-37
+gi|332260154|ref|XP_003279150.1| PREDICTED: LOW QUALITY PROTEIN:...   158   7e-37
+gi|301609404|ref|XP_002934279.1| PREDICTED: galanin receptor typ...   158   9e-37
+gi|300676776|gb|ADK26652.1| hypocretin (orexin) receptor 2 [Zono...   158   1e-36
+gi|224048609|ref|XP_002195247.1| PREDICTED: hypocretin (orexin) ...   158   1e-36
+gi|297701832|ref|XP_002827910.1| PREDICTED: galanin receptor typ...   157   2e-36
+gi|292616095|ref|XP_690480.2| PREDICTED: galanin receptor type 1...   157   2e-36
+gi|9506709|ref|NP_062045.1| galanin receptor type 2 [Rattus norv...   157   3e-36
+gi|4503905|ref|NP_003848.1| galanin receptor type 2 [Homo sapien...   156   3e-36
+gi|300676956|gb|ADK26827.1| hypocretin (orexin) receptor 2 [Zono...   156   3e-36
+gi|301769019|ref|XP_002919936.1| PREDICTED: galanin receptor typ...   156   3e-36
+gi|161353471|ref|NP_034384.3| galanin receptor type 2 [Mus muscu...   156   6e-36
+gi|3642918|gb|AAC36589.1| galanin receptor type 2 [Mus musculus]      156   6e-36
+gi|109118354|ref|XP_001103768.1| PREDICTED: galanin receptor typ...   155   6e-36
+gi|149723288|ref|XP_001494132.1| PREDICTED: galanin receptor typ...   155   9e-36
+gi|26343723|dbj|BAC35518.1| unnamed protein product [Mus musculus]    155   1e-35
+gi|4009515|gb|AAC95468.1| galanin receptor 2 [Mus musculus]           154   1e-35
+gi|344248576|gb|EGW04680.1| Galanin receptor type 2 [Cricetulus ...   154   2e-35
+gi|71981145|ref|NP_001021258.1| Temporarily Assigned Gene name f...   153   3e-35
+gi|55646095|ref|XP_523721.1| PREDICTED: galanin receptor type 2 ...   153   3e-35
+gi|327276523|ref|XP_003223019.1| PREDICTED: galanin receptor typ...   153   3e-35
+gi|71981136|ref|NP_001021257.1| Temporarily Assigned Gene name f...   153   3e-35
+
+Searching..................................................done
+
+
+Results from round 3
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+gi|109074666|ref|XP_001109227.1| PREDICTED: gonadotropin-releasi...   316   3e-84
+gi|28381363|sp|P49922.2|GNRHR_PIG RecName: Full=Gonadotropin-rel...   315   4e-84
+gi|281338800|gb|EFB14384.1| hypothetical protein PANDA_016457 [A...   315   7e-84
+gi|301782701|ref|XP_002926765.1| PREDICTED: gonadotropin-releasi...   315   8e-84
+gi|116248092|sp|Q19PY9.1|GNRHR_BOSMU RecName: Full=Gonadotropin-...   314   1e-83
+gi|296196442|ref|XP_002745835.1| PREDICTED: gonadotropin-releasi...   314   1e-83
+gi|50978830|ref|NP_001003121.1| gonadotropin-releasing hormone r...   313   1e-83
+gi|29135325|ref|NP_803480.1| gonadotropin-releasing hormone rece...   313   2e-83
+gi|4504059|ref|NP_000397.1| gonadotropin-releasing hormone recep...   313   2e-83
+gi|130487536|ref|NP_001076207.1| gonadotropin-releasing hormone ...   313   3e-83
+gi|55622802|ref|XP_526608.1| PREDICTED: gonadotropin-releasing h...   312   4e-83
+gi|110729313|gb|ABG88199.1| gonadotropin-releasing hormone recep...   312   4e-83
+gi|344288424|ref|XP_003415950.1| PREDICTED: gonadotropin-releasi...   312   5e-83
+gi|126352316|ref|NP_001075305.1| gonadotropin-releasing hormone ...   311   1e-82
+gi|417086|sp|P32237.1|GNRHR_SHEEP RecName: Full=Gonadotropin-rel...   310   2e-82
+gi|57164395|ref|NP_001009397.1| gonadotropin-releasing hormone r...   310   2e-82
+gi|407039|gb|AAA41265.1| gonadotropin-releasing hormone receptor...   310   2e-82
+gi|119514772|gb|ABL76162.1| gonadotropin releasing hormone recep...   308   6e-82
+gi|332238568|ref|XP_003268473.1| PREDICTED: gonadotropin-releasi...   303   3e-80
+gi|77798109|ref|NP_112300.2| gonadotropin-releasing hormone rece...   302   5e-80
+gi|149035134|gb|EDL89838.1| gonadotropin releasing hormone recep...   301   6e-80
+gi|462202|sp|P30969.2|GNRHR_RAT RecName: Full=Gonadotropin-relea...   301   7e-80
+gi|56304|emb|CAA48776.1| unnamed protein product [Rattus norvegi...   301   1e-79
+gi|18075913|emb|CAD11992.1| gonadotropin-releasing hormone recep...   300   1e-79
+gi|6808613|gb|AAF28464.1| pituitary gonadotropin releasing hormo...   300   2e-79
+gi|12002705|gb|AAG43378.1|AF156930_1 gonadotropin releasing horm...   298   1e-78
+gi|60302672|ref|NP_001012627.1| gonadotropin-releasing hormone r...   286   3e-75
+gi|290543492|ref|NP_001166428.1| gonadotropin-releasing hormone ...   284   1e-74
+gi|147898501|ref|NP_001079176.1| gonadotropin releasing hormone ...   282   6e-74
+gi|6754032|ref|NP_034453.1| gonadotropin-releasing hormone recep...   277   1e-72
+gi|47523620|ref|NP_999438.1| gonadotropin-releasing hormone rece...   277   2e-72
+gi|498276|gb|AAA37716.1| gonadotropin releasing hormone receptor...   276   3e-72
+gi|195438288|ref|XP_002067069.1| GK24218 [Drosophila willistoni]...   274   8e-72
+gi|224063351|ref|XP_002190060.1| PREDICTED: gonadotropin-releasi...   274   1e-71
+gi|28380055|sp|Q9TTI8.1|GNRHR_TRIVU RecName: Full=Gonadotropin-r...   274   1e-71
+gi|222418560|ref|NP_001138451.1| gonadotropin releasing hormone ...   273   3e-71
+gi|224085776|ref|XP_002189484.1| PREDICTED: arginine vasopressin...   270   2e-70
+gi|56112299|gb|AAV71128.1| gonadotropin-releasing hormone recept...   269   4e-70
+gi|114705478|gb|ABI75336.1| gonadotropin-releasing hormone recep...   266   3e-69
+gi|302316214|gb|ADL14591.1| gonadotropin releasing hormone recep...   265   7e-69
+gi|63054892|gb|AAY28982.1| gonadotropin-releasing hormone recept...   264   8e-69
+gi|139152305|gb|ABO77118.1| gonadotropin-releasing hormone recep...   264   1e-68
+gi|6689212|emb|CAB65407.1| gonadotropin-releasing hormone recept...   264   1e-68
+gi|83033264|gb|ABB97085.1| gonadotrophin-releasing hormone recep...   264   2e-68
+gi|169403918|dbj|BAG12379.1| gonadotropin releasing hormone rece...   264   2e-68
+gi|126331566|ref|XP_001362289.1| PREDICTED: gonadotropin-releasi...   262   5e-68
+gi|198476585|ref|XP_001357404.2| GA10920 [Drosophila pseudoobscu...   261   7e-68
+gi|182765462|ref|NP_001116830.1| gonadotropin-releasing hormone ...   261   1e-67
+gi|90074697|dbj|BAE87048.1| gonadotropin-releasing hormone recep...   259   5e-67
+gi|11993052|gb|AAG42575.1|AF144063_1 GnRH receptor-1 [Rana cates...   258   6e-67
+gi|157278501|ref|NP_001098352.1| gonadotropin-releasing hormone ...   258   1e-66
+gi|67624872|emb|CAE54807.2| 2B protein [Dicentrarchus labrax]         258   1e-66
+gi|42627727|dbj|BAD11150.1| gonadotropin-releasing hormone recep...   257   1e-66
+gi|116805391|gb|ABK27710.1| type 1/III gonadotropin-releasing ho...   257   2e-66
+gi|37359724|dbj|BAC97836.1| gonadotropin-releasing hormone recep...   257   2e-66
+gi|157278585|ref|NP_001098393.1| gonadotropin-releasing hormone ...   257   2e-66
+gi|37359718|dbj|BAC97833.1| gonadotropin-releasing hormone recep...   256   2e-66
+gi|340730408|gb|AEK64844.1| gonadotropin-releasing hormone recep...   256   3e-66
+gi|90074699|dbj|BAE87049.1| gonadotropin-releasing hormone recep...   256   4e-66
+gi|55725596|emb|CAE54804.2| gonadotrophin releasing hormone rece...   255   6e-66
+gi|82754176|gb|ABB89900.1| type 1/III gonadotropin-releasing hor...   255   7e-66
+gi|302316216|gb|ADL14592.1| gonadotropin releasing hormone recep...   255   7e-66
+gi|139152317|gb|ABO77119.1| gonadotropin-releasing hormone recep...   254   1e-65
+gi|74146437|dbj|BAE28970.1| unnamed protein product [Mus musculus]    254   1e-65
+gi|6683118|dbj|BAA89050.1| V1a arginine vasopressin receptor [Mu...   253   2e-65
+gi|33149329|ref|NP_058543.2| vasopressin V1a receptor [Mus muscu...   253   2e-65
+gi|1060933|dbj|BAA08567.1| V1a arginine vasopressin receptor [Mu...   253   2e-65
+gi|126339113|ref|XP_001372716.1| PREDICTED: vasopressin V1a rece...   253   4e-65
+gi|76880403|dbj|BAE45698.1| type 1/III-3 gonadotropin-releasing ...   252   4e-65
+gi|30144690|gb|AAP15162.1| GnRH receptor 1 [Rana ridibundus]          252   5e-65
+gi|327283769|ref|XP_003226613.1| PREDICTED: gonadotropin-releasi...   252   7e-65
+gi|90074701|dbj|BAE87050.1| gonadotropin-releasing hormone recep...   250   2e-64
+gi|28830316|gb|AAO50198.2| gonadotropin-releasing hormone recept...   250   2e-64
+gi|166157864|ref|NP_001107548.1| type 2/nmI gonadotropin-releasi...   249   3e-64
+gi|37362420|gb|AAQ88391.1| GnRH receptor type 1 [Oreochromis aur...   249   4e-64
+gi|156254302|gb|ABU62659.1| gonadotropin-releasing hormone recep...   248   7e-64
+gi|76880395|dbj|BAE45694.1| type 1/III-1 gonadotropin-releasing ...   248   9e-64
+gi|108514727|gb|ABF93210.1| GnRH receptor type 1 [Epinephelus co...   248   1e-63
+gi|326933792|ref|XP_003212983.1| PREDICTED: vasopressin V1b rece...   247   1e-63
+gi|147901685|ref|NP_001091663.1| gonadotropin releasing hormone ...   247   2e-63
+gi|71895639|ref|NP_001026669.1| vasopressin V1b receptor [Gallus...   246   2e-63
+gi|45382825|ref|NP_989984.1| gonadotropin-releasing hormone rece...   246   3e-63
+gi|327278615|ref|XP_003224056.1| PREDICTED: vasopressin V1b rece...   246   3e-63
+gi|112983116|ref|NP_001037049.1| adipokinetic hormone receptor [...   243   2e-62
+gi|344310426|gb|AEN03789.1| allatotropin receptor [Aedes aegypti]     242   5e-62
+gi|344306673|ref|XP_003422010.1| PREDICTED: gonadotropin-releasi...   240   2e-61
+gi|47220880|emb|CAG03087.1| unnamed protein product [Tetraodon n...   240   2e-61
+gi|118421171|gb|ABK88281.1| gonadotropin-releasing hormone recep...   238   9e-61
+gi|53680461|gb|AAU89433.1| gonadotropin releasing hormone type I...   236   4e-60
+gi|5733822|gb|AAD49750.1|AF174481_1 gonadotropin-releasing hormo...   235   5e-60
+gi|294489280|ref|NP_001170921.1| gonadotropin releasing hormone ...   235   5e-60
+gi|281020881|gb|ADA12248.1| gonadotropin releasing hormone recep...   235   7e-60
+gi|37362422|gb|AAQ88392.1| GnRH receptor type 3 [Oreochromis aur...   235   9e-60
+gi|340728353|ref|XP_003402490.1| PREDICTED: orexin receptor type...   234   1e-59
+gi|37540240|gb|AAK17004.1| vasotocin receptor V1-alpha [Takifugu...   234   1e-59
+gi|149422572|ref|XP_001520677.1| PREDICTED: vasopressin V1a rece...   234   1e-59
+gi|185133560|ref|NP_001117823.1| gonadotropin-releasing hormone ...   234   1e-59
+gi|14916996|sp|O42329.2|GNRR2_CLAGA RecName: Full=Gonadotropin-r...   233   2e-59
+gi|195577106|ref|XP_002078414.1| GD22549 [Drosophila simulans] >...   233   2e-59
+gi|76880415|dbj|BAE45704.1| type 2/nmI-2 gonadotropin-releasing ...   233   3e-59
+gi|195116377|ref|XP_002002732.1| GI17543 [Drosophila mojavensis]...   232   4e-59
+gi|195385408|ref|XP_002051398.1| GJ15464 [Drosophila virilis] >g...   232   5e-59
+gi|76880411|dbj|BAE45702.1| type 2/nmI-2 gonadotropin-releasing ...   231   1e-58
+gi|194862657|ref|XP_001970058.1| GG23593 [Drosophila erecta] >gn...   230   2e-58
+gi|195030652|ref|XP_001988182.1| GH11026 [Drosophila grimshawi] ...   230   2e-58
+gi|76880407|dbj|BAE45700.1| type 2/nmI-1 gonadotropin-releasing ...   230   2e-58
+gi|35215013|dbj|BAC77241.2| GnRH receptor type2 [Oreochromis nil...   230   2e-58
+gi|195471698|ref|XP_002088139.1| GE18412 [Drosophila yakuba] >gn...   230   2e-58
+gi|22901736|gb|AAN10047.1| putative AKH receptor [Drosophila mel...   229   5e-58
+gi|45552233|ref|NP_995639.1| Gonadotropin-releasing hormone rece...   229   5e-58
+gi|126313702|ref|XP_001369168.1| PREDICTED: gonadotropin-releasi...   229   5e-58
+gi|189491898|gb|ACE00761.1| adipokinetic hormone receptor [Mandu...   228   6e-58
+gi|17137594|ref|NP_477387.1| Gonadotropin-releasing hormone rece...   228   8e-58
+gi|3659702|gb|AAC61523.1| gonadotropin-releasing hormone recepto...   227   2e-57
+gi|326930722|ref|XP_003211491.1| PREDICTED: galanin receptor typ...   226   3e-57
+gi|296212222|ref|XP_002752741.1| PREDICTED: vasopressin V1a rece...   226   5e-57
+gi|158285004|ref|XP_308034.4| AGAP002156-PB [Anopheles gambiae s...   226   5e-57
+gi|89039345|gb|ABD60146.1| adipokinetic hormone receptor [Anophe...   225   8e-57
+gi|16589056|gb|AAL27000.1|AF403014_1 type II gonadotropin-releas...   224   1e-56
+gi|344267540|ref|XP_003405624.1| PREDICTED: vasopressin V1a rece...   224   1e-56
+gi|194758305|ref|XP_001961402.1| GF14951 [Drosophila ananassae] ...   224   1e-56
+gi|321478402|gb|EFX89359.1| hypothetical protein DAPPUDRAFT_4064...   224   2e-56
+gi|76880399|dbj|BAE45696.1| type 1/III-2 gonadotropin-releasing ...   224   2e-56
+gi|30144694|gb|AAP15164.1| GnRH receptor 3 [Rana ridibundus]          223   2e-56
+gi|146160993|gb|ABQ08716.1| gonadotropin-releasing hormone recep...   223   3e-56
+gi|338726453|ref|XP_001917958.2| PREDICTED: vasopressin V1a rece...   223   3e-56
+gi|160905686|gb|ABX52401.1| ACP receptor [Bombyx mori]                222   5e-56
+gi|157278583|ref|NP_001098392.1| gonadotropin-releasing hormone ...   222   6e-56
+gi|9857657|dbj|BAB11961.1| gonadotropin-releasing hormone recept...   222   7e-56
+gi|189039065|gb|ACD75498.1| red-pigment concentrating hormone re...   222   7e-56
+gi|47209557|emb|CAF93245.1| unnamed protein product [Tetraodon n...   221   2e-55
+gi|157129042|ref|XP_001655248.1| gonadotropin-releasing hormone ...   221   2e-55
+gi|291292274|gb|ADD92009.1| gonadotropin releasing hormone recep...   220   2e-55
+gi|291389479|ref|XP_002711283.1| PREDICTED: arginine vasopressin...   220   2e-55
+gi|157129044|ref|XP_001655249.1| gonadotropin-releasing hormone ...   220   2e-55
+gi|297692335|ref|XP_002823515.1| PREDICTED: vasopressin V1a rece...   219   3e-55
+gi|332207386|ref|XP_003252777.1| PREDICTED: LOW QUALITY PROTEIN:...   219   3e-55
+gi|160333803|ref|NP_001103908.1| vasopressin V1a receptor [Gallu...   219   4e-55
+gi|296492398|gb|ADH29719.1| arginine vasopressin receptor 1A [Pe...   219   4e-55
+gi|296492366|gb|ADH29703.1| arginine vasopressin receptor 1A [Pe...   219   5e-55
+gi|327273079|ref|XP_003221310.1| PREDICTED: vasopressin V1a rece...   219   5e-55
+gi|296492380|gb|ADH29710.1| arginine vasopressin receptor 1A [Pe...   219   5e-55
+gi|296492376|gb|ADH29708.1| arginine vasopressin receptor 1A [Pe...   219   5e-55
+gi|296492378|gb|ADH29709.1| arginine vasopressin receptor 1A [Pe...   219   5e-55
+gi|73920969|sp|Q9WTV8.2|V1AR_MICMA RecName: Full=Vasopressin V1a...   219   6e-55
+gi|332016315|gb|EGI57228.1| Gonadotropin-releasing hormone II re...   219   6e-55
+gi|28830314|gb|AAO50196.2| gonadotropin-releasing hormone recept...   219   6e-55
+gi|296492402|gb|ADH29721.1| arginine vasopressin receptor 1A [Pe...   219   6e-55
+gi|296492412|gb|ADH29726.1| arginine vasopressin receptor 1A [Pe...   218   6e-55
+gi|296492368|gb|ADH29704.1| arginine vasopressin receptor 1A [Pe...   218   7e-55
+gi|296492396|gb|ADH29718.1| arginine vasopressin receptor 1A [Pe...   218   7e-55
+gi|157279889|ref|NP_001098460.1| vasopressin V1a receptor [Bos t...   218   7e-55
+gi|296492384|gb|ADH29712.1| arginine vasopressin receptor 1A [Pe...   218   7e-55
+gi|296492392|gb|ADH29716.1| arginine vasopressin receptor 1A [Pe...   218   7e-55
+gi|334904105|gb|AEH25943.1| adipokinetic hormone receptor [Gloss...   218   7e-55
+gi|309401194|gb|ADO79885.1| arginine vasopressin receptor 1A [Ma...   218   7e-55
+gi|296492358|gb|ADH29699.1| arginine vasopressin receptor 1A [Pe...   218   8e-55
+gi|296492406|gb|ADH29723.1| arginine vasopressin receptor 1A [Pe...   218   8e-55
+gi|344243306|gb|EGV99409.1| Vasopressin V1a receptor [Cricetulus...   218   8e-55
+gi|296492410|gb|ADH29725.1| arginine vasopressin receptor 1A [Pe...   218   8e-55
+gi|296492394|gb|ADH29717.1| arginine vasopressin receptor 1A [Pe...   218   8e-55
+gi|296492354|gb|ADH29697.1| arginine vasopressin receptor 1A [Pe...   218   9e-55
+gi|296492408|gb|ADH29724.1| arginine vasopressin receptor 1A [Pe...   218   9e-55
+gi|296492404|gb|ADH29722.1| arginine vasopressin receptor 1A [Pe...   218   9e-55
+gi|197209900|ref|NP_001127714.1| neuropeptide receptor A16 [Bomb...   218   9e-55
+gi|296492414|gb|ADH29727.1| arginine vasopressin receptor 1A [Pe...   218   1e-54
+gi|296492356|gb|ADH29698.1| arginine vasopressin receptor 1A [Pe...   217   1e-54
+gi|306922641|gb|ADN07516.1| arginine vasopressin receptor 1A [Mi...   217   1e-54
+gi|54036618|sp|Q9WTV9.1|V1AR_MICOH RecName: Full=Vasopressin V1a...   217   2e-54
+gi|296492360|gb|ADH29700.1| arginine vasopressin receptor 1A [Pe...   217   2e-54
+gi|296492416|gb|ADH29728.1| arginine vasopressin receptor 1A [Pe...   217   2e-54
+gi|313661382|ref|NP_001186299.1| isotocin receptor-like 2 [Danio...   217   2e-54
+gi|35215011|dbj|BAC77240.2| GnRH receptor type1 [Oreochromis nil...   217   2e-54
+gi|119617521|gb|EAW97115.1| arginine vasopressin receptor 1A [Ho...   216   3e-54
+gi|4502331|ref|NP_000697.1| vasopressin V1a receptor [Homo sapie...   216   3e-54
+gi|74315883|gb|ABA02557.1| arginine vasopressin receptor 1 [Homo...   216   3e-54
+gi|197209924|ref|NP_001127726.1| neuropeptide receptor A28 [Bomb...   216   4e-54
+gi|296492390|gb|ADH29715.1| arginine vasopressin receptor 1A [Pe...   216   4e-54
+gi|126471027|dbj|BAF48112.1| arginine vasotocin type1 receptor [...   216   5e-54
+gi|185134947|ref|NP_001116991.1| gonadotropin-releasing hormone ...   216   5e-54
+gi|33149327|ref|NP_444178.2| vasopressin V1a receptor [Rattus no...   215   7e-54
+gi|297262857|ref|XP_001116798.2| PREDICTED: vasopressin V1a rece...   215   7e-54
+gi|338191090|gb|AEI54996.1| arginine vasotocin receptor V1a1 [Ep...   215   9e-54
+gi|258590757|emb|CAY77164.1| adipokinetic hormone receptor [Aede...   215   9e-54
+gi|114572178|ref|XP_525039.2| PREDICTED: vasopressin V1b recepto...   214   1e-53
+gi|14625493|gb|AAK29745.1| gonadotropin-releasing hormone recept...   214   1e-53
+gi|114705480|gb|ABI75337.1| gonadotropin releasing hormone recep...   214   2e-53
+gi|47214198|emb|CAG00826.1| unnamed protein product [Tetraodon n...   214   2e-53
+gi|119612003|gb|EAW91597.1| arginine vasopressin receptor 1B, is...   213   2e-53
+gi|4502333|ref|NP_000698.1| vasopressin V1b receptor [Homo sapie...   213   2e-53
+gi|1276863|gb|AAC52507.1| vasopressin V1a receptor [Rattus norve...   213   3e-53
+gi|283806645|ref|NP_001164571.1| ACP receptor [Nasonia vitripenn...   213   3e-53
+gi|332247697|ref|XP_003272998.1| PREDICTED: vasopressin V1b rece...   213   3e-53
+gi|258590761|emb|CAY77166.1| adipokinetic hormone receptor [Aede...   212   4e-53
+gi|157279929|ref|NP_001098480.1| galanin receptor type 2 [Bos ta...   212   5e-53
+gi|37651169|dbj|BAC98944.1| gonadotropin-releasing hormone recep...   212   5e-53
+gi|146334859|gb|ABQ23254.1| vasotocin receptor type 1b [Taricha ...   212   6e-53
+gi|189233529|ref|NP_001121535.1| galanin receptor type 2 [Gallus...   212   6e-53
+gi|344255652|gb|EGW11756.1| Gonadotropin-releasing hormone recep...   212   7e-53
+gi|22324515|gb|AAM95605.1|AF329894_1 gonadotropin-releasing horm...   211   8e-53
+gi|224093944|ref|XP_002187321.1| PREDICTED: arginine vasopressin...   211   9e-53
+gi|28380052|sp|Q95MH6.1|GNRR2_CERAE RecName: Full=Gonadotropin-r...   211   1e-52
+gi|434000|emb|CAA77748.1| V1a arginine vasopressin receptor [Rat...   211   1e-52
+gi|269838513|gb|ACX85728.2| arginine vasotocin receptor type 1 [...   211   1e-52
+gi|11993050|gb|AAG42574.1|AF144062_1 GnRH receptor-3 [Rana cates...   211   2e-52
+gi|48675949|ref|NP_001001639.1| GnRH II receptor 7 transmembrane...   211   2e-52
+gi|109018630|ref|XP_001089825.1| PREDICTED: vasopressin V1b rece...   211   2e-52
+gi|2495024|sp|Q28756.1|OXYR_SHEEP RecName: Full=Oxytocin recepto...   210   2e-52
+gi|345484951|ref|XP_001604582.2| PREDICTED: orexin receptor type...   210   2e-52
+gi|193870725|gb|ACF22973.1| neuropeptide Y receptor Y2 [Callorhi...   210   3e-52
+gi|37651167|dbj|BAC98943.1| gonadotropin-releasing hormone recep...   209   3e-52
+gi|294715527|gb|ADF30857.1| vasotocin receptor type 1a [Taricha ...   209   3e-52
+gi|33578087|gb|AAQ22364.1| vasotocin receptor [Rana catesbeiana]      209   3e-52
+gi|311265112|ref|XP_003130493.1| PREDICTED: vasopressin V1b rece...   209   4e-52
+gi|83416255|gb|ABC18170.1| type 1 orexin receptor [Sus scrofa]        209   5e-52
+gi|300798480|ref|NP_001179071.1| vasopressin V1b receptor [Bos t...   209   5e-52
+gi|301626361|ref|XP_002942361.1| PREDICTED: vasopressin V1b rece...   209   6e-52
+gi|327264993|ref|XP_003217293.1| PREDICTED: galanin receptor typ...   208   7e-52
+gi|166157856|ref|NP_001107547.1| gonadotropin-releasing hormone ...   208   7e-52
+gi|301621387|ref|XP_002940025.1| PREDICTED: galanin receptor typ...   208   8e-52
+gi|74096305|ref|NP_001027765.1| gonadotropin-releasing hormone r...   208   9e-52
+gi|118764566|dbj|BAF38756.1| V3/V1b-type arginine vasotocin rece...   208   1e-51
+gi|76253723|ref|NP_001028997.1| gonadotropin-releasing hormone r...   207   2e-51
+gi|260805612|ref|XP_002597680.1| hypothetical protein BRAFLDRAFT...   207   2e-51
+gi|28380051|sp|Q95MG6.1|GNRR2_CALJA RecName: Full=Gonadotropin-r...   207   2e-51
+gi|195107430|ref|XP_001998315.1| GI23895 [Drosophila mojavensis]...   207   2e-51
+gi|109000952|ref|XP_001099090.1| PREDICTED: orexin receptor type...   207   2e-51
+gi|296228549|ref|XP_002759859.1| PREDICTED: gonadotropin-releasi...   207   2e-51
+gi|74005994|ref|XP_545695.2| PREDICTED: vasopressin V1b receptor...   207   2e-51
+gi|198429237|ref|XP_002119144.1| PREDICTED: hypothetical protein...   206   3e-51
+gi|28822121|gb|AAO50197.1| gonadotropin-releasing hormone recept...   206   3e-51
+gi|222418562|ref|NP_001138452.1| gonadotropin releasing hormone ...   206   4e-51
+gi|323433877|gb|ADX66344.1| allatotropin receptor [Manduca sexta]     206   4e-51
+gi|326668792|ref|XP_003198871.1| PREDICTED: oxytocin receptor-li...   206   4e-51
+gi|74096031|ref|NP_001027656.1| Gonadotropin-releasing hormone r...   206   5e-51
+gi|195376261|ref|XP_002046915.1| GJ12227 [Drosophila virilis] >g...   206   5e-51
+gi|44976678|gb|AAS49920.1| gonadotropin-releasing hormone recept...   206   5e-51
+gi|189234837|ref|XP_971565.2| PREDICTED: similar to gonadotropin...   206   6e-51
+gi|338318925|gb|AEI91710.1| corazonin recepter [Musca domestica]      205   6e-51
+gi|195053980|ref|XP_001993904.1| GH22190 [Drosophila grimshawi] ...   205   8e-51
+gi|334000129|gb|AEG42503.1| arginine vasopressin receptor 1B [Ov...   205   9e-51
+gi|47220082|emb|CAG12230.1| unnamed protein product [Tetraodon n...   205   9e-51
+gi|112817632|ref|NP_001036811.1| orexin receptor type 1 [Sus scr...   204   1e-50
+gi|149707995|ref|XP_001489571.1| PREDICTED: vasopressin V1b rece...   204   1e-50
+gi|125813135|ref|XP_001339169.1| PREDICTED: galanin receptor typ...   204   1e-50
+gi|82754178|gb|ABB89901.1| type 3/II gonadotropin-releasing horm...   203   2e-50
+gi|76253773|ref|NP_001028996.1| gonadotropin-releasing hormone r...   203   2e-50
+gi|149212708|gb|ABR22600.1| gonadotropin-releasing hormone recep...   203   2e-50
+gi|224045987|ref|XP_002191432.1| PREDICTED: galanin receptor 1 [...   203   3e-50
+gi|118764562|dbj|BAF38754.1| V1-type arginine vasotocin receptor...   203   3e-50
+gi|224095222|ref|XP_002195920.1| PREDICTED: galanin receptor 3 [...   203   4e-50
+gi|385729|gb|AAB27087.1| V1a arginine vasopressin receptor [rats...   203   4e-50
+gi|300676776|gb|ADK26652.1| hypocretin (orexin) receptor 2 [Zono...   202   4e-50
+gi|55962272|emb|CAI11584.1| novel protein similar to vertebrate ...   202   4e-50
+gi|68358858|ref|XP_683692.1| PREDICTED: [Arg8]-vasotocin recepto...   202   5e-50
+gi|224048609|ref|XP_002195247.1| PREDICTED: hypocretin (orexin) ...   202   5e-50
+gi|1314330|gb|AAB07760.1| neuropeptide y/peptide YY receptor typ...   202   5e-50
+gi|78098578|gb|ABB20590.1| adipokinetic hormone receptor [Peripl...   202   6e-50
+gi|158285002|ref|XP_001687839.1| putative gonadotrophin releasin...   202   7e-50
+gi|225030853|gb|ACN79527.1| gonadotropin-releasing hormone recep...   202   7e-50
+gi|134053892|ref|NP_001076809.1| adipokinetic hormone receptor [...   202   8e-50
+gi|74136245|ref|NP_001028014.1| gonadotropin-releasing hormone I...   202   8e-50
+gi|4406502|gb|AAD20002.1| gonadotropin releasing hormone recepto...   201   9e-50
+gi|33391248|gb|AAQ17230.1| adipokinetic hormone receptor [Peripl...   201   1e-49
+gi|300676956|gb|ADK26827.1| hypocretin (orexin) receptor 2 [Zono...   201   1e-49
+gi|332230469|ref|XP_003264417.1| PREDICTED: galanin receptor typ...   201   1e-49
+gi|160905684|gb|ABX52400.1| ACP receptor [Tribolium castaneum]        201   1e-49
+gi|184161257|gb|ACC68665.1| gonadotropin-releasing hormone recep...   201   1e-49
+gi|260821880|ref|XP_002606331.1| hypothetical protein BRAFLDRAFT...   201   1e-49
+gi|139152230|gb|ABO77113.1| gonadotropin-releasing hormone recep...   201   2e-49
+gi|139152270|gb|ABO77115.1| gonadotropin-releasing hormone recep...   201   2e-49
+gi|270002847|gb|EEZ99294.1| hypothetical protein TcasGA2_TC00124...   200   2e-49
+gi|148227062|ref|NP_001079211.1| gonadotropin-releasing hormone ...   200   2e-49
+gi|4406500|gb|AAD20001.1| gonadotropin releasing hormone recepto...   200   2e-49
+gi|292619681|ref|XP_002664053.1| PREDICTED: galanin receptor typ...   200   2e-49
+gi|260793912|ref|XP_002591954.1| hypothetical protein BRAFLDRAFT...   200   2e-49
+gi|166157872|ref|NP_001107549.1| gonadotropin-releasing hormone ...   200   3e-49
+gi|301609404|ref|XP_002934279.1| PREDICTED: galanin receptor typ...   200   3e-49
+gi|73965005|ref|XP_540444.2| PREDICTED: galanin receptor type 2 ...   199   3e-49
+gi|94400905|ref|NP_001035354.1| adipokinetic hormone receptor [A...   199   4e-49
+gi|46451447|gb|AAS97968.1| GnRH receptor [Sparus aurata]              199   4e-49
+gi|126336379|ref|XP_001375059.1| PREDICTED: oxytocin receptor-li...   199   7e-49
+gi|301068501|gb|ADK55068.1| adipokinetic hormone receptor [Polyr...   198   7e-49
+gi|33316064|gb|AAQ04564.1|AF439802_1 putative gonadotropin relea...   198   8e-49
+gi|241119262|ref|XP_002402523.1| vasopressin v1a recpetor, putat...   198   9e-49
+gi|332260154|ref|XP_003279150.1| PREDICTED: LOW QUALITY PROTEIN:...   198   1e-48
+gi|114673689|ref|XP_523975.2| PREDICTED: galanin receptor type 1...   198   1e-48
+gi|149212702|gb|ABR22597.1| gonadotropin-releasing hormone recep...   198   1e-48
+gi|149212710|gb|ABR22601.1| gonadotropin-releasing hormone recep...   197   1e-48
+gi|321466118|gb|EFX77115.1| hypothetical protein DAPPUDRAFT_5451...   197   1e-48
+gi|296222903|ref|XP_002757388.1| PREDICTED: galanin receptor typ...   197   2e-48
+gi|47229613|emb|CAG06809.1| unnamed protein product [Tetraodon n...   197   2e-48
+gi|301769019|ref|XP_002919936.1| PREDICTED: galanin receptor typ...   197   2e-48
+gi|301768445|ref|XP_002919640.1| PREDICTED: vasopressin V1a rece...   197   2e-48
+gi|195338720|ref|XP_002035972.1| GM13935 [Drosophila sechellia] ...   196   3e-48
+gi|281348172|gb|EFB23756.1| hypothetical protein PANDA_008285 [A...   196   3e-48
+gi|297701832|ref|XP_002827910.1| PREDICTED: galanin receptor typ...   196   3e-48
+gi|38511720|gb|AAH61250.1| Gnrhr protein [Mus musculus]               196   3e-48
+gi|317418943|emb|CBN80981.1| Vasotocin VT1 receptor [Dicentrarch...   196   3e-48
+gi|9506709|ref|NP_062045.1| galanin receptor type 2 [Rattus norv...   196   4e-48
+gi|1019656|gb|AAC41627.1| vasopressin V1 receptor [Ovis aries]        196   5e-48
+gi|310774906|ref|NP_001185587.1| vasopressin V1a receptor [Canis...   196   5e-48
+gi|1351391|sp|P48043.1|V1AR_SHEEP RecName: Full=Vasopressin V1a ...   196   6e-48
+gi|4503905|ref|NP_003848.1| galanin receptor type 2 [Homo sapien...   195   6e-48
+gi|197209952|ref|NP_001127740.1| neuropeptide receptor A5 [Bomby...   195   7e-48
+gi|292616095|ref|XP_690480.2| PREDICTED: galanin receptor type 1...   195   7e-48
+gi|47229762|emb|CAG06958.1| unnamed protein product [Tetraodon n...   195   7e-48
+gi|149723288|ref|XP_001494132.1| PREDICTED: galanin receptor typ...   195   7e-48
+gi|224471785|dbj|BAH23869.1| prolactin-releasing peptide recepto...   195   8e-48
+gi|189233525|ref|NP_001121534.1| galanin receptor type 1 [Gallus...   195   8e-48
+gi|109118354|ref|XP_001103768.1| PREDICTED: galanin receptor typ...   195   9e-48
+gi|327269970|ref|XP_003219765.1| PREDICTED: galanin receptor typ...   195   9e-48
+gi|291402513|ref|XP_002717487.1| PREDICTED: arginine vasopressin...   194   1e-47
+gi|338722030|ref|XP_001917460.2| PREDICTED: LOW QUALITY PROTEIN:...   194   1e-47
+gi|326917347|ref|XP_003204961.1| PREDICTED: galanin receptor typ...   194   1e-47
+gi|76253787|ref|NP_001028995.1| gonadotropin-releasing hormone r...   194   1e-47
+gi|284795249|ref|NP_001165352.1| gonadotropin-releasing hormone ...   194   1e-47
+gi|161353471|ref|NP_034384.3| galanin receptor type 2 [Mus muscu...   194   1e-47
+gi|301604027|ref|XP_002931664.1| PREDICTED: vasopressin V1a rece...   194   2e-47
+gi|189239225|ref|XP_973738.2| PREDICTED: similar to orexin recep...   194   2e-47
+gi|775210|gb|AAB60356.1| galanin receptor [Homo sapiens] >gnl|BL...   194   2e-47
+gi|340723095|ref|XP_003399933.1| PREDICTED: neuropeptide Y recep...   194   2e-47
+gi|3642918|gb|AAC36589.1| galanin receptor type 2 [Mus musculus]      194   2e-47
+gi|126322112|ref|XP_001374339.1| PREDICTED: galanin receptor typ...   194   2e-47
+gi|559048|gb|AAA50767.1| galanin receptor [Homo sapiens] >gnl|BL...   194   2e-47
+gi|87299594|ref|NP_001034615.1| prolactin-releasing peptide rece...   194   2e-47
+gi|167000885|ref|NP_001471.2| galanin receptor type 1 [Homo sapi...   194   2e-47
+gi|260821952|ref|XP_002606367.1| hypothetical protein BRAFLDRAFT...   193   2e-47
+gi|340723093|ref|XP_003399932.1| PREDICTED: neuropeptide Y recep...   193   2e-47
+gi|315221128|ref|NP_001186721.1| vasopressin V1a receptor [Ovis ...   193   2e-47
+gi|291233061|ref|XP_002736473.1| PREDICTED: tachykinin receptor-...   193   3e-47
+gi|340718180|ref|XP_003397549.1| PREDICTED: gonadotropin-releasi...   193   3e-47
+gi|26343723|dbj|BAC35518.1| unnamed protein product [Mus musculus]    193   3e-47
+gi|109122537|ref|XP_001086740.1| PREDICTED: galanin receptor typ...   192   4e-47
+gi|328787483|ref|XP_396025.3| PREDICTED: leucokinin receptor [Ap...   192   4e-47
+gi|344248576|gb|EGW04680.1| Galanin receptor type 2 [Cricetulus ...   192   5e-47
+gi|197209962|ref|NP_001127745.1| neuropeptide receptor A29 [Bomb...   192   5e-47
+gi|4009515|gb|AAC95468.1| galanin receptor 2 [Mus musculus]           192   5e-47
+gi|55646095|ref|XP_523721.1| PREDICTED: galanin receptor type 2 ...   192   5e-47
+gi|8118100|gb|AAF72891.1|AF228521_1 leucokinin-like peptide rece...   192   6e-47
+gi|120300948|ref|NP_001073337.1| orexin receptor type 2 [Danio r...   192   8e-47
+gi|322795745|gb|EFZ18424.1| hypothetical protein SINV_08630 [Sol...   191   9e-47
+gi|185135451|ref|NP_001117065.1| prolactin-releasing peptide rec...   191   1e-46
+gi|297663816|ref|XP_002810361.1| PREDICTED: gonadotropin-releasi...   191   1e-46
+gi|270002919|gb|EEZ99366.1| hypothetical protein TcasGA2_TC00497...   191   1e-46
+gi|301777200|ref|XP_002924021.1| PREDICTED: orexin receptor type...   191   1e-46
+gi|327280398|ref|XP_003224939.1| PREDICTED: mesotocin receptor-l...   191   1e-46
+gi|125854301|ref|XP_700287.2| PREDICTED: Arg8-vasotocin receptor...   191   2e-46
+gi|71895551|ref|NP_001026650.1| arginine vasopressin receptor 2 ...   190   2e-46
+gi|47205009|emb|CAF92557.1| unnamed protein product [Tetraodon n...   190   2e-46
+gi|66473516|gb|AAY46405.1| G protein-coupled receptor [Aedes aeg...   190   2e-46
+gi|242019190|ref|XP_002430047.1| class A rhodopsin-like G-protei...   190   3e-46
+gi|170068290|ref|XP_001868810.1| neuropeptide Y receptor [Culex ...   189   4e-46
+gi|170052942|ref|XP_001862450.1| myokinin receptor [Culex quinqu...   189   4e-46
+gi|327276523|ref|XP_003223019.1| PREDICTED: galanin receptor typ...   189   4e-46
+gi|260793924|ref|XP_002591960.1| hypothetical protein BRAFLDRAFT...   189   4e-46
+gi|47213273|emb|CAG12390.1| unnamed protein product [Tetraodon n...   189   5e-46
+gi|344287522|ref|XP_003415502.1| PREDICTED: orexin receptor type...   189   5e-46
+gi|332254564|ref|XP_003276400.1| PREDICTED: orexin receptor type...   189   6e-46
+gi|37704009|gb|AAR01326.1| orexin receptor type-1 [Mus musculus]      189   6e-46
+gi|2897124|gb|AAC39601.1| orexin receptor-1 [Homo sapiens]            189   6e-46
+gi|345794361|ref|XP_544446.3| PREDICTED: orexin receptor type 1 ...   189   6e-46
+gi|185134985|ref|NP_001116992.1| gonadotropin-releasing hormone ...   189   7e-46
+gi|251823830|ref|NP_945197.2| orexin receptor type 1 [Mus muscul...   189   7e-46
+gi|344276760|ref|XP_003410175.1| PREDICTED: vasopressin V1b rece...   189   7e-46
+gi|158254474|dbj|BAF83210.1| unnamed protein product [Homo sapiens]   188   8e-46
+gi|114687758|ref|NP_001041647.1| orexin receptor type 1 [Bos tau...   188   8e-46
+gi|222080095|ref|NP_001516.2| orexin receptor type 1 [Homo sapie...   188   8e-46
+gi|322801231|gb|EFZ21918.1| hypothetical protein SINV_00261 [Sol...   188   8e-46
+gi|297665708|ref|XP_002811181.1| PREDICTED: orexin receptor type...   188   9e-46
+gi|119630827|gb|EAX10422.1| prokineticin receptor 2 [Homo sapiens]    188   1e-45
+gi|260792561|ref|XP_002591283.1| hypothetical protein BRAFLDRAFT...   188   1e-45
+gi|344245029|gb|EGW01133.1| Orexin receptor type 1 [Cricetulus g...   188   1e-45
+gi|37540242|gb|AAK18744.1| vasotocin receptor V1-beta [Takifugu ...   188   1e-45
+gi|296198450|ref|XP_002746736.1| PREDICTED: orexin receptor type...   188   1e-45
+gi|44976823|gb|AAS49921.1| gonadotropin-releasing hormone recept...   188   1e-45
+gi|227016454|gb|ACP18687.1| trace amine-associated receptor 5 [L...   188   1e-45
+gi|291234847|ref|XP_002737358.1| PREDICTED: tachykinin receptor-...   187   1e-45
+gi|189234301|ref|XP_971383.2| PREDICTED: similar to Tachykinin-l...   187   2e-45
+gi|296230588|ref|XP_002760772.1| PREDICTED: vasopressin V1b rece...   187   2e-45
+gi|260804261|ref|XP_002597007.1| hypothetical protein BRAFLDRAFT...   187   2e-45
+gi|149058667|gb|EDM09824.1| arginine vasopressin receptor 1B, is...   187   2e-45
+gi|291237735|ref|XP_002738788.1| PREDICTED: tachykinin receptor-...   187   2e-45
+gi|51092236|gb|AAT94531.1| AT16733p [Drosophila melanogaster]         187   2e-45
+gi|149638434|ref|XP_001507023.1| PREDICTED: orexin receptor type...   187   2e-45
+gi|149212698|gb|ABR22595.1| gonadotropin-releasing hormone recep...   187   2e-45
+gi|45549233|ref|NP_524525.3| neuropeptide Y receptor-like [Droso...   187   3e-45
+gi|134142085|gb|ABO61386.1| hypocretin orexin receptor [Danio re...   186   3e-45
+gi|11131044|sp|Q90352.1|AVT_CATCO RecName: Full=[Arg8]-vasotocin...   186   3e-45
+gi|77404390|ref|NP_058901.2| vasopressin V1b receptor [Rattus no...   186   4e-45
+gi|344268888|ref|XP_003406288.1| PREDICTED: LOW QUALITY PROTEIN:...   186   4e-45
+gi|69218028|gb|AAZ04131.1| prolactin-releasing peptide receptor ...   186   4e-45
+gi|154799591|emb|CAL39150.1| gonadotropin-releasing hormone rece...   185   5e-45
+gi|270011132|gb|EFA07580.1| hypothetical protein TcasGA2_TC01636...   185   5e-45
+gi|307181168|gb|EFN68876.1| Gonadotropin-releasing hormone II re...   185   5e-45
+gi|308478283|ref|XP_003101353.1| CRE-TAG-49 protein [Caenorhabdi...   185   5e-45
+gi|149212706|gb|ABR22599.1| gonadotropin-releasing hormone recep...   185   5e-45
+gi|149723207|ref|XP_001503428.1| PREDICTED: trace amine-associat...   185   6e-45
+gi|8132111|gb|AAF73221.1|AF152534_1 arginine vasopressin type 1b...   185   6e-45
+gi|241718457|ref|XP_002412155.1| seven transmembrane receptor, p...   185   6e-45
+gi|6981018|ref|NP_037196.1| orexin receptor type 1 [Rattus norve...   185   6e-45
+gi|308199499|ref|NP_001184075.1| trace amine-associated receptor...   185   6e-45
+gi|1351393|sp|P48974.1|V1BR_RAT RecName: Full=Vasopressin V1b re...   185   7e-45
+gi|260793920|ref|XP_002591958.1| hypothetical protein BRAFLDRAFT...   185   7e-45
+gi|6753152|ref|NP_036054.1| vasopressin V1b receptor [Mus muscul...   185   9e-45
+gi|11995301|gb|AAG42949.1| GnRH receptor-2 [Rana catesbeiana]         184   1e-44
+gi|297478694|ref|XP_002690300.1| PREDICTED: trace amine-associat...   184   1e-44
+gi|332020179|gb|EGI60623.1| [Arg8]-vasotocin receptor [Acromyrme...   184   2e-44
+gi|71981145|ref|NP_001021258.1| Temporarily Assigned Gene name f...   184   2e-44
+gi|169636451|ref|NP_001108618.1| si:ch211-271b8.4 [Danio rerio] ...   184   2e-44
+gi|335281877|ref|XP_003353916.1| PREDICTED: apelin receptor-like...   184   2e-44
+gi|149212700|gb|ABR22596.1| gonadotropin-releasing hormone recep...   184   2e-44
+gi|215263216|emb|CAQ57754.1| GnRH receptor I [Rana esculenta]         184   2e-44
+gi|145651804|ref|NP_001078830.1| inotocin receptor [Tribolium ca...   183   2e-44
+gi|309356496|emb|CAP37130.2| CBR-TAG-49 protein [Caenorhabditis ...   183   2e-44
+gi|159798024|gb|ABX00684.1| vasopressin/oxytocin receptor-like p...   183   2e-44
+gi|301775310|ref|XP_002923079.1| PREDICTED: trace amine-associat...   183   2e-44
+gi|157118435|ref|XP_001653188.1| neuropeptide y receptor (npy-r)...   183   3e-44
+gi|71981136|ref|NP_001021257.1| Temporarily Assigned Gene name f...   183   3e-44
+gi|6679933|ref|NP_032108.1| galanin receptor type 1 [Mus musculu...   183   3e-44
+gi|126333238|ref|XP_001376195.1| PREDICTED: apelin receptor-like...   183   4e-44
+gi|326924193|ref|XP_003208316.1| PREDICTED: probable G-protein c...   183   4e-44
+gi|162957200|gb|ABY25995.1| arginine-vasopressin receptor 1a [Mi...   183   4e-44
+gi|307335505|gb|ADN43358.1| arginine vasopressin receptor 1a [Mi...   183   4e-44
+gi|300795268|ref|NP_001179170.1| galanin receptor type 1 [Bos ta...   182   4e-44
+gi|166157882|ref|NP_001107355.1| galanin receptor 1 [Xenopus (Si...   182   4e-44
+gi|119612002|gb|EAW91596.1| arginine vasopressin receptor 1B, is...   182   4e-44
+gi|334324003|ref|XP_003340468.1| PREDICTED: orexin receptor type...   182   5e-44
+gi|344296742|ref|XP_003420063.1| PREDICTED: neuropeptides B/W re...   182   5e-44
+gi|126311101|ref|XP_001380542.1| PREDICTED: trace amine-associat...   182   5e-44
+gi|296475989|gb|DAA18104.1| galanin receptor 2 [Bos taurus]           182   5e-44
+gi|332252409|ref|XP_003275347.1| PREDICTED: apelin receptor-like...   182   5e-44
+gi|328701473|ref|XP_001946314.2| PREDICTED: neuropeptide Y recep...   182   5e-44
+gi|260826572|ref|XP_002608239.1| hypothetical protein BRAFLDRAFT...   182   6e-44
+gi|307335491|gb|ADN43351.1| arginine vasopressin receptor 1a [Mi...   182   6e-44
+gi|4585668|emb|CAB40835.1| angiotensin receptor [Anguilla anguilla]   182   6e-44
+gi|242015123|ref|XP_002428223.1| class A rhodopsin-like G-protei...   182   7e-44
+gi|114051660|ref|NP_001040591.1| apelin receptor [Macaca mulatta...   182   7e-44
+gi|291385266|ref|XP_002709201.1| PREDICTED: apelin receptor [Ory...   182   7e-44
+gi|301606808|ref|XP_002933014.1| PREDICTED: prolactin-releasing ...   182   7e-44
+gi|344253529|gb|EGW09633.1| Apelin receptor [Cricetulus griseus]      182   7e-44
+gi|26347189|dbj|BAC37243.1| unnamed protein product [Mus musculus]    182   7e-44
+gi|260833474|ref|XP_002611682.1| hypothetical protein BRAFLDRAFT...   182   8e-44
+gi|307335495|gb|ADN43353.1| arginine vasopressin receptor 1a [Mi...   182   8e-44
+gi|149756491|ref|XP_001504962.1| PREDICTED: apelin receptor-like...   182   8e-44
+gi|254675183|ref|NP_034472.1| neuropeptides B/W receptor type 1 ...   182   8e-44
+gi|307335497|gb|ADN43354.1| arginine vasopressin receptor 1a [Mi...   182   8e-44
+gi|157997|gb|AAA28727.1| neuropeptide receptor [Drosophila melan...   182   8e-44
+gi|162957198|gb|ABY25994.1| arginine-vasopressin receptor 1a [Mi...   182   8e-44
+gi|57099955|ref|XP_540616.1| PREDICTED: apelin receptor [Canis l...   182   8e-44
+gi|344239482|gb|EGV95585.1| Galanin receptor type 1 [Cricetulus ...   181   9e-44
+gi|162957264|gb|ABY26027.1| arginine-vasopressin receptor 1a [Ap...   181   9e-44
+gi|118089269|ref|XP_426254.2| PREDICTED: hypothetical protein [G...   181   9e-44
+gi|6753014|ref|NP_035914.1| apelin receptor [Mus musculus] >gnl|...   181   1e-43
+gi|307335545|gb|ADN43378.1| arginine vasopressin receptor 1a [Mi...   181   1e-43
+gi|336020529|gb|AEH84414.1| G-protein coupled receptor 83-like p...   181   1e-43
+gi|4249727|gb|AAD13777.1| neuropeptide Y2 receptor [Sus scrofa]       181   1e-43
+gi|194214764|ref|XP_001494693.2| PREDICTED: galanin receptor typ...   181   1e-43
+gi|47523392|ref|NP_999315.1| neuropeptide Y receptor type 2 [Sus...   181   1e-43
+gi|4885057|ref|NP_005152.1| apelin receptor [Homo sapiens] >gnl|...   181   1e-43
+gi|55636083|ref|XP_521984.1| PREDICTED: apelin receptor isoform ...   181   1e-43
+gi|71895751|ref|NP_001026299.1| neuropeptide Y receptor type 2 [...   181   1e-43
+gi|162957194|gb|ABY25992.1| arginine-vasopressin receptor 1a [Mi...   181   1e-43
+gi|301787865|ref|XP_002929349.1| PREDICTED: LOW QUALITY PROTEIN:...   181   1e-43
+gi|193786773|dbj|BAG52096.1| unnamed protein product [Homo sapiens]   181   1e-43
+gi|162957202|gb|ABY25996.1| arginine-vasopressin receptor 1a [Mi...   181   1e-43
+gi|740017|prf||2004299A angiotensin receptor                          181   1e-43
+gi|307335529|gb|ADN43370.1| arginine vasopressin receptor 1a [Mi...   181   1e-43
+gi|307335509|gb|ADN43360.1| arginine vasopressin receptor 1a [Mi...   181   1e-43
+gi|296203245|ref|XP_002748832.1| PREDICTED: galanin receptor typ...   180   1e-43
+gi|62339339|ref|NP_001014784.1| neuropeptides B/W receptor type ...   180   2e-43
+gi|301774630|ref|XP_002922749.1| PREDICTED: apelin receptor-like...   180   2e-43
+gi|197102789|ref|NP_001124631.1| apelin receptor [Pongo abelii] ...   180   2e-43
+gi|307335531|gb|ADN43371.1| arginine vasopressin receptor 1a [Mi...   180   2e-43
+gi|162957226|gb|ABY26008.1| arginine-vasopressin receptor 1a [Mi...   180   2e-43
+gi|307335511|gb|ADN43361.1| arginine vasopressin receptor 1a [Ch...   180   2e-43
+gi|76626091|ref|XP_586310.2| PREDICTED: trace amine associated r...   180   2e-43
+gi|326918250|ref|XP_003205403.1| PREDICTED: neuropeptide Y recep...   180   2e-43
+gi|162957214|gb|ABY26002.1| arginine-vasopressin receptor 1a [Mi...   180   2e-43
+gi|164518935|ref|NP_037090.2| galanin receptor type 1 [Rattus no...   180   2e-43
+gi|307335515|gb|ADN43363.1| arginine vasopressin receptor 1a [Ch...   180   2e-43
+gi|162957204|gb|ABY25997.1| arginine-vasopressin receptor 1a [Mi...   180   3e-43
+gi|30144692|gb|AAP15163.1| GnRH receptor 2 [Rana ridibundus]          180   3e-43
+gi|162957252|gb|ABY26021.1| arginine-vasopressin receptor 1a [Mi...   180   3e-43
+gi|296218236|ref|XP_002755322.1| PREDICTED: apelin receptor-like...   180   3e-43
+gi|307335533|gb|ADN43372.1| arginine vasopressin receptor 1a [Mi...   180   3e-43
+gi|227016440|gb|ACP18681.1| trace amine-associated receptor 5 [G...   180   3e-43
+gi|345330098|ref|XP_001507763.2| PREDICTED: galanin receptor typ...   180   3e-43
+gi|4505447|ref|NP_000901.1| neuropeptide Y receptor type 2 [Homo...   180   3e-43
+gi|296195351|ref|XP_002745457.1| PREDICTED: neuropeptide Y recep...   179   3e-43
+gi|292627430|ref|XP_002666635.1| PREDICTED: type-1 angiotensin I...   179   3e-43
+
+Sequences not found previously or not previously below threshold:
+
+gi|156717806|ref|NP_001096443.1| hypothetical protein LOC1001250...   201   1e-49
+gi|326929439|ref|XP_003210871.1| PREDICTED: galanin receptor typ...   201   2e-49
+gi|191991849|ref|NP_001122137.1| G protein-coupled receptor 151 ...   199   3e-49
+gi|157113890|ref|XP_001657911.1| lymnokinin receptor [Aedes aegy...   187   2e-45
+gi|51102756|gb|AAT95982.1| leucokinin receptor protein [Aedes ae...   187   2e-45
+gi|206584511|gb|ACI15384.1| neuropeptide Y2/7 receptor [Lampetra...   186   3e-45
+gi|291232133|ref|XP_002735999.1| PREDICTED: tachykinin receptor-...   183   3e-44
+gi|197209914|ref|NP_001127721.1| neuropeptide receptor A23 [Bomb...   182   8e-44
+gi|149434698|ref|XP_001517046.1| PREDICTED: apelin receptor-like...   180   2e-43
+
+  Database: filtnr
+    Posted date:  Sep 19, 2011  1:36 PM
+  Number of letters in database: 1,740,938,412
+  Number of sequences in database:  5,131,667
+  
+  Database: /dors/meilerlab/apps/scripts/sequence_analysis/../db/filtn
+  r.01
+    Posted date:  Sep 19, 2011  1:42 PM
+  Number of letters in database: 2,285,224,685
+  Number of sequences in database:  6,711,192
+  
+  Database: /dors/meilerlab/apps/scripts/sequence_analysis/../db/filtn
+  r.02
+    Posted date:  Sep 19, 2011  1:45 PM
+  Number of letters in database: 1,228,445,294
+  Number of sequences in database:  3,479,686
+  
+Lambda     K      H
+   0.337    0.180    0.604 
+
+Lambda     K      H
+   0.267   0.0545    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Hits to DB: 11,649,968,064
+Number of Sequences: 15322545
+Number of extensions: 606234174
+Number of successful extensions: 2356512
+Number of sequences better than 10.0: 500
+Number of HSP's better than 10.0 without gapping: 91408
+Number of HSP's successfully gapped in prelim test: 23340
+Number of HSP's that attempted gapping in prelim test: 2020721
+Number of HSP's gapped (non-prelim): 197278
+length of query: 303
+length of database: 5,254,608,391
+effective HSP length: 139
+effective length of query: 164
+effective length of database: 3,124,774,636
+effective search space: 512463040304
+effective search space used: 512463040304
+T: 11
+A: 40
+X1: 16 ( 7.8 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 40 (21.9 bits)
+S2: 82 (35.8 bits)
