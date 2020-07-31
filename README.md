@@ -3,6 +3,9 @@ https://www.biorxiv.org/content/10.1101/2019.12.13.875237v1
 
 If using any of the models or protocol please cite the article above. Thanks and happy modeling!!!
 
+Updated to include templates released through June 2020.
+Database also available at www.rosettagpcr.org
+
 This github contains the following:
 * **RosettaGPCR_Protocol_Capture.docx**: Protocol capture to create your own models from the input data in the rosettagpcr/ directory
 * **rosettagpcr.tar.gz**: Tarball containing all input data in rosettagpcr/ directory
